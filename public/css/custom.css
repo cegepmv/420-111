@@ -1,0 +1,8 @@
+.inline-copy-to-clipboard-button{
+    display: none !important;
+}
+
+.copy-to-clipboard-code::after {
+  content: none !important;
+  display: none !important;
+}

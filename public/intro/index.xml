@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intro :: 420113 - Notes</title>
+    <link>http://localhost:1313/intro/index.html</link>
+    <description>This is a new chapter.</description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <lastBuildDate>Wed, 20 Aug 2025 19:04:38 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/intro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>http://localhost:1313/intro/java/index.html</link>
+      <pubDate>Wed, 20 Aug 2025 19:04:05 -0400</pubDate>
+      <guid>http://localhost:1313/intro/java/index.html</guid>
+      <description>Introduction C’est quoi un language de programmation? Java est l’un des langages les plus populaires en 2025 selon TIOBE https://www.tiobe.com/tiobe-index/&#xA;Java fonctionne sur plusieurs systèmes d’exploitation (Windows, Mac, Linux, Raspberry Pi, etc.) Java est assez facile à apprendre, surtout pour les débutants, et il est agréable à utiliser.</description>
+    </item>
+    <item>
+      <title>Premier Programme</title>
+      <link>http://localhost:1313/intro/premier-programme/index.html</link>
+      <pubDate>Wed, 20 Aug 2025 19:04:19 -0400</pubDate>
+      <guid>http://localhost:1313/intro/premier-programme/index.html</guid>
+      <description>☕ Créer son tout premier programme en Java Avant de plonger dans le code, il est important de savoir qu’en Java, tout le code source doit être enregistré dans un fichier avec l’extension .java.&#xA;🔧 Étapes : Crée un nouveau fichier et nomme-le Main.java. Tape (de préférence manuellement) le code suivant dans ce fichier : public class Main { public static void main(String[] args) { System.out.println(&#34;Hello World&#34;); } } 💡 Astuce : Prends le temps de taper le code au lieu de simplement le copier-coller. Cela t’aidera à bien comprendre chaque ligne.</description>
+    </item>
+    <item>
+      <title>Commentaires</title>
+      <link>http://localhost:1313/intro/commentaires/index.html</link>
+      <pubDate>Wed, 20 Aug 2025 19:04:38 -0400</pubDate>
+      <guid>http://localhost:1313/intro/commentaires/index.html</guid>
+      <description>🧠 Qu’est-ce qu’un commentaire ? Un commentaire est une partie du code ignorée par le compilateur Java.&#xA;Il sert à :&#xA;Expliquer le code aux humains (programmeurs). Documenter le fonctionnement des classes, des méthodes, etc. Faciliter la relecture et la maintenance du programme. ✍️ 1. Commentaire sur une ligne (//) 🔹 Syntaxe : // Ceci est un commentaire sur une ligne int age = 25; // Stocke l’âge ✅ Utilisation : Expliquer une ligne de code. Ajouter une remarque rapide. 🧾2. Commentaire sur plusieurs lignes (/* … */) 🔹 Syntaxe : /* Ceci est un commentaire sur plusieurs lignes. Il peut couvrir un bloc de texte. */ ✅ Utilisation : Fournir une explication plus longue. Désactiver temporairement un bloc de code. Avancé Nous verrons peut être cette théorie plus tard</description>
+    </item>
+  </channel>
+</rss>

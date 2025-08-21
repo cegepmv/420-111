@@ -1,0 +1,37 @@
+baseURL = 'https://example.org/'
+languageCode = 'fr-ca'
+title = '420113 - Notes'
+theme = 'relearn'
+enableEmoji = true
+
+[params]
+  custom_css = ["css/custom.css"]
+  
+  [[params.themeVariant]]
+    auto = []
+    identifier = 'relearn-auto'
+    name = 'Relearn Light/Dark'
+
+  [[params.themeVariant]]
+    identifier = 'zen-light'
+
+  [[params.themeVariant]]
+    identifier = 'zen-dark'
+
+  [[params.themeVariant]]
+    identifier = 'neon'
+
+  [[params.themeVariant]]
+    identifier = 'learn'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+
+  
