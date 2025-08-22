@@ -27,10 +27,10 @@ type = "home"
 |Nom de l'évaluation|Pondération|Date de l'évaluation|
 |:---:|:---:|:---:|
 |Laboratoire 1| 10 % |Semaine 5|
-|Laboratoire 2| 10 % |Semaine 8|
-|Laboratoire 3| 15 % |Semaine 11|
+|Laboratoire 2| 10 % |Semaine 11|
+|Laboratoire 3| 15 % |Semaine 14|
 |5 Quiz 3 meilleures notes| 15 % |Semaine 2 à 13|
-|Examen 1| 20 % |Semaine x|
+|Examen 1| 20 % |Semaine 8|
 |Examen Final| 30 % |ESO|
 
 

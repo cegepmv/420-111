@@ -202,7 +202,46 @@ Le `\` permet d’insérer des caractères spéciaux dans une chaîne.
 
 ---
 
+
+---
+
+#### 🖥️ Résultat console attendu
+
+```
+Nom complet  : Julie MARTIN    
+Âge          : 28    
+Ville        : Paris    
+```
+
+---
+
 ## `System.out.printf()` – Affichage formaté
+
+
+Tu peux fixer la **largeur de colonnes** avec :
+
+```java
+System.out.printf("%-15s : %s\n", "Nom", "Alice");
+System.out.printf("%-15s : %d\n", "Âge", 30);
+```
+
+🔎 `%–15s` → champ texte **aligné à gauche** sur **15 caractères**.
+
+---
+
+### ✅ À retenir
+
+| Commande    | Utilité principale                          |
+| ----------- | ------------------------------------------- |
+| `print()`   | Affiche sur la même ligne.                  |
+| `println()` | Affiche puis saute une ligne.               |
+| `\`         | Caractère d’échappement pour mise en forme. |
+| `printf()`  | Affichage **structuré et aligné**.          |
+
+---
+
+### 🛠️ Astuce pro : format avancé
+
 
 ```java
 System.out.printf("""
@@ -228,40 +267,3 @@ System.out.printf("""
 | `ville.substring(0,1).toUpperCase()`  | Ville avec 1re lettre en majuscule.                       |
 
 > 🧠 Même si `age` est un `int`, `%s` fonctionne grâce à l’**autoboxing**.
-
----
-
-#### 🖥️ Résultat console attendu
-
-```
-Nom complet  : Julie MARTIN    
-Âge          : 28    
-Ville        : Paris    
-```
-
----
-
-### 🛠️ Astuce pro : format avancé
-
-Tu peux fixer la **largeur de colonnes** avec :
-
-```java
-System.out.printf("%-15s : %s\n", "Nom", "Alice");
-System.out.printf("%-15s : %d\n", "Âge", 30);
-```
-
-🔎 `%–15s` → champ texte **aligné à gauche** sur **15 caractères**.
-
----
-
-### ✅ À retenir
-
-| Commande    | Utilité principale                          |
-| ----------- | ------------------------------------------- |
-| `print()`   | Affiche sur la même ligne.                  |
-| `println()` | Affiche puis saute une ligne.               |
-| `\`         | Caractère d’échappement pour mise en forme. |
-| `printf()`  | Affichage **structuré et aligné**.          |
-
----
-
