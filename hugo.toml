@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://cegepmv.github.io/420-111/'
 languageCode = 'fr-ca'
-title = '420113 - Notes'
+title = '420111 - Notes'
 theme = 'relearn'
 enableEmoji = true
 
@@ -28,6 +28,11 @@ enableEmoji = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    noClasses = false
+    style = "dracula"  # or any theme you like
 
 [caches]
   [caches.images]

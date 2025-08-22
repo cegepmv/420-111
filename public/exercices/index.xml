@@ -1,117 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Exercices :: 420113 - Notes</title>
-    <link>http://localhost:1313/exercices/index.html</link>
+    <title>Exercices :: 420111 - Notes</title>
+    <link>http://localhost:1313/420-111/exercices/index.html</link>
     <description>This is a new chapter.</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
-    <lastBuildDate>Wed, 20 Aug 2025 19:03:21 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/exercices/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Aug 2025 19:02:22 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/420-111/exercices/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Serie015</title>
-      <link>http://localhost:1313/exercices/serie015/index.html</link>
-      <pubDate>Wed, 20 Aug 2025 19:03:21 -0400</pubDate>
-      <guid>http://localhost:1313/exercices/serie015/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serie014</title>
-      <link>http://localhost:1313/exercices/serie014/index.html</link>
-      <pubDate>Wed, 20 Aug 2025 19:03:18 -0400</pubDate>
-      <guid>http://localhost:1313/exercices/serie014/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serie013</title>
-      <link>http://localhost:1313/exercices/serie013/index.html</link>
-      <pubDate>Wed, 20 Aug 2025 19:03:15 -0400</pubDate>
-      <guid>http://localhost:1313/exercices/serie013/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serie012</title>
-      <link>http://localhost:1313/exercices/serie012/index.html</link>
-      <pubDate>Wed, 20 Aug 2025 19:03:11 -0400</pubDate>
-      <guid>http://localhost:1313/exercices/serie012/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serie011</title>
-      <link>http://localhost:1313/exercices/serie011/index.html</link>
-      <pubDate>Wed, 20 Aug 2025 19:03:08 -0400</pubDate>
-      <guid>http://localhost:1313/exercices/serie011/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serie010</title>
-      <link>http://localhost:1313/exercices/serie010/index.html</link>
-      <pubDate>Wed, 20 Aug 2025 19:03:03 -0400</pubDate>
-      <guid>http://localhost:1313/exercices/serie010/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serie09</title>
-      <link>http://localhost:1313/exercices/serie09/index.html</link>
-      <pubDate>Wed, 20 Aug 2025 19:02:55 -0400</pubDate>
-      <guid>http://localhost:1313/exercices/serie09/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serie08</title>
-      <link>http://localhost:1313/exercices/serie08/index.html</link>
-      <pubDate>Wed, 20 Aug 2025 19:02:52 -0400</pubDate>
-      <guid>http://localhost:1313/exercices/serie08/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serie07</title>
-      <link>http://localhost:1313/exercices/serie07/index.html</link>
-      <pubDate>Wed, 20 Aug 2025 19:02:49 -0400</pubDate>
-      <guid>http://localhost:1313/exercices/serie07/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serie06</title>
-      <link>http://localhost:1313/exercices/serie06/index.html</link>
-      <pubDate>Wed, 20 Aug 2025 19:02:46 -0400</pubDate>
-      <guid>http://localhost:1313/exercices/serie06/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serie05</title>
-      <link>http://localhost:1313/exercices/serie05/index.html</link>
-      <pubDate>Wed, 20 Aug 2025 19:02:43 -0400</pubDate>
-      <guid>http://localhost:1313/exercices/serie05/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serie04</title>
-      <link>http://localhost:1313/exercices/serie04/index.html</link>
-      <pubDate>Wed, 20 Aug 2025 19:02:39 -0400</pubDate>
-      <guid>http://localhost:1313/exercices/serie04/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serie3</title>
-      <link>http://localhost:1313/exercices/serie3/index.html</link>
-      <pubDate>Wed, 20 Aug 2025 19:02:35 -0400</pubDate>
-      <guid>http://localhost:1313/exercices/serie3/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serie2</title>
-      <link>http://localhost:1313/exercices/serie2/index.html</link>
-      <pubDate>Wed, 20 Aug 2025 19:02:29 -0400</pubDate>
-      <guid>http://localhost:1313/exercices/serie2/index.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Serie1</title>
-      <link>http://localhost:1313/exercices/serie1/index.html</link>
+      <title>Serie 1</title>
+      <link>http://localhost:1313/420-111/exercices/serie1/index.html</link>
       <pubDate>Wed, 20 Aug 2025 19:02:22 -0400</pubDate>
-      <guid>http://localhost:1313/exercices/serie1/index.html</guid>
-      <description></description>
+      <guid>http://localhost:1313/420-111/exercices/serie1/index.html</guid>
+      <description>📘 Exercices – Semaine 1 : Introduction à Java 🟢 Exercice 1 – Mon premier programme Objectif : Créer un programme Java qui affiche ton nom, ton âge et ta ville sur 3 lignes différentes.&#xA;➡️ Exemple attendu :&#xA;Nom : Alice Âge : 23 Ville : Toulouse Instructions :&#xA;Utilise System.out.println(). Respecte l’indentation. Le nom du fichier doit être Profil.java. N’oublie pas le point-virgule ; à chaque ligne. 🟢 Exercice 2 – Affichage sur une seule ligne Objectif : Reproduis le même affichage que l’exercice 1, mais sur une seule ligne.</description>
     </item>
   </channel>
 </rss>

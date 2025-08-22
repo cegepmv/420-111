@@ -1,6 +1,6 @@
 +++
 date = '2025-08-20T19:04:19-04:00'
-title = 'Premier Programme'
+title = 'Affichage console'
 weight = 2
 +++
 
@@ -10,6 +10,13 @@ weight = 2
 # ☕ Créer son tout premier programme en Java
 
 Avant de plonger dans le code, il est important de savoir qu’en Java, tout le code source doit être enregistré dans un fichier avec l’extension `.java`.
+
+{{% notice style="tip" title="EN ligne" %}}
+Si java n'est malheureusement pas installé sur votre ordinateur et que vous ne pouvez pas le faire, vous pouvez tout de même 
+programmer directement sur le web <a href="https://www.programiz.com/java-programming/online-compiler/">ici</a>
+{{% /notice %}}
+
+
 
 ### 🔧 Étapes :
 
@@ -58,13 +65,7 @@ public class Main {
 | `System.out.println("Hello World");`     | Affiche le message `"Hello World"` dans la console.                        |
 
 ---
- 
-## 📌 Quelques règles de syntaxe essentielles
 
-* Les **accolades `{}`** servent à délimiter des blocs de code (classes, méthodes, boucles, etc.).
-* Chaque instruction Java **doit se terminer par un point-virgule `;`**. Sinon, tu auras une erreur lors de la compilation.
-
----
 
 ## 🧪 Compilation et exécution d’un programme Java
 
@@ -185,3 +186,82 @@ Ligne 2
 * Ces méthodes sont très utilisées pour afficher des messages ou pour déboguer.
 
 ---
+
+
+## Le caractère d’échappement `\`
+
+Le `\` permet d’insérer des caractères spéciaux dans une chaîne.
+
+| Séquence | Résultat           | Exemple               | Résultat Console |
+| -------- | ------------------ | --------------------- | ---------------- |
+| `\n`     | Saut de ligne      | `"Bonjour\nSalut"`    | Bonjour<br>Salut |
+| `\t`     | Tabulation         | `"Nom\tAge"`          | Nom  Age         |
+| `\"`     | Guillemets doubles | `"Il a dit : \"ok\""` | Il a dit : "ok"  |
+| `\\`     | Backslash          | `"C:\\Users\\Nom"`    | C:\Users\Nom     |
+| `\'`     | Apostrophe         | `'\'`                 | `'`              |
+
+---
+
+## `System.out.printf()` – Affichage formaté
+
+```java
+System.out.printf("""
+    Nom complet  : %s    
+    Âge          : %s    
+    Ville        : %s    
+    """,
+    prenom.substring(0, 1).toUpperCase() + prenom.substring(1) + " " + nom.toUpperCase(),
+    age,
+    ville.substring(0, 1).toUpperCase() + ville.substring(1));
+```
+
+---
+
+#### ✅ Explication ligne par ligne
+
+| Élément                               | Rôle                                                      |
+| ------------------------------------- | --------------------------------------------------------- |
+| `"""` (Text block)                    | Permet un texte **multiligne** propre (Java 15+).         |
+| `%s`                                  | Placeholder pour une **valeur chaîne** (String ou objet). |
+| `prenom.substring(0,1).toUpperCase()` | Met la 1re lettre en majuscule.                           |
+| `nom.toUpperCase()`                   | Nom entièrement en majuscule.                             |
+| `ville.substring(0,1).toUpperCase()`  | Ville avec 1re lettre en majuscule.                       |
+
+> 🧠 Même si `age` est un `int`, `%s` fonctionne grâce à l’**autoboxing**.
+
+---
+
+#### 🖥️ Résultat console attendu
+
+```
+Nom complet  : Julie MARTIN    
+Âge          : 28    
+Ville        : Paris    
+```
+
+---
+
+### 🛠️ Astuce pro : format avancé
+
+Tu peux fixer la **largeur de colonnes** avec :
+
+```java
+System.out.printf("%-15s : %s\n", "Nom", "Alice");
+System.out.printf("%-15s : %d\n", "Âge", 30);
+```
+
+🔎 `%–15s` → champ texte **aligné à gauche** sur **15 caractères**.
+
+---
+
+### ✅ À retenir
+
+| Commande    | Utilité principale                          |
+| ----------- | ------------------------------------------- |
+| `print()`   | Affiche sur la même ligne.                  |
+| `println()` | Affiche puis saute une ligne.               |
+| `\`         | Caractère d’échappement pour mise en forme. |
+| `printf()`  | Affichage **structuré et aligné**.          |
+
+---
+

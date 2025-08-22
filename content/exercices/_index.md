@@ -1,7 +1,8 @@
 +++
 title = "Exercices"
 type = "chapter"
-weight = 1
+weight = 11
+
 +++
 
 This is a new chapter.

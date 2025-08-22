@@ -48,18 +48,19 @@ weight = 1
 
 # Introduction_à_l’environnement_Java
 
-${\textbf{\textsf{\color{red}POUR LINUX}}}$
+<div style="color:red">POUR LINUX</div>
 
-```sh
+```
 wget https://www.oracle.com/java/technologies/downloads/?er=221886
 sudo dpkg -i Downloads/jdk-23_linux-x64_bin.deb 
 ```
-OR
-
+OU
+```
 sudo apt update
 sudo apt install openjdk-11-jdk
+```
 ---
-${\textbf{\textsf{\color{red}POUR WINDOWS}}}$
+<div style="color:red">POUR WINDOWS</div>
 
 Aller sur le site officiel de [oracle](https://www.oracle.com/java/technologies/downloads/?er=221886#jdk23-windows)
 
