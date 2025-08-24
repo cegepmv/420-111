@@ -22,7 +22,7 @@ type = "home"
 
 ***
 
-##  Maxime Fournier | Samuel Fostiné
+##  Maxime Fournier 
 
 |Nom de l'évaluation|Pondération|Date de l'évaluation|
 |:---:|:---:|:---:|
