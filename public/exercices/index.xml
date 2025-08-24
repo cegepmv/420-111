@@ -13,7 +13,7 @@
       <link>http://localhost:1313/420-111/exercices/serie1/index.html</link>
       <pubDate>Wed, 20 Aug 2025 19:02:22 -0400</pubDate>
       <guid>http://localhost:1313/420-111/exercices/serie1/index.html</guid>
-      <description>Exo 1 Objectif : Créer un programme Java qui affiche ceci.&#xA;➡️ Sortie attendu :&#xA;Nom : Alice Âge : 23 Ville : Toulouse Instructions :&#xA;Utilise System.out.println(). Respecte l’indentation. Le nom du fichier doit être Profil.java. N’oublie pas le point-virgule ; à chaque ligne. Exo 2 Objectif : Reproduis le même affichage que l’exercice 1, mais sur une seule ligne.&#xA;➡️ Exemple attendu :&#xA;Nom : Alice | Âge : 23 | Ville : Toulouse Instructions :</description>
+      <description>Exo 1 Objectif : Créer un programme Java qui affiche ceci.&#xA;➡️ Sortie attendu :&#xA;Nom : Alice Âge : 23 Ville : Toulouse Instructions :&#xA;Utilise System.out.println(). Respecte l’indentation. N’oublie pas le point-virgule ; à chaque ligne. Exo 2 Objectif : Reproduis le même affichage que l’exercice 1, mais sur une seule ligne.&#xA;➡️ Exemple attendu :&#xA;Nom : Alice | Âge : 23 | Ville : Toulouse Instructions :&#xA;Utilise System.out.print() (sans println()). Utilise \n si besoin. Respecte les espaces entre les mots (convention d’espacement). Exo 3 Objectif : Créer un programme qui affiche les lignes suivantes :</description>
     </item>
   </channel>
 </rss>

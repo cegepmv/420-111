@@ -24,7 +24,6 @@ Ville : Toulouse
 
 * Utilise **`System.out.println()`**.
 * Respecte **l’indentation**.
-* Le nom du fichier doit être **`Profil.java`**.
 * N’oublie pas le point-virgule `;` à chaque ligne.
 
 
@@ -138,7 +137,7 @@ java Bienvenue
 
 **Objectif** : Affiche un profil formaté et aligné grâce à `System.out.printf()` :
 
-* Utilise une chaîne **multiligne (`"""`)** 
+
 
 ➡️ *Exemple attendu* :
 
@@ -150,12 +149,9 @@ Ville        : Lyon
 
 **Instructions** :
 
-* Utilise `printf()` avec `%s`.
-* Applique les règles de **mise en majuscule ou capitalisation** sur le nom et la ville.
-
-
+* Utilise une chaîne **multiligne (`"""`)** 
 
 ---
 
 
-<a href="">Solutions</a>
+<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie1">Solutions</a>

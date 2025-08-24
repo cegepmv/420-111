@@ -1,5 +1,3 @@
-package cours420111.solutions.serie2;
-
 public class solution2_2 {
     public static void main(String[] args) {
         // 1. Le taux de remplissage d’un réservoir : 0.735

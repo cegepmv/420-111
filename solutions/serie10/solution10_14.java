@@ -1,4 +1,4 @@
-package cours420111.solutions.serie10;
+
 
 public class solution10_14 {
     public static void main(String[] args) {
