@@ -4,9 +4,11 @@ title = '420111 - Notes'
 theme = 'relearn'
 enableEmoji = true
 
-[params]
-  custom_css = ["css/custom.css"]
-  
+[params]  
+  additionalCSS = ["css/custom.css"]
+  disableInlineCopyToClipBoard = true
+
+
   [[params.themeVariant]]
     auto = []
     identifier = 'relearn-auto'

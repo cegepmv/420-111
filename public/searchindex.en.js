@@ -16,12 +16,20 @@ var relearn_searchindex = [
     "uri": "/420-111/intro/java/index.html"
   },
   {
+    "breadcrumb": "Introduction à la programmation informatique (420-111-MV) \u003e Exercices",
+    "content": "Exo 1 Objectif : Créer un programme Java qui affiche ton nom, ton âge et ta ville sur 3 lignes différentes.\n➡️ Exemple attendu :\nNom : Alice Âge : 23 Ville : Toulouse Instructions :\nUtilise System.out.println(). Respecte l’indentation. Le nom du fichier doit être Profil.java. N’oublie pas le point-virgule ; à chaque ligne. Question How do you reverse a string in Go?\nClick to reveal solution package main import ( \"fmt\" ) func reverse(s string) string { runes := []rune(s) for i, j := 0, len(runes)-1; i \u003c j; i, j = i+1, j-1 { runes[i], runes[j] = runes[j], runes[i] } return string(runes) } func main() { fmt.Println(reverse(\"hello\")) } --- ### 🟢 **Exercice 2 – Affichage sur une seule ligne** **Objectif** : Reproduis le même affichage que l'exercice 1, mais sur une **seule ligne**. ➡️ *Exemple attendu* : Nom : Alice | Âge : 23 | Ville : Toulouse\n**Instructions** : * Utilise **`System.out.print()`** (sans `println()`). * Utilise `\\n` si besoin. * Respecte les **espaces** entre les mots (convention d'espacement). --- ### 🟢 **Exercice 3 – Utilisation des caractères d’échappement** **Objectif** : Créer un programme qui affiche les lignes suivantes : Nom : “Alice” Chemin du fichier : C:\\Users\\Alice\n**Instructions** : * Utilise **`System.out.println()`**. * Utilise les caractères `\\\"` et `\\\\`. --- ### 🟠 **Exercice 4 – Rappel sur les conventions** **Question écrite** (pas de code) : Dans le programme ci-dessous, relève **5 erreurs de convention de nommage ou d’espacement**, puis corrige-les. ```java public class profilUtilisateur{ public static void main(String[]args){ int AgeUtilisateur=25; System.out.println( \"Age :\"+AgeUtilisateur ); } } 🟠 Exercice 5 – Indentation et lisibilité Réécris proprement le programme suivant avec une indentation correcte, sans modifier le code fonctionnel :\npublic class Bonjour{ public static void main(String[]args){ System.out.println(\"Bonjour\"); if(true){ System.out.println(\"Ceci est un test\"); } } } 🔵 Exercice 6 – Compilation et exécution (manuel) Objectif : Créer et compiler ton fichier Java dans ton terminal (Notepad++ + commande).\nCrée un fichier nommé Bienvenue.java. Écris un programme qui affiche : Bienvenue dans le monde de Java ! Compile avec : javac Bienvenue.java Exécute avec : java Bienvenue 🔵 Exercice 7 – Formatage avec printf Objectif : Affiche un profil formaté et aligné grâce à System.out.printf() :\nUtilise une chaîne multiligne (\"\"\") ➡️ Exemple attendu :\nNom complet : Julie MARTIN Âge : 28 Ville : Lyon Instructions :\nUtilise printf() avec %s. Applique les règles de mise en majuscule ou capitalisation sur le nom et la ville.",
+    "description": "Exo 1 Objectif : Créer un programme Java qui affiche ton nom, ton âge et ta ville sur 3 lignes différentes.\n➡️ Exemple attendu :\nNom : Alice Âge : 23 Ville : Toulouse Instructions :\nUtilise System.out.println(). Respecte l’indentation. Le nom du fichier doit être Profil.java. N’oublie pas le point-virgule ; à chaque ligne. Question How do you reverse a string in Go?\nClick to reveal solution package main import ( \"fmt\" ) func reverse(s string) string { runes := []rune(s) for i, j := 0, len(runes)-1; i \u003c j; i, j = i+1, j-1 { runes[i], runes[j] = runes[j], runes[i] } return string(runes) } func main() { fmt.Println(reverse(\"hello\")) } --- ### 🟢 **Exercice 2 – Affichage sur une seule ligne** **Objectif** : Reproduis le même affichage que l'exercice 1, mais sur une **seule ligne**. ➡️ *Exemple attendu* : Nom : Alice | Âge : 23 | Ville : Toulouse",
+    "tags": [],
+    "title": "Série 1",
+    "uri": "/420-111/exercices/serie1/index.html"
+  },
+  {
     "breadcrumb": "Introduction à la programmation informatique (420-111-MV) \u003e Intro",
-    "content": "☕ Créer son tout premier programme en Java Avant de plonger dans le code, il est important de savoir qu’en Java, tout le code source doit être enregistré dans un fichier avec l’extension .java.\nEN ligne Si java n’est malheureusement pas installé sur votre ordinateur et que vous ne pouvez pas le faire, vous pouvez tout de même programmer directement sur le web ici\n🔧 Étapes : Crée un nouveau fichier et nomme-le Main.java. Tape (de préférence manuellement) le code suivant dans ce fichier : public class Main { public static void main(String[] args) { System.out.println(\"Hello World\"); } } 💡 Astuce : Prends le temps de taper le code au lieu de simplement le copier-coller. Cela t’aidera à bien comprendre chaque ligne.\n🧩 Comprendre la notion de classe En Java, tout le code exécutable doit être contenu dans une classe.\nCe concept sera expliqué en détail plus tard, mais retiens pour l’instant qu’une classe est indispensable. Dans notre exemple, cela correspond à la ligne public class Main. Par convention, le nom d’une classe commence par une majuscule (ce n’est pas obligatoire, mais recommandé). Le nom du fichier doit être identique au nom de la classe, suivi de l’extension .java. Ici, la classe s’appelle Main, donc le fichier s’appelle Main.java. Le mot-clé public est un modificateur d’accès indiquant que cette classe est accessible depuis d’autres classes (nous y reviendrons plus tard). 🏁 La méthode main() La méthode main() est le point d’entrée de tout programme Java. Tout le code à l’intérieur de cette méthode sera exécuté au lancement du programme. 🔍 Ne t’inquiète pas pour le moment des autres mots-clés comme static ou void. Tu les comprendras avec le temps.\n🔄 Résumé ligne par ligne Ligne de code Explication public class Main Déclare une classe publique appelée Main. public static void main(String[] args) Déclare la méthode principale qui sera exécutée au démarrage du programme. System.out.println(\"Hello World\"); Affiche le message \"Hello World\" dans la console. 📌 Quelques règles de syntaxe essentielles Les accolades {} servent à délimiter des blocs de code (classes, méthodes, boucles, etc.). Chaque instruction Java doit se terminer par un point-virgule ;. Sinon, tu auras une erreur lors de la compilation. 🧪 Compilation et exécution d’un programme Java D’abord, tu dois t’assurer que Java est bien installé sur ton ordinateur\nOuvre une invite de commandes (cmd) sous Windows (Terminal sous Mac/Linux). Tape la commande java -version. Cette commande devrait vous dire la version de Java qui est installé sur votre ordinateur. Tape aussi la commande javac -version. Cette commande devrait te dire la version du compilateur de Java installé sur ton ordinateur Note: Ces commandes fonctionnent seulement si Java et le compilateur de Java sont installés et que le chemin où le répertoire de Java se trouve est mis dans le PATH des variables d’environnement (À expliquer en classe pour que ce soit plus clair) Exécution du code dans le fichier Main.java Ouvre une invite de commandes (cmd) sous Windows (Terminal sous Mac/Linux). Navigue vers le dossier où se trouve votre fichier Main.java Exécute la commande java Main.java. Tu devrais voir le message Hello World dans l’invite de commandes. Traditionnellement, Java fonctionne en deux étapes :\nCompilation : Le code source (.java) est transformé en bytecode (.class) grâce à la commande :\njavac Main.java Exécution : Le bytecode est ensuite exécuté avec la commande :\njava Main 💡 Astuce : Depuis une version relativement récente de Java, il est aussi possible d’exécuter directement un fichier .java sans passer explicitement par l’étape de compilation (javac).\njava Main.java Cela permet d’exécuter rapidement un programme, mais à noter :\nLe fichier .class est généré temporairement. Il est ensuite supprimé automatiquement après l’exécution. 📝 Cette méthode est pratique pour tester du code rapidement, mais dans un projet structuré, on utilise généralement javac suivi de java.\n🖨️ Affichage avec System.out.print et System.out.println Dans la méthode main(), tu peux utiliser :\nSystem.out.println() : pour afficher une ligne de texte suivie d’un retour à la ligne. System.out.print() : pour afficher du texte sans retour à la ligne. ✏️ Pour l’instant, retiens que tu dois utiliser System.out.println(\"ton message\"); pour afficher du texte à l’écran.\n📌 Détail sur System.out Élément Rôle System Classe prédéfinie dans java.lang out Représente le flux de sortie standard System.out Utilisé pour écrire dans la console 🧩 Différence entre print() et println() Méthode Effet print() Affiche le texte sur la même ligne println() Affiche le texte puis passe à la ligne suivante Exemple 1 : sans retour à la ligne System.out.print(\"Bonjour \"); System.out.print(\"tout le monde !\"); 🖥️ Résultat :\nBonjour tout le monde ! Exemple 2 : avec retour à la ligne System.out.println(\"Bonjour\"); System.out.println(\"tout le monde !\"); 🖥️ Résultat :\nBonjour tout le monde ! Exemple 3 : retour à la ligne manuel System.out.print(\"Ligne 1\\nLigne 2\"); 🖥️ Résultat :\nLigne 1 Ligne 2 ✅ En résumé : print() : n’ajoute pas de retour à la ligne. println() : ajoute un retour à la ligne automatiquement. Ces méthodes sont très utilisées pour afficher des messages ou pour déboguer.",
+    "content": "☕ Créer son tout premier programme en Java Avant de plonger dans le code, il est important de savoir qu’en Java, tout le code source doit être enregistré dans un fichier avec l’extension .java.\nEN ligne Si java n’est malheureusement pas installé sur votre ordinateur et que vous ne pouvez pas le faire, vous pouvez tout de même programmer directement sur le web ici\n🔧 Étapes : Crée un nouveau fichier et nomme-le Main.java. Tape (de préférence manuellement) le code suivant dans ce fichier : public class Main { public static void main(String[] args) { System.out.println(\"Hello World\"); } } 💡 Astuce : Prends le temps de taper le code au lieu de simplement le copier-coller. Cela t’aidera à bien comprendre chaque ligne.\n🧩 Comprendre la notion de classe En Java, tout le code exécutable doit être contenu dans une classe.\nCe concept sera expliqué en détail plus tard, mais retiens pour l’instant qu’une classe est indispensable. Dans notre exemple, cela correspond à la ligne public class Main. Par convention, le nom d’une classe commence par une majuscule (ce n’est pas obligatoire, mais recommandé). Le nom du fichier doit être identique au nom de la classe, suivi de l’extension .java. Ici, la classe s’appelle Main, donc le fichier s’appelle Main.java. Le mot-clé public est un modificateur d’accès indiquant que cette classe est accessible depuis d’autres classes (nous y reviendrons plus tard). 🏁 La méthode main() La méthode main() est le point d’entrée de tout programme Java. Tout le code à l’intérieur de cette méthode sera exécuté au lancement du programme. 🔍 Ne t’inquiète pas pour le moment des autres mots-clés comme static ou void. Tu les comprendras avec le temps.\n🔄 Résumé ligne par ligne Ligne de code Explication public class Main Déclare une classe publique appelée Main. public static void main(String[] args) Déclare la méthode principale qui sera exécutée au démarrage du programme. System.out.println(\"Hello World\"); Affiche le message \"Hello World\" dans la console. 🧪 Compilation et exécution d’un programme Java D’abord, tu dois t’assurer que Java est bien installé sur ton ordinateur\nOuvre une invite de commandes (cmd) sous Windows (Terminal sous Mac/Linux). Tape la commande java -version. Cette commande devrait vous dire la version de Java qui est installé sur votre ordinateur. Tape aussi la commande javac -version. Cette commande devrait te dire la version du compilateur de Java installé sur ton ordinateur Note: Ces commandes fonctionnent seulement si Java et le compilateur de Java sont installés et que le chemin où le répertoire de Java se trouve est mis dans le PATH des variables d’environnement (À expliquer en classe pour que ce soit plus clair) Exécution du code dans le fichier Main.java Ouvre une invite de commandes (cmd) sous Windows (Terminal sous Mac/Linux). Navigue vers le dossier où se trouve votre fichier Main.java Exécute la commande java Main.java. Tu devrais voir le message Hello World dans l’invite de commandes. Traditionnellement, Java fonctionne en deux étapes :\nCompilation : Le code source (.java) est transformé en bytecode (.class) grâce à la commande :\njavac Main.java Exécution : Le bytecode est ensuite exécuté avec la commande :\njava Main 💡 Astuce : Depuis une version relativement récente de Java, il est aussi possible d’exécuter directement un fichier .java sans passer explicitement par l’étape de compilation (javac).\njava Main.java Cela permet d’exécuter rapidement un programme, mais à noter :\nLe fichier .class est généré temporairement. Il est ensuite supprimé automatiquement après l’exécution. 📝 Cette méthode est pratique pour tester du code rapidement, mais dans un projet structuré, on utilise généralement javac suivi de java.\n🖨️ Affichage avec System.out.print et System.out.println Dans la méthode main(), tu peux utiliser :\nSystem.out.println() : pour afficher une ligne de texte suivie d’un retour à la ligne. System.out.print() : pour afficher du texte sans retour à la ligne. ✏️ Pour l’instant, retiens que tu dois utiliser System.out.println(\"ton message\"); pour afficher du texte à l’écran.\n📌 Détail sur System.out Élément Rôle System Classe prédéfinie dans java.lang out Représente le flux de sortie standard System.out Utilisé pour écrire dans la console 🧩 Différence entre print() et println() Méthode Effet print() Affiche le texte sur la même ligne println() Affiche le texte puis passe à la ligne suivante Exemple 1 : sans retour à la ligne System.out.print(\"Bonjour \"); System.out.print(\"tout le monde !\"); 🖥️ Résultat :\nBonjour tout le monde ! Exemple 2 : avec retour à la ligne System.out.println(\"Bonjour\"); System.out.println(\"tout le monde !\"); 🖥️ Résultat :\nBonjour tout le monde ! Exemple 3 : retour à la ligne manuel System.out.print(\"Ligne 1\\nLigne 2\"); 🖥️ Résultat :\nLigne 1 Ligne 2 ✅ En résumé : print() : n’ajoute pas de retour à la ligne. println() : ajoute un retour à la ligne automatiquement. Ces méthodes sont très utilisées pour afficher des messages ou pour déboguer. Le caractère d’échappement \\ Le \\ permet d’insérer des caractères spéciaux dans une chaîne.\nSéquence Résultat Exemple Résultat Console \\n Saut de ligne \"Bonjour\\nSalut\" Bonjour\nSalut \\t Tabulation \"Nom\\tAge\" Nom Age \\\" Guillemets doubles \"Il a dit : \\\"ok\\\"\" Il a dit : “ok” \\\\ Backslash \"C:\\\\Users\\\\Nom\" C:\\Users\\Nom \\' Apostrophe '\\' ' 🖥️ Résultat console attendu Nom complet : Julie MARTIN Âge : 28 Ville : Paris System.out.printf() – Affichage formaté Tu peux fixer la largeur de colonnes avec :\nSystem.out.printf(\"%-15s : %s\\n\", \"Nom\", \"Alice\"); System.out.printf(\"%-15s : %d\\n\", \"Âge\", 30); 🔎 %–15s → champ texte aligné à gauche sur 15 caractères.\n✅ À retenir Commande Utilité principale print() Affiche sur la même ligne. println() Affiche puis saute une ligne. \\ Caractère d’échappement pour mise en forme. printf() Affichage structuré et aligné. 🛠️ Astuce pro : format avancé System.out.printf(\"\"\" Nom complet : %s Âge : %s Ville : %s \"\"\", prenom.substring(0, 1).toUpperCase() + prenom.substring(1) + \" \" + nom.toUpperCase(), age, ville.substring(0, 1).toUpperCase() + ville.substring(1)); ✅ Explication ligne par ligne Élément Rôle \"\"\" (Text block) Permet un texte multiligne propre (Java 15+). %s Placeholder pour une valeur chaîne (String ou objet). prenom.substring(0,1).toUpperCase() Met la 1re lettre en majuscule. nom.toUpperCase() Nom entièrement en majuscule. ville.substring(0,1).toUpperCase() Ville avec 1re lettre en majuscule. 🧠 Même si age est un int, %s fonctionne grâce à l’autoboxing.",
     "description": "☕ Créer son tout premier programme en Java Avant de plonger dans le code, il est important de savoir qu’en Java, tout le code source doit être enregistré dans un fichier avec l’extension .java.\nEN ligne Si java n’est malheureusement pas installé sur votre ordinateur et que vous ne pouvez pas le faire, vous pouvez tout de même programmer directement sur le web ici",
     "tags": [],
-    "title": "Premier Programme",
-    "uri": "/420-111/intro/premier-programme/index.html"
+    "title": "Affichage console",
+    "uri": "/420-111/intro/affichage-console/index.html"
   },
   {
     "breadcrumb": "Introduction à la programmation informatique (420-111-MV)",
@@ -32,140 +40,28 @@ var relearn_searchindex = [
     "uri": "/420-111/exercices/index.html"
   },
   {
+    "breadcrumb": "",
+    "content": "Plans de cours 📋 Maxime Fournier : Plan de cours\nHoraire et disponibilités des enseignants ✔️ Maxime Fournier : Lien vers mon horaire et mes disponibilités\nMaxime Fournier | Samuel Fostiné Nom de l’évaluation Pondération Date de l’évaluation Laboratoire 1 10 % Semaine 5 Laboratoire 2 10 % Semaine 11 Laboratoire 3 15 % Semaine 14 5 Quiz 3 meilleures notes 15 % Semaine 2 à 13 Examen 1 20 % Semaine 8 Examen Final 30 % ESO",
+    "description": "Plans de cours 📋 Maxime Fournier : Plan de cours\nHoraire et disponibilités des enseignants ✔️ Maxime Fournier : Lien vers mon horaire et mes disponibilités\nMaxime Fournier | Samuel Fostiné Nom de l’évaluation Pondération Date de l’évaluation Laboratoire 1 10 % Semaine 5 Laboratoire 2 10 % Semaine 11 Laboratoire 3 15 % Semaine 14 5 Quiz 3 meilleures notes 15 % Semaine 2 à 13 Examen 1 20 % Semaine 8 Examen Final 30 % ESO",
+    "tags": [],
+    "title": "Introduction à la programmation informatique (420-111-MV)",
+    "uri": "/420-111/index.html"
+  },
+  {
+    "breadcrumb": "Introduction à la programmation informatique (420-111-MV) \u003e Intro",
+    "content": "🟨 Règles de base en Java 🔤 Sensibilité à la casse → Java distingue majuscules et minuscules. nom ≠ Nom ≠ NOM.\n🧱 Délimitation des blocs → Tout bloc de code (classe, méthode, boucle, condition, etc.) est entouré par accolades {}.\n🔚 Fin des instructions → Chaque ligne d’instruction se termine par un point-virgule ;.\n💬 Commentaires dans le code :\nType Syntaxe Usage Commentaire une ligne // Pour un commentaire bref Commentaire multi-ligne /* ... */ Pour expliquer un bloc de code // Ceci est un commentaire simple /* Ceci est un commentaire sur plusieurs lignes */ 🟦 Nomenclature Java ✅ Une fonction dans une classe = une méthode. Elle appartient à la classe dans laquelle elle est définie. 🟩 Conventions de nommage (cours) Élément Convention Exemple Technique utilisée Classe Majuscule initiale Animal, VoitureBleue PascalCase Méthode Minuscule initiale afficherNom() camelCase Variable Minuscule initiale nomClient, ageMoyen camelCase Constante MAJUSCULE + _ TAUX_DE_TAXE SNAKE_CASE Variable locale simple Lettre courte i, j (dans les boucles) — Les variables à une seule lettre sont permises uniquement pour un usage local (dans une boucle for, par exemple) par exemple i ou j. Toutes les autres variables doivent avoir un nom significatif. Les tableau doivent avoir un nom qui sous-entend la pluralité.\n🟧 Indentation et lisibilité ✏️ L’indentation ne change pas le comportement du code, mais elle :\nrend le code plus lisible, montre la structure logique du programme. 📌 Règles : Indentation = tabulation (ou 4 espaces selon le style). Chaque bloc ({}) augmente le niveau d’indentation. Respecter la cohérence : ne pas mélanger tabulations et espaces. Bien aligner les blocs imbriqués : boucles, conditions, classes, etc. Exemple : public class Exemple { public static void main(String[] args) { int age = 18; if (age \u003e= 18) { System.out.println(\"Majeur\"); } else { System.out.println(\"Mineur\"); } } } ✅ Résumé Élément Exemple Rappel Classe MaClasse PascalCase Méthode afficherProfil() camelCase Variable ageUtilisateur camelCase Constante TAUX_DE_TVA MAJUSCULES + _ Commentaire // ou /* ... */ pour documenter Bloc de code { ... } avec indentation Fin d’instruction ; obligatoire 🟨 Conventions d’espacement en Java Les espaces sont essentiels pour la lisibilité du code, mais doivent être utilisés de manière cohérente.\n📌 1. Autour des opérateurs ✅ Toujours mettre un espace avant et après les opérateurs :\nint total = a + b - c * 2; 🚫 Mauvais :\nint total=a+b-c*2; 📌 2. Après les virgules ✅ Un espace après chaque virgule, pas avant :\nSystem.out.println(nom, age, ville); 🚫 Mauvais :\nSystem.out.println(nom,age,ville); 📌 3. Après les mots-clés (if, for, while, etc.) ✅ Mettre un espace entre le mot-clé et la parenthèse ouvrante :\nif (age \u003e= 18) { System.out.println(\"Majeur\"); } 🚫 Mauvais :\nif(age\u003e=18){ 📌 4. Entre les parenthèses et le contenu ✅ Aucun espace juste après ( ou juste avant ) :\nSystem.out.println(nom); 🚫 Mauvais :\nSystem.out.println( nom ); 📌 5. Autour des accolades { } ✅ L’accolade ouvrante est généralement placée à la fin de la ligne de déclaration, puis le bloc est indenté :\npublic class Exemple { public static void main(String[] args) { if (x \u003e 0) { System.out.println(\"Positif\"); } } } 🚫 Mauvais :\npublic class Exemple { public static void main(String[] args) { if(x\u003e0) { System.out.println(\"Positif\"); } } } Note : Certaines équipes préfèrent les accolades sur une ligne séparée, mais l’important est d’être cohérent dans tout le projet.\n📌 6. Pas d’espace avant un point . ✅ Éviter tout espace avant ou après un point utilisé pour accéder aux membres :\nutilisateur.getNom(); 🚫 Mauvais :\nutilisateur . getNom (); ✅ Résumé des règles d’espacement Cas Bonne pratique Opérateurs a + b, x == y, etc. Après une virgule f(x, y) Mots-clés (if, for, etc.) if ( et non if( Parenthèses (x + 1) et non ( x + 1 ) Accès à un membre (.) objet.methode() Accolade ouvrante { Sur la même ligne",
+    "description": "🟨 Règles de base en Java 🔤 Sensibilité à la casse → Java distingue majuscules et minuscules. nom ≠ Nom ≠ NOM.\n🧱 Délimitation des blocs → Tout bloc de code (classe, méthode, boucle, condition, etc.) est entouré par accolades {}.\n🔚 Fin des instructions → Chaque ligne d’instruction se termine par un point-virgule ;.\n💬 Commentaires dans le code :\nType Syntaxe Usage Commentaire une ligne // Pour un commentaire bref Commentaire multi-ligne /* ... */ Pour expliquer un bloc de code // Ceci est un commentaire simple /* Ceci est un commentaire sur plusieurs lignes */ 🟦 Nomenclature Java ✅ Une fonction dans une classe = une méthode. Elle appartient à la classe dans laquelle elle est définie. 🟩 Conventions de nommage (cours) Élément Convention Exemple Technique utilisée Classe Majuscule initiale Animal, VoitureBleue PascalCase Méthode Minuscule initiale afficherNom() camelCase Variable Minuscule initiale nomClient, ageMoyen camelCase Constante MAJUSCULE + _ TAUX_DE_TAXE SNAKE_CASE Variable locale simple Lettre courte i, j (dans les boucles) — Les variables à une seule lettre sont permises uniquement pour un usage local (dans une boucle for, par exemple) par exemple i ou j. Toutes les autres variables doivent avoir un nom significatif. Les tableau doivent avoir un nom qui sous-entend la pluralité.",
+    "tags": [],
+    "title": "Règles/conventions",
+    "uri": "/420-111/intro/regles/index.html"
+  },
+  {
     "breadcrumb": "Introduction à la programmation informatique (420-111-MV) \u003e Intro",
     "content": "🧠 Qu’est-ce qu’un commentaire ? Un commentaire est une partie du code ignorée par le compilateur Java.\nIl sert à :\nExpliquer le code aux humains (programmeurs). Documenter le fonctionnement des classes, des méthodes, etc. Faciliter la relecture et la maintenance du programme. ✍️ 1. Commentaire sur une ligne (//) 🔹 Syntaxe : // Ceci est un commentaire sur une ligne int age = 25; // Stocke l’âge ✅ Utilisation : Expliquer une ligne de code. Ajouter une remarque rapide. 🧾2. Commentaire sur plusieurs lignes (/* … */) 🔹 Syntaxe : /* Ceci est un commentaire sur plusieurs lignes. Il peut couvrir un bloc de texte. */ ✅ Utilisation : Fournir une explication plus longue. Désactiver temporairement un bloc de code. Avancé Nous verrons peut être cette théorie plus tard\n📚 3. Commentaire de documentation (/** … */) 🔹 Syntaxe :\n/** * Cette méthode affiche un message de bienvenue. * @param nom Le nom de l’utilisateur. */ public void direBonjour(String nom) { System.out.println(\"Bonjour \" + nom); } ✅ Utilisation : Générer une documentation HTML avec Javadoc. Documenter les classes, méthodes, constructeurs, etc.",
     "description": "🧠 Qu’est-ce qu’un commentaire ? Un commentaire est une partie du code ignorée par le compilateur Java.\nIl sert à :\nExpliquer le code aux humains (programmeurs). Documenter le fonctionnement des classes, des méthodes, etc. Faciliter la relecture et la maintenance du programme. ✍️ 1. Commentaire sur une ligne (//) 🔹 Syntaxe : // Ceci est un commentaire sur une ligne int age = 25; // Stocke l’âge ✅ Utilisation : Expliquer une ligne de code. Ajouter une remarque rapide. 🧾2. Commentaire sur plusieurs lignes (/* … */) 🔹 Syntaxe : /* Ceci est un commentaire sur plusieurs lignes. Il peut couvrir un bloc de texte. */ ✅ Utilisation : Fournir une explication plus longue. Désactiver temporairement un bloc de code. Avancé Nous verrons peut être cette théorie plus tard",
     "tags": [],
     "title": "Commentaires",
     "uri": "/420-111/intro/commentaires/index.html"
-  },
-  {
-    "breadcrumb": "",
-    "content": "Plans de cours 📋 Maxime Fournier : Plan de cours(TODO)\n📋 Samuel Fostiné : Plan de cours(TODO)\nHoraire et disponibilités des enseignants ✔️ Maxime Fournier : Lien vers mon horaire et mes disponibilités(TODO)\n✔️ Samuel Fostiné : Lien vers mon horaire et mes disponibilités(TODO)\nMaxime Fournier | Samuel Fostiné Nom de l’évaluation Pondération Date de l’évaluation Laboratoire 1 10 % Semaine x Laboratoire 2 10 % Semaine x Laboratoire 3 15 % Semaine x Quiz (entre 12 ou 13 quiz) 10 meilleures notes 15 % Semaine 2 à 14 Examen 1 20 % Semaine x Examen Final 30 % ESO",
-    "description": "Plans de cours 📋 Maxime Fournier : Plan de cours(TODO)\n📋 Samuel Fostiné : Plan de cours(TODO)\nHoraire et disponibilités des enseignants ✔️ Maxime Fournier : Lien vers mon horaire et mes disponibilités(TODO)\n✔️ Samuel Fostiné : Lien vers mon horaire et mes disponibilités(TODO)\nMaxime Fournier | Samuel Fostiné Nom de l’évaluation Pondération Date de l’évaluation Laboratoire 1 10 % Semaine x Laboratoire 2 10 % Semaine x Laboratoire 3 15 % Semaine x Quiz (entre 12 ou 13 quiz) 10 meilleures notes 15 % Semaine 2 à 14 Examen 1 20 % Semaine x Examen Final 30 % ESO",
-    "tags": [],
-    "title": "Introduction à la programmation informatique (420-111-MV)",
-    "uri": "/420-111/index.html"
-  },
-  {
-    "breadcrumb": "Introduction à la programmation informatique (420-111-MV) \u003e Exercices",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Serie015",
-    "uri": "/420-111/exercices/serie015/index.html"
-  },
-  {
-    "breadcrumb": "Introduction à la programmation informatique (420-111-MV) \u003e Exercices",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Serie014",
-    "uri": "/420-111/exercices/serie014/index.html"
-  },
-  {
-    "breadcrumb": "Introduction à la programmation informatique (420-111-MV) \u003e Exercices",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Serie013",
-    "uri": "/420-111/exercices/serie013/index.html"
-  },
-  {
-    "breadcrumb": "Introduction à la programmation informatique (420-111-MV) \u003e Exercices",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Serie012",
-    "uri": "/420-111/exercices/serie012/index.html"
-  },
-  {
-    "breadcrumb": "Introduction à la programmation informatique (420-111-MV) \u003e Exercices",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Serie011",
-    "uri": "/420-111/exercices/serie011/index.html"
-  },
-  {
-    "breadcrumb": "Introduction à la programmation informatique (420-111-MV) \u003e Exercices",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Serie010",
-    "uri": "/420-111/exercices/serie010/index.html"
-  },
-  {
-    "breadcrumb": "Introduction à la programmation informatique (420-111-MV) \u003e Exercices",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Serie09",
-    "uri": "/420-111/exercices/serie09/index.html"
-  },
-  {
-    "breadcrumb": "Introduction à la programmation informatique (420-111-MV) \u003e Exercices",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Serie08",
-    "uri": "/420-111/exercices/serie08/index.html"
-  },
-  {
-    "breadcrumb": "Introduction à la programmation informatique (420-111-MV) \u003e Exercices",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Serie07",
-    "uri": "/420-111/exercices/serie07/index.html"
-  },
-  {
-    "breadcrumb": "Introduction à la programmation informatique (420-111-MV) \u003e Exercices",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Serie06",
-    "uri": "/420-111/exercices/serie06/index.html"
-  },
-  {
-    "breadcrumb": "Introduction à la programmation informatique (420-111-MV) \u003e Exercices",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Serie05",
-    "uri": "/420-111/exercices/serie05/index.html"
-  },
-  {
-    "breadcrumb": "Introduction à la programmation informatique (420-111-MV) \u003e Exercices",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Serie04",
-    "uri": "/420-111/exercices/serie04/index.html"
-  },
-  {
-    "breadcrumb": "Introduction à la programmation informatique (420-111-MV) \u003e Exercices",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Serie3",
-    "uri": "/420-111/exercices/serie3/index.html"
-  },
-  {
-    "breadcrumb": "Introduction à la programmation informatique (420-111-MV) \u003e Exercices",
-    "content": "",
-    "description": "",
-    "tags": [],
-    "title": "Serie2",
-    "uri": "/420-111/exercices/serie2/index.html"
-  },
-  {
-    "breadcrumb": "Introduction à la programmation informatique (420-111-MV) \u003e Exercices",
-    "content": "📘 Exercices – Semaine 1 : Introduction à Java 🟢 Exercice 1 – Mon premier programme Objectif : Créer un programme Java qui affiche ton nom, ton âge et ta ville sur 3 lignes différentes.\n➡️ Exemple attendu :\nNom : Alice Âge : 23 Ville : Toulouse Instructions :\nUtilise System.out.println(). Respecte l’indentation. Le nom du fichier doit être Profil.java. N’oublie pas le point-virgule ; à chaque ligne. 🟢 Exercice 2 – Affichage sur une seule ligne Objectif : Reproduis le même affichage que l’exercice 1, mais sur une seule ligne.\n➡️ Exemple attendu :\nNom : Alice | Âge : 23 | Ville : Toulouse Instructions :\nUtilise System.out.print() (sans println()). Utilise \\n si besoin. Respecte les espaces entre les mots (convention d’espacement). 🟢 Exercice 3 – Utilisation des caractères d’échappement Objectif : Créer un programme qui affiche les lignes suivantes :\nNom : \"Alice\" Chemin du fichier : C:\\Users\\Alice Instructions :\nUtilise System.out.println(). Utilise les caractères \\\" et \\\\. 🟠 Exercice 4 – Rappel sur les conventions Question écrite (pas de code) :\nDans le programme ci-dessous, relève 5 erreurs de convention de nommage ou d’espacement, puis corrige-les.\npublic class profilUtilisateur{ public static void main(String[]args){ int AgeUtilisateur=25; System.out.println( \"Age :\"+AgeUtilisateur ); } } 🟠 Exercice 5 – Indentation et lisibilité Réécris proprement le programme suivant avec une indentation correcte, sans modifier le code fonctionnel :\npublic class Bonjour{ public static void main(String[]args){ System.out.println(\"Bonjour\"); if(true){ System.out.println(\"Ceci est un test\"); } } } 🔵 Exercice 6 – Compilation et exécution (manuel) Objectif : Créer et compiler ton fichier Java dans ton terminal (Notepad++ + commande).\nCrée un fichier nommé Bienvenue.java. Écris un programme qui affiche : Bienvenue dans le monde de Java ! Compile avec : javac Bienvenue.java Exécute avec : java Bienvenue 🔵 Exercice 7 – Formatage avec printf Objectif : Affiche un profil formaté et aligné grâce à System.out.printf() :\nUtilise une chaîne multiligne (\"\"\") ➡️ Exemple attendu :\nNom complet : Julie MARTIN Âge : 28 Ville : Lyon Instructions :\nUtilise printf() avec %s. Applique les règles de mise en majuscule ou capitalisation sur le nom et la ville.",
-    "description": "📘 Exercices – Semaine 1 : Introduction à Java 🟢 Exercice 1 – Mon premier programme Objectif : Créer un programme Java qui affiche ton nom, ton âge et ta ville sur 3 lignes différentes.\n➡️ Exemple attendu :\nNom : Alice Âge : 23 Ville : Toulouse Instructions :\nUtilise System.out.println(). Respecte l’indentation. Le nom du fichier doit être Profil.java. N’oublie pas le point-virgule ; à chaque ligne. 🟢 Exercice 2 – Affichage sur une seule ligne Objectif : Reproduis le même affichage que l’exercice 1, mais sur une seule ligne.",
-    "tags": [],
-    "title": "Serie1",
-    "uri": "/420-111/exercices/serie1/index.html"
   },
   {
     "breadcrumb": "Introduction à la programmation informatique (420-111-MV)",

@@ -1,18 +1,18 @@
 +++
 date = '2025-08-20T19:02:22-04:00'
-title = 'Serie 1'
+title = 'Série 1'
 weight = 1
 +++
 
-## 📘 Exercices – Semaine 1 : Introduction à Java
+
 
 ---
 
-### 🟢 **Exercice 1 – Mon premier programme**
+### Exo 1
 
-**Objectif** : Créer un programme Java qui affiche ton nom, ton âge et ta ville sur 3 lignes différentes.
+**Objectif** : Créer un programme Java qui affiche ceci.
 
-➡️ *Exemple attendu* :
+➡️ *Sortie attendu* :
 
 ```
 Nom : Alice
@@ -27,9 +27,11 @@ Ville : Toulouse
 * Le nom du fichier doit être **`Profil.java`**.
 * N’oublie pas le point-virgule `;` à chaque ligne.
 
+
+
 ---
 
-### 🟢 **Exercice 2 – Affichage sur une seule ligne**
+### Exo 2
 
 **Objectif** : Reproduis le même affichage que l'exercice 1, mais sur une **seule ligne**.
 
@@ -45,9 +47,11 @@ Nom : Alice | Âge : 23 | Ville : Toulouse
 * Utilise `\n` si besoin.
 * Respecte les **espaces** entre les mots (convention d'espacement).
 
+
+
 ---
 
-### 🟢 **Exercice 3 – Utilisation des caractères d’échappement**
+### Exo 3
 
 **Objectif** : Créer un programme qui affiche les lignes suivantes :
 
@@ -61,9 +65,11 @@ Chemin du fichier : C:\Users\Alice
 * Utilise **`System.out.println()`**.
 * Utilise les caractères `\"` et `\\`.
 
+
+
 ---
 
-### 🟠 **Exercice 4 – Rappel sur les conventions**
+### Exo 4
 
 **Question écrite** (pas de code) :
 
@@ -78,9 +84,11 @@ System.out.println( "Age :"+AgeUtilisateur );
 }
 ```
 
+
+
 ---
 
-### 🟠 **Exercice 5 – Indentation et lisibilité**
+### Exo 5
 
 Réécris proprement le programme suivant avec **une indentation correcte**, sans modifier le code fonctionnel :
 
@@ -95,9 +103,11 @@ System.out.println("Ceci est un test");
 }
 ```
 
+
+
 ---
 
-### 🔵 **Exercice 6 – Compilation et exécution (manuel)**
+### Exo 6
 
 **Objectif** : Créer et compiler ton fichier Java dans ton terminal (Notepad++ + commande).
 
@@ -120,9 +130,11 @@ javac Bienvenue.java
 java Bienvenue
 ```
 
+
+
 ---
 
-### 🔵 **Exercice 7 – Formatage avec `printf`**
+### Exo 7
 
 **Objectif** : Affiche un profil formaté et aligné grâce à `System.out.printf()` :
 
@@ -141,4 +153,9 @@ Ville        : Lyon
 * Utilise `printf()` avec `%s`.
 * Applique les règles de **mise en majuscule ou capitalisation** sur le nom et la ville.
 
+
+
 ---
+
+
+<a href="">Solutions</a>

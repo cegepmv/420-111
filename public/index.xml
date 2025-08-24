@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction à la programmation informatique (420-111-MV) :: 420111 - Notes</title>
-    <link>http://localhost:1313/420-111/index.html</link>
+    <link>http://localhost:32921/420-111/index.html</link>
     <description>Plans de cours 📋 Maxime Fournier : Plan de cours&#xA;Horaire et disponibilités des enseignants ✔️ Maxime Fournier : Lien vers mon horaire et mes disponibilités&#xA;Maxime Fournier | Samuel Fostiné Nom de l’évaluation Pondération Date de l’évaluation Laboratoire 1 10 % Semaine 5 Laboratoire 2 10 % Semaine 11 Laboratoire 3 15 % Semaine 14 5 Quiz 3 meilleures notes 15 % Semaine 2 à 13 Examen 1 20 % Semaine 8 Examen Final 30 % ESO</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
     <lastBuildDate>Thu, 21 Aug 2025 20:52:37 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/420-111/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:32921/420-111/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Intro</title>
-      <link>http://localhost:1313/420-111/intro/index.html</link>
+      <link>http://localhost:32921/420-111/intro/index.html</link>
       <pubDate>Thu, 21 Aug 2025 20:52:37 -0400</pubDate>
-      <guid>http://localhost:1313/420-111/intro/index.html</guid>
+      <guid>http://localhost:32921/420-111/intro/index.html</guid>
       <description>This is a new chapter.</description>
     </item>
     <item>
       <title>Exercices</title>
-      <link>http://localhost:1313/420-111/exercices/index.html</link>
+      <link>http://localhost:32921/420-111/exercices/index.html</link>
       <pubDate>Wed, 20 Aug 2025 19:02:22 -0400</pubDate>
-      <guid>http://localhost:1313/420-111/exercices/index.html</guid>
+      <guid>http://localhost:32921/420-111/exercices/index.html</guid>
       <description>This is a new chapter.</description>
     </item>
   </channel>
