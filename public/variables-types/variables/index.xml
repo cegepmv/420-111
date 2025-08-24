@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Variables :: 420111 - Notes</title>
+    <link>http://localhost:1313/420-111/variables-types/variables/index.html</link>
+    <description>Une variable, c’est comme une boîte dans laquelle on range une valeur. Elle a toujours trois éléments essentiels :&#xA;👉 type nom = valeur;&#xA;Par exemple :&#xA;int var1 = 42; Ici :&#xA;🧾 int → le type de la variable (entier) 🏷️ var1 → le nom de la variable 🎁 42 → la valeur qu’elle contient 📢 Afficher une variable Tu peux afficher une variable comme tu afficherais n’importe quelle valeur :</description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <lastBuildDate>Sun, 24 Aug 2025 16:51:59 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/420-111/variables-types/variables/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Locale Instance Classe</title>
+      <link>http://localhost:1313/420-111/variables-types/variables/locale-instance-classe/index.html</link>
+      <pubDate>Sun, 24 Aug 2025 16:51:59 -0400</pubDate>
+      <guid>http://localhost:1313/420-111/variables-types/variables/locale-instance-classe/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Constantes</title>
+      <link>http://localhost:1313/420-111/variables-types/variables/constantes/index.html</link>
+      <pubDate>Sun, 24 Aug 2025 16:51:31 -0400</pubDate>
+      <guid>http://localhost:1313/420-111/variables-types/variables/constantes/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,6 +1,6 @@
 
 
-public class solution1_7 {
+public class Solution1_7 {
     public static void main(String[] args) {
         System.out.printf("""
                 Nom complet  : Julie MARTIN
