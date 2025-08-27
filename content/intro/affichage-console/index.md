@@ -202,19 +202,6 @@ Le `\` permet d’insérer des caractères spéciaux dans une chaîne.
 
 ---
 
-
----
-
-#### 🖥️ Résultat console attendu
-
-```
-Nom complet  : Julie MARTIN    
-Âge          : 28    
-Ville        : Paris    
-```
-
----
-
 ## `System.out.printf()` – Affichage formaté
 
 
@@ -245,13 +232,19 @@ System.out.printf("%-15s : %d\n", "Âge", 30);
 
 ```java
 System.out.printf("""
-    Nom complet  : %s    
-    Âge          : %s    
-    Ville        : %s    
-    """,
-    prenom.substring(0, 1).toUpperCase() + prenom.substring(1) + " " + nom.toUpperCase(),
-    age,
-    ville.substring(0, 1).toUpperCase() + ville.substring(1));
+    Nom complet  : Julie MARTIN     
+    Âge          : 28
+    Ville        : Paris
+    """
+    );
+```
+
+#### 🖥️ Résultat console
+
+```
+Nom complet  : Julie MARTIN    
+Âge          : 28    
+Ville        : Paris    
 ```
 
 ---

@@ -1,6 +1,6 @@
 +++
 date = '2025-08-24T16:51:03-04:00'
-
+weight = 1
 title = 'Variables'
 +++
 

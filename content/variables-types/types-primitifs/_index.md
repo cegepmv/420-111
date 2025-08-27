@@ -1,6 +1,6 @@
 +++
 date = '2025-08-24T16:52:12-04:00'
-
+weight = 2
 title = 'Types Primitifs'
 +++
 
