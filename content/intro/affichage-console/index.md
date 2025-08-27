@@ -234,8 +234,9 @@ System.out.printf("%-15s : %d\n", "Âge", 30);
 System.out.printf("""
     Nom complet  : Julie MARTIN     
     Âge          : 28
-    Ville        : Paris
-    """
+    Ville        : %s
+    """,
+    "Paris"
     );
 ```
 
@@ -255,8 +256,4 @@ Ville        : Paris
 | ------------------------------------- | --------------------------------------------------------- |
 | `"""` (Text block)                    | Permet un texte **multiligne** propre (Java 15+).         |
 | `%s`                                  | Placeholder pour une **valeur chaîne** (String ou objet). |
-| `prenom.substring(0,1).toUpperCase()` | Met la 1re lettre en majuscule.                           |
-| `nom.toUpperCase()`                   | Nom entièrement en majuscule.                             |
-| `ville.substring(0,1).toUpperCase()`  | Ville avec 1re lettre en majuscule.                       |
 
-> 🧠 Même si `age` est un `int`, `%s` fonctionne grâce à l’**autoboxing**.
