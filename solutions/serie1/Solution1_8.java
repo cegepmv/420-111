@@ -39,7 +39,7 @@ public class Solution1_8 {
             nbTours++;
         }
         afficherGrille(grille);
-        if (checkIfCharWon(curPlayer, grille)){
+        if (checkIfCharWon(curPlayer, grille)) {
             System.out.println("Le gagnant est  : " + curPlayer);
 
         }

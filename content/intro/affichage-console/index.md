@@ -235,9 +235,8 @@ System.out.printf("""
     Nom complet  : Julie MARTIN     
     Âge          : 28
     Ville        : %s
-    """,
-    "Paris"
-    );
+    """, "Paris"
+  );
 ```
 
 #### 🖥️ Résultat console
