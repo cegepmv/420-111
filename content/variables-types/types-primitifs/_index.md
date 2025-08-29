@@ -206,7 +206,7 @@ A
 
 1.  
     ```java
-    byte age = 12;
+    byte age = 32;
     ```
 1.  
     ```java
