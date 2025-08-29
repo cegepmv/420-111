@@ -268,12 +268,12 @@ return false;
 ```
 
 ---
-<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie1">Solutions</a>
-
 
 # Exo 9 
 
 Écris un code, sans copier-coller de nulle part, qui affiche `Hello World`. Idéalement, ne regarde pas les notes de cours.
 
 
+
+<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie1">Solutions</a>
 
