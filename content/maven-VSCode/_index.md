@@ -1,6 +1,7 @@
 +++
 date = '2025-08-28T21:15:14-04:00'
 title = 'Maven & VSCode'
+draft = 'true'
 +++
 
 Nous allons utiliser la structure de projet recommandée par [Maven](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html).

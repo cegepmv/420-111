@@ -149,8 +149,8 @@ Un `boolean` est un type logique qui représente **vrai ou faux**, souvent utili
 💬 Très utile pour représenter des états binaires : activé/désactivé, visible/caché, connecté/non connecté...
 
 ```java
-char estPret = true;
-char estFini = false;
+boolean estPret = true;
+boolean estFini = false;
 ```
 ---
 
@@ -219,7 +219,7 @@ A
     ```
 1.  
     ```java
-    float revenu = 45000.25;
+    float revenu = 45000.25f;
     ```
 1.  
     ```java
