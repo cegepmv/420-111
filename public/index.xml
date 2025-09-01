@@ -10,24 +10,24 @@
     <atom:link href="http://localhost:1313/420-111/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Intro</title>
-      <link>http://localhost:1313/420-111/intro/index.html</link>
+      <link>http://localhost:1313/420-111/intro/java/index.html</link>
       <pubDate>Thu, 21 Aug 2025 20:52:37 -0400</pubDate>
-      <guid>http://localhost:1313/420-111/intro/index.html</guid>
+      <guid>http://localhost:1313/420-111/intro/java/index.html</guid>
       <description>This is a new chapter.</description>
+    </item>
+    <item>
+      <title>VSCode</title>
+      <link>http://localhost:1313/420-111/maven-vscode/index.html</link>
+      <pubDate>Thu, 28 Aug 2025 21:15:14 -0400</pubDate>
+      <guid>http://localhost:1313/420-111/maven-vscode/index.html</guid>
+      <description>Instalation Lien d’instalation&#xA;Installation de l’extension Language Support for Java(TM) by Red Hat Ouvrez la barre latérale de gauche dans VSCode. Cliquez sur l’icône des extensions ou utilisez le raccourci clavier Ctrl + Shift + X. Recherchez Language Support for Java(TM) by Red Hat et installez l’extension. Racourci clavier utilie Je n’ai pas testé la version Mac.&#xA;🖱️ Raccourcis de base Action Windows/Linux Mac Copier Ctrl + C Cmd (⌘) + C Coller Ctrl + V Cmd (⌘) + V Annuler (Undo) Ctrl + Z Cmd (⌘) + Z 🔍 Édition avancée Action Windows/Linux Mac Sélectionner prochaine occurrence Ctrl + D Cmd (⌘) + D Ajouter plusieurs curseurs (haut/bas) Ctrl + Alt + ↑ / ↓ Option (⌥) + Cmd (⌘) + ↑ / ↓ Copier ligne vers le haut ou le bas Shift + Alt + ↑ / ↓ Shift + Option (⌥) + ↑ / ↓</description>
     </item>
     <item>
       <title>Variables &amp; Types</title>
-      <link>http://localhost:1313/420-111/variables-types/index.html</link>
+      <link>http://localhost:1313/420-111/variables-types/variables/index.html</link>
       <pubDate>Tue, 26 Aug 2025 14:39:35 -0400</pubDate>
-      <guid>http://localhost:1313/420-111/variables-types/index.html</guid>
+      <guid>http://localhost:1313/420-111/variables-types/variables/index.html</guid>
       <description></description>
-    </item>
-    <item>
-      <title>Exercices</title>
-      <link>http://localhost:1313/420-111/exercices/index.html</link>
-      <pubDate>Wed, 20 Aug 2025 19:03:21 -0400</pubDate>
-      <guid>http://localhost:1313/420-111/exercices/index.html</guid>
-      <description>This is a new chapter.</description>
     </item>
     <item>
       <title>String</title>
@@ -37,11 +37,11 @@
       <description>Les chaînes de caractères 🍥 Lien vers la classe String de l’API Java&#xA;Les Strings c’est quoi? En Java, une chaîne de caractères (ou String) est un objet qui représente une séquence de caractères. Contrairement à certains langages où les chaînes sont simplement des tableaux de caractères (char[]), en Java, elles sont des objets de la classe String.&#xA;Exemple :&#xA;String message = &#34;Bonjour !&#34;; Utilisation simple Créer une chaîne :&#xA;String nom = &#34;Alice&#34;; //Afficher une chaîne : System.out.println(nom); Connaître la longueur :</description>
     </item>
     <item>
-      <title>VSCode</title>
-      <link>http://localhost:1313/420-111/maven-vscode/index.html</link>
-      <pubDate>Thu, 28 Aug 2025 21:15:14 -0400</pubDate>
-      <guid>http://localhost:1313/420-111/maven-vscode/index.html</guid>
-      <description>Instalation Lien d’instalation&#xA;Installation de l’extension Language Support for Java(TM) by Red Hat Ouvrez la barre latérale de gauche dans VSCode. Cliquez sur l’icône des extensions ou utilisez le raccourci clavier Ctrl + Shift + X. Recherchez Language Support for Java(TM) by Red Hat et installez l’extension. Racourci clavier utilie Je n’ai pas testé la version Mac.&#xA;🖱️ Raccourcis de base Action Windows/Linux Mac Copier Ctrl + C Cmd (⌘) + C Coller Ctrl + V Cmd (⌘) + V Annuler (Undo) Ctrl + Z Cmd (⌘) + Z 🔍 Édition avancée Action Windows/Linux Mac Sélectionner prochaine occurrence Ctrl + D Cmd (⌘) + D Ajouter plusieurs curseurs (haut/bas) Ctrl + Alt + ↑ / ↓ Option (⌥) + Cmd (⌘) + ↑ / ↓ Copier ligne vers le haut ou le bas Shift + Alt + ↑ / ↓ Shift + Option (⌥) + ↑ / ↓</description>
+      <title>Exercices</title>
+      <link>http://localhost:1313/420-111/exercices/index.html</link>
+      <pubDate>Wed, 20 Aug 2025 19:02:29 -0400</pubDate>
+      <guid>http://localhost:1313/420-111/exercices/index.html</guid>
+      <description>This is a new chapter.</description>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,7 @@
 +++
 date = '2025-08-28T21:15:14-04:00'
 title = 'VSCode'
+weight = 2
 +++
 # Instalation
 
