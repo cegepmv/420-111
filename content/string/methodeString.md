@@ -1,6 +1,5 @@
 +++
 date = '2025-09-01T18:19:26-04:00'
-
 title = 'MethodeString'
 +++
 

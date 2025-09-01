@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>String :: 420111 - Notes</title>
+    <link>http://localhost:1313/420-111/string/index.html</link>
+    <description>Les chaînes de caractères 🍥 Lien vers la classe String de l’API Java&#xA;Les Strings c’est quoi? En Java, une chaîne de caractères (ou String) est un objet qui représente une séquence de caractères. Contrairement à certains langages où les chaînes sont simplement des tableaux de caractères (char[]), en Java, elles sont des objets de la classe String.&#xA;Exemple :&#xA;String message = &#34;Bonjour !&#34;; Utilisation simple Créer une chaîne :&#xA;String nom = &#34;Alice&#34;; //Afficher une chaîne : System.out.println(nom); Connaître la longueur :</description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <lastBuildDate>Mon, 01 Sep 2025 18:19:26 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/420-111/string/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MethodeString</title>
+      <link>http://localhost:1313/420-111/string/methodestring/index.html</link>
+      <pubDate>Mon, 01 Sep 2025 18:19:26 -0400</pubDate>
+      <guid>http://localhost:1313/420-111/string/methodestring/index.html</guid>
+      <description>🍥 Lien vers la classe String de l’API Java&#xA;1. Méthodes Statistiques de la classe String Les méthodes statiques de la classe String ne nécessitent pas de créer une instance de String pour les utiliser. Vous les appelez directement sur la classe elle-même. Voici quelques exemples de méthodes statiques courantes :&#xA;Exemple 1 : String.valueOf() Cette méthode statique est utilisée pour convertir des types primitifs en chaînes de caractères.&#xA;public class ExempleStringStatic { public static void main(String[] args) { int number = 123; String str = String.valueOf(number); // Convertit un int en String System.out.println(&#34;La chaîne de caractères est : &#34; + str); } } Sortie attendue :</description>
+    </item>
+  </channel>
+</rss>

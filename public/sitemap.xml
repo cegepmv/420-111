@@ -46,7 +46,19 @@
   </url>
   <url>
     <loc>http://localhost:1313/420-111/index.html</loc>
-    <lastmod>2025-08-26T14:39:35-04:00</lastmod>
+    <lastmod>2025-09-01T18:19:26-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-111/string/methodestring/index.html</loc>
+    <lastmod>2025-09-01T18:19:26-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-111/string/index.html</loc>
+    <lastmod>2025-09-01T18:18:28-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-111/maven-vscode/index.html</loc>
+    <lastmod>2025-08-28T21:15:14-04:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/420-111/variables-types/string/methodes-de-string/index.html</loc>
