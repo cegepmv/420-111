@@ -1,8 +1,45 @@
 +++
 date = '2025-08-28T21:15:14-04:00'
-title = 'Maven & VSCode'
-draft = 'true'
+title = 'VSCode'
 +++
+# Instalation
+
+[Lien d'instalation](https://code.visualstudio.com/Download)
+
+
+### Installation de l'extension **Language Support for Java(TM) by Red Hat**
+
+1. Ouvrez la barre latérale de gauche dans VSCode.
+2. Cliquez sur l'icône des extensions ![alt text](extensions.png) ou utilisez le raccourci clavier `Ctrl + Shift + X`.
+3. Recherchez **Language Support for Java(TM) by Red Hat** et installez l’extension.
+
+
+# Racourci clavier utilie
+
+Je n'ai pas testé la version Mac.
+
+### 🖱️ **Raccourcis de base**
+
+| Action         | Windows/Linux | Mac             |
+| -------------- | ------------- | --------------- |
+| Copier         | **Ctrl + C**  | **Cmd (⌘) + C** |
+| Coller         | **Ctrl + V**  | **Cmd (⌘) + V** |
+| Annuler (Undo) | **Ctrl + Z**  | **Cmd (⌘) + Z** |
+
+---
+
+### 🔍 **Édition avancée**
+
+| Action                                | Windows/Linux           | Mac                              |
+| ------------------------------------- | ----------------------- | -------------------------------- |
+| Sélectionner prochaine occurrence     | **Ctrl + D**            | **Cmd (⌘) + D**                  |
+| Ajouter plusieurs curseurs (haut/bas) | **Ctrl + Alt + ↑ / ↓**  | **Option (⌥) + Cmd (⌘) + ↑ / ↓** |
+| Copier ligne vers le haut ou le bas   | **Shift + Alt + ↑ / ↓** | **Shift + Option (⌥) + ↑ / ↓**   |
+
+---
+
+<!-- 
+# Maven 
 
 Nous allons utiliser la structure de projet recommandée par [Maven](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html).
 
@@ -58,3 +95,5 @@ Une fois un fichier `.java` ouvert (contenant une méthode `main`), vous pouvez 
 
 
 Créez un fichier HelloWorld.java dans le dossier src/main/java/
+
+-->
