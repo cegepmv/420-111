@@ -1,6 +1,6 @@
 baseURL = 'https://cegepmv.github.io/420-111/'
 languageCode = 'fr-ca'
-title = '420111 - Notes'
+title = 'Introduction à la programmation'
 theme = 'relearn'
 enableEmoji = true
 

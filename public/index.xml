@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introduction à la programmation informatique (420-111-MV) :: 420111 - Notes</title>
+    <title>Introduction à la programmation</title>
     <link>http://localhost:1313/420-111/index.html</link>
     <description>Plans de cours 📋 Maxime Fournier : Plan de cours&#xA;Horaire et disponibilités des enseignants ✔️ Maxime Fournier : Lien vers mon horaire et mes disponibilités&#xA;Maxime Fournier Nom de l’évaluation Pondération Date de l’évaluation Laboratoire 1 10 % Semaine 5 Laboratoire 2 10 % Semaine 11 Laboratoire 3 15 % Semaine 14 5 Quiz 3 meilleures notes 15 % Semaine 2 à 13 Examen 1 20 % Semaine 8 Examen Final 30 % ESO</description>
     <generator>Hugo</generator>
@@ -20,7 +20,7 @@
       <link>http://localhost:1313/420-111/maven-vscode/index.html</link>
       <pubDate>Thu, 28 Aug 2025 21:15:14 -0400</pubDate>
       <guid>http://localhost:1313/420-111/maven-vscode/index.html</guid>
-      <description>Instalation Lien d’instalation&#xA;Installation de l’extension Language Support for Java(TM) by Red Hat Ouvrez la barre latérale de gauche dans VSCode. Cliquez sur l’icône des extensions ou utilisez le raccourci clavier Ctrl + Shift + X. Recherchez Language Support for Java(TM) by Red Hat et installez l’extension. Racourci clavier utilie Je n’ai pas testé la version Mac.&#xA;🖱️ Raccourcis de base Action Windows/Linux Mac Copier Ctrl + C Cmd (⌘) + C Coller Ctrl + V Cmd (⌘) + V Annuler (Undo) Ctrl + Z Cmd (⌘) + Z 🔍 Édition avancée Action Windows/Linux Mac Sélectionner prochaine occurrence Ctrl + D Cmd (⌘) + D Ajouter plusieurs curseurs (haut/bas) Ctrl + Alt + ↑ / ↓ Option (⌥) + Cmd (⌘) + ↑ / ↓ Copier ligne vers le haut ou le bas Shift + Alt + ↑ / ↓ Shift + Option (⌥) + ↑ / ↓</description>
+      <description>Installation Lien d’instalation&#xA;Installation des extensions** Ouvrez la barre latérale de gauche dans VSCode. Cliquez sur l’icône des extensions ou utilisez le raccourci clavier Ctrl + Shift + X. Recherchez Language Support for Java(TM) by Red Hat et installez l’extension. Recherchez Debugger for Java et installez l’extension. Racourci clavier utilie Je n’ai pas testé la version Mac.&#xA;🖱️ Raccourcis de base Action Windows/Linux Mac Copier Ctrl + C Cmd (⌘) + C Coller Ctrl + V Cmd (⌘) + V Annuler (Undo) Ctrl + Z Cmd (⌘) + Z 🔍 Édition avancée Action Windows/Linux Mac Sélectionner prochaine occurrence Ctrl + D Cmd (⌘) + D Ajouter plusieurs curseurs (haut/bas) Ctrl + Alt + ↑ / ↓ Option (⌥) + Cmd (⌘) + ↑ / ↓ Copier ligne vers le haut ou le bas Shift + Alt + ↑ / ↓ Shift + Option (⌥) + ↑ / ↓ Commenter rapidement des lignes ctrl + é Surligner un String dont on oublié les &#34;, faites le &#34;et il s’ajoutera des deux côtés.</description>
     </item>
     <item>
       <title>Variables &amp; Types</title>

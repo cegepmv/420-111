@@ -3,17 +3,17 @@ date = '2025-08-28T21:15:14-04:00'
 title = 'VSCode'
 weight = 2
 +++
-# Instalation
+# Installation
 
 [Lien d'instalation](https://code.visualstudio.com/Download)
 
 
-### Installation de l'extension **Language Support for Java(TM) by Red Hat**
+### Installation des extensions**
 
 1. Ouvrez la barre latérale de gauche dans VSCode.
 2. Cliquez sur l'icône des extensions ![alt text](extensions.png) ou utilisez le raccourci clavier `Ctrl + Shift + X`.
 3. Recherchez **Language Support for Java(TM) by Red Hat** et installez l’extension.
-
+4. Recherchez **Debugger for Java** et installez l’extension.
 
 # Racourci clavier utilie
 
@@ -36,6 +36,11 @@ Je n'ai pas testé la version Mac.
 | Sélectionner prochaine occurrence     | **Ctrl + D**            | **Cmd (⌘) + D**                  |
 | Ajouter plusieurs curseurs (haut/bas) | **Ctrl + Alt + ↑ / ↓**  | **Option (⌥) + Cmd (⌘) + ↑ / ↓** |
 | Copier ligne vers le haut ou le bas   | **Shift + Alt + ↑ / ↓** | **Shift + Option (⌥) + ↑ / ↓**   |
+| Commenter rapidement des lignes       | **ctrl + é**            |                                  |
+
+
+1. Surligner un String dont on oublié les `"`, faites le `"`et il s'ajoutera des deux côtés.
+
 
 ---
 

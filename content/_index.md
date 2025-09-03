@@ -1,5 +1,5 @@
 +++
-title = "Introduction à la programmation informatique (420-111-MV)"
+title = "Introduction à la programmation"
 type = "home"
 +++
 
