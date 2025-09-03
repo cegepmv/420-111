@@ -1,8 +1,7 @@
 +++
-title = "Operateurs"
+title = "Opérateurs"
 type = "chapter"
 weight = 3
-draft = true
+url = "./operateurs/arithmetique/"
 +++
 
-This is a new chapter.

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/420-111/operateurs/arithmetique/index.html</loc>
+    <lastmod>2025-09-03T14:50:02-04:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/420-111/variables-types/variables/constantes/index.html</loc>
     <lastmod>2025-08-26T14:39:35-04:00</lastmod>
   </url>
@@ -19,6 +23,14 @@
   <url>
     <loc>http://localhost:1313/420-111/exercices/serie1/index.html</loc>
     <lastmod>2025-08-20T19:02:22-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-111/operateurs/arithmetique/modulo/index.html</loc>
+    <lastmod>2025-09-03T15:01:45-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-111/operateurs/comparaison/index.html</loc>
+    <lastmod>2025-09-03T14:55:47-04:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/420-111/maven-vscode/index.html</loc>
@@ -45,16 +57,60 @@
     <lastmod>2025-08-20T19:02:29-04:00</lastmod>
   </url>
   <url>
+    <loc>http://localhost:1313/420-111/operateurs/arithmetique/index.html</loc>
+    <lastmod>2025-09-03T15:03:33-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-111/operateurs/logique/index.html</loc>
+    <lastmod>2025-09-03T14:55:41-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-111/exercices/serie3/index.html</loc>
+    <lastmod>2025-08-20T19:02:35-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-111/operateurs/ordre-priorite/index.html</loc>
+    <lastmod>2025-09-03T15:03:33-04:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/420-111/string/index.html</loc>
     <lastmod>2025-09-01T18:18:28-04:00</lastmod>
   </url>
   <url>
+    <loc>http://localhost:1313/420-111/exercices/serie04/index.html</loc>
+    <lastmod>2025-08-20T19:02:39-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-111/exercices/serie06/index.html</loc>
+    <lastmod>2025-08-20T19:02:46-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-111/exercices/serie07/index.html</loc>
+    <lastmod>2025-08-20T19:02:49-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-111/exercices/serie09/index.html</loc>
+    <lastmod>2025-08-20T19:02:55-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-111/exercices/serie010/index.html</loc>
+    <lastmod>2025-08-20T19:03:03-04:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/420-111/exercices/index.html</loc>
-    <lastmod>2025-08-20T19:02:29-04:00</lastmod>
+    <lastmod>2025-08-20T19:03:21-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-111/exercices/serie012/index.html</loc>
+    <lastmod>2025-08-20T19:03:11-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-111/exercices/serie013/index.html</loc>
+    <lastmod>2025-08-20T19:03:15-04:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/420-111/index.html</loc>
-    <lastmod>2025-09-01T18:19:26-04:00</lastmod>
+    <lastmod>2025-09-03T15:03:33-04:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/420-111/string/methodestring/index.html</loc>
