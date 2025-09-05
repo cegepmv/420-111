@@ -502,3 +502,5 @@ Affiche une version "masquée" :
 ```text
 a***************@example.com
 ```
+
+<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie9">Solutions</a>

@@ -195,3 +195,4 @@ Ville : Lyon
 
 ---
 
+<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie2">Solutions</a>
