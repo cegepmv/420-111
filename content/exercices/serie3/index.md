@@ -87,7 +87,7 @@ Crée les variables suivantes :
 
 ```java
 Léa
-23;
+23
 ```
 
 Utilise `String.format()` ou `System.out.printf()` pour générer cette phrase (sans utiliser `+`) :
@@ -118,7 +118,7 @@ Le produit Disque dur coûte 130.00$
 
 ---
 
-### 🧪 **Exercice 7 **
+### 🧪 **Exercice 7**
 
 Déclare :
 

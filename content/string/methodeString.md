@@ -144,7 +144,7 @@ public class ExempleStringNonStatic {
 
 **Sortie attendue** :
 ```
-Sous-chaîne : nvenu
+Sous-chaîne : nven
 ```
 
 #### Exemple 4 : `toLowerCase()` et `toUpperCase()`
