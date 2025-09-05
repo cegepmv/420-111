@@ -105,7 +105,7 @@ Déclare :
 
 ```
 Disque dur
-129.995678;
+129.995678
 ```
 
 Utilise `String.format()` pour afficher :
@@ -154,7 +154,7 @@ Ville       : Paris
 ```java
 String prenom = "Harry";
 String nom = "Morin";
-String anneeNaissance = 1995;
+String anneeNaissance = "1995";
 ```
 
 Génère un identifiant unique sous cette forme :
