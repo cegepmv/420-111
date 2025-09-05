@@ -6,7 +6,7 @@ weight = 3
 
 ---
 
-### 🧪 **Exercice 1 `**
+### 🧪 **Exercice 1**
 
 Déclare une chaîne de caractères :
 
@@ -25,7 +25,7 @@ Programmation Java.
 
 ---
 
-### 🧪 **Exercice 2 
+### 🧪 **Exercice 2**
 
 À partir de :
 
@@ -47,7 +47,7 @@ i
 
 ---
 
-### 🧪 **Exercice 3
+### 🧪 **Exercice 3**
 
 Déclare :
 
@@ -68,7 +68,7 @@ Bienv
 
 ---
 
-### 🧪 **Exercice 4 **
+### 🧪 **Exercice 4**
 
 Déclare :
 

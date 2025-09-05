@@ -1,7 +1,7 @@
 +++
 title = "Opérateurs"
 type = "chapter"
-weight = 3
+weight = 4
 url = "./operateurs/arithmetique/"
 +++
 

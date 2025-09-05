@@ -1,6 +1,6 @@
 +++
 date = '2025-09-01T18:19:26-04:00'
-title = 'MethodeString'
+title = 'Méthodes de String'
 +++
 
 
@@ -11,25 +11,8 @@ title = 'MethodeString'
 
 Les méthodes **statiques** de la classe `String` ne nécessitent pas de créer une instance de `String` pour les utiliser. Vous les appelez directement sur la classe elle-même. Voici quelques exemples de méthodes statiques courantes :
 
-#### Exemple 1 : `String.valueOf()`
-Cette méthode statique est utilisée pour convertir des types primitifs en chaînes de caractères.
 
-```java
-public class ExempleStringStatic {
-    public static void main(String[] args) {
-        int number = 123;
-        String str = String.valueOf(number);  // Convertit un int en String
-        System.out.println("La chaîne de caractères est : " + str);
-    }
-}
-```
-
-**Sortie attendue** :
-```
-La chaîne de caractères est : 123
-```
-
-#### Exemple 2 : `String.format()`
+#### Exemple 1 : `String.format()`
 Cette méthode statique permet de formater une chaîne de caractères en utilisant des espaces réservés (placeholders).
 
 ```java
@@ -47,6 +30,26 @@ public class ExempleStringStatic {
 ```
 Nom : Alice, Âge : 30
 ```
+
+<!-- 
+
+#### Exemple 2 : `String.valueOf()`
+Cette méthode statique est utilisée pour convertir des types primitifs en chaînes de caractères.
+
+```java
+public class ExempleStringStatic {
+    public static void main(String[] args) {
+        int number = 123;
+        String str = String.valueOf(number);  // Convertit un int en String
+        System.out.println("La chaîne de caractères est : " + str);
+    }
+}
+```
+
+**Sortie attendue** :
+```
+La chaîne de caractères est : 123
+``` 
 
 #### Exemple 3 : `String.join()`
 Cette méthode statique est utilisée pour joindre plusieurs éléments de type `String` avec un délimiteur.
@@ -83,7 +86,7 @@ public class ExempleStringStatic {
 ```
 Hello
 ```
-
+-->
 ---
 
 ### 2. **Méthodes Non Statiques de la classe `String`**
@@ -141,7 +144,7 @@ public class ExempleStringNonStatic {
 
 **Sortie attendue** :
 ```
-Sous-chaîne : vens
+Sous-chaîne : nvenu
 ```
 
 #### Exemple 4 : `toLowerCase()` et `toUpperCase()`
@@ -184,7 +187,7 @@ La chaîne contient 'génial' ? true
 ```
 
 ---
-
+<!-- 
 ### Méthode `concat()` :
 
 ```java
@@ -193,7 +196,7 @@ String b = "World";
 String c = a.concat(" ").concat(b);
 System.out.println(c); // Hello World
 ```
-
+ -->
 
 
 ### Résumé des différences entre les méthodes statiques et non-statiques :
@@ -207,7 +210,7 @@ System.out.println(c); // Hello World
   - Exemples : `length()`, `charAt()`, `substring()`, `toLowerCase()`.
 
 ---
-
+<!-- 
 ### 💡 **Exercice – Statique ou non ? Manipule les chaînes !**
 
 #### 🎯 Objectif :
@@ -266,4 +269,4 @@ La valeur PI convertie en chaîne est : 3.14
 ```
 
 ---
-
+ -->
