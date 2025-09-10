@@ -3,7 +3,7 @@
   <channel>
     <title>Introduction à la programmation</title>
     <link>http://localhost:1313/420-111/index.html</link>
-    <description>Plans de cours 📋 Maxime Fournier : Plan de cours&#xA;Horaire et disponibilités des enseignants ✔️ Maxime Fournier : Lien vers mon horaire et mes disponibilités&#xA;Maxime Fournier Nom de l’évaluation Pondération Date de l’évaluation Laboratoire 1 10 % Semaine 5 Laboratoire 2 10 % Semaine 11 Laboratoire 3 15 % Semaine 14 5 Quiz 3 meilleures notes 15 % Semaine 2 à 13 Examen 1 20 % Semaine 8 Examen Final 30 % ESO</description>
+    <description>Plans de cours 📋 Maxime Fournier : Plan de cours&#xA;📋 Samuel Fostiné : Plan de cours&#xA;Horaire et disponibilités des enseignants ✔️ Maxime Fournier : Lien vers mon horaire et mes disponibilités&#xA;✔️ Samuel Fostiné : Lien vers mon horaire et mes disponibilités&#xA;Maxime Fournier Nom de l’évaluation Pondération Date de l’évaluation Laboratoire 1 10 % Semaine 5 Laboratoire 2 10 % Semaine 11 Laboratoire 3 15 % Semaine 14 5 Quiz 3 meilleures notes 15 % Semaine 2 à 13 Examen 1 20 % Semaine 8 Examen Final 30 % ESO Samuel Fostiné Nom de l’évaluation Pondération Date de l’évaluation Devoir Scratch 5% Semaine 3 Laboratoire 1 10 % Semaine 6 Laboratoire 2 10 % Semaine 11 Laboratoire 3 15 % Semaine 14 Quiz (entre 12 quiz) 10 meilleures notes 10 % Semaine 3 à 14 Examen 1 20 % Semaine 9 Examen Final 30 % ESO</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
     <lastBuildDate>Wed, 03 Sep 2025 15:03:33 -0400</lastBuildDate>
@@ -34,7 +34,7 @@
       <link>http://localhost:1313/420-111/string/index.html</link>
       <pubDate>Mon, 01 Sep 2025 18:18:28 -0400</pubDate>
       <guid>http://localhost:1313/420-111/string/index.html</guid>
-      <description>Les chaînes de caractères 🍥 Lien vers la classe String de l’API Java&#xA;Les Strings c’est quoi? En Java, une chaîne de caractères (ou String) est un objet qui représente une séquence de caractères. Contrairement à certains langages où les chaînes sont simplement des tableaux de caractères (char[]), en Java, elles sont des objets de la classe String.&#xA;Exemple :&#xA;String message = &#34;Bonjour !&#34;; Utilisation simple Créer une chaîne :&#xA;String nom = &#34;Alice&#34;; //Afficher une chaîne : System.out.println(nom); Connaître la longueur :</description>
+      <description>Les chaînes de caractères 🍥 Lien vers la classe String de l’API Java&#xA;Les Strings c’est quoi? En Java, une chaîne de caractères (ou String) est un objet qui représente une séquence de caractères. Contrairement à certains langages où les chaînes sont simplement des tableaux de caractères (char[]), en Java, elles sont des objets de la classe String.&#xA;Exemple :&#xA;String message = &#34;Bonjour !&#34;;&#xD;Utilisation simple Créer une chaîne :&#xA;String nom = &#34;Alice&#34;; //Afficher une chaîne : System.out.println(nom);&#xD;Connaître la longueur :</description>
     </item>
     <item>
       <title>Opérateurs</title>
