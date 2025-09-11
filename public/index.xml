@@ -34,7 +34,7 @@
       <link>http://localhost:1313/420-111/string/index.html</link>
       <pubDate>Mon, 01 Sep 2025 18:18:28 -0400</pubDate>
       <guid>http://localhost:1313/420-111/string/index.html</guid>
-      <description>Les chaînes de caractères 🍥 Lien vers la classe String de l’API Java&#xA;Les Strings c’est quoi? En Java, une chaîne de caractères (ou String) est un objet qui représente une séquence de caractères. Contrairement à certains langages où les chaînes sont simplement des tableaux de caractères (char[]), en Java, elles sont des objets de la classe String.&#xA;Exemple :&#xA;String message = &#34;Bonjour !&#34;;&#xD;Utilisation simple Créer une chaîne :&#xA;String nom = &#34;Alice&#34;; //Afficher une chaîne : System.out.println(nom);&#xD;Connaître la longueur :</description>
+      <description>Les chaînes de caractères 🍥 Lien vers la classe String de l’API Java&#xA;Les Strings c’est quoi? En Java, une chaîne de caractères (ou String) est un objet qui représente une séquence de caractères. Contrairement à certains langages où les chaînes sont simplement des tableaux de caractères (char[]), en Java, elles sont des objets de la classe String.&#xA;Exemple :&#xA;String message = &#34;Bonjour !&#34;; Utilisation simple Créer une chaîne :&#xA;String nom = &#34;Alice&#34;; //Afficher une chaîne : System.out.println(nom); Connaître la longueur :</description>
     </item>
     <item>
       <title>Opérateurs</title>
