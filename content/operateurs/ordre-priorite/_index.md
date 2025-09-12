@@ -19,7 +19,7 @@ En Java, comme en mathématiques, certaines opérations sont effectuées **avant
 ╔════════════════════════════════════╗
 ║ ()                                 ║ ➤ Parenthèses : forcent la priorité
 ╠════════════════════════════════════╣
-║ ++  --  !  +  -                    ║ ➤ Incrément, décrément, NON logique, plus/moins 
+║ ++  --  !                          ║ ➤ Incrément, décrément, NON logique
 ╠════════════════════════════════════╣
 ║ *   /   %                          ║ ➤ Multiplication, division, modulo
 ╠════════════════════════════════════╣
@@ -31,7 +31,7 @@ En Java, comme en mathématiques, certaines opérations sont effectuées **avant
 ╠════════════════════════════════════╣
 ║ &&                                 ║ ➤ ET logique (et court-circuité)
 ╠════════════════════════════════════╣
-║ \|\|                               ║ ➤ OU logique (et court-circuité)
+║ ||                                 ║ ➤ OU logique (et court-circuité)
 ╠════════════════════════════════════╣
 ║ =  +=  -=  *=  /=  %=              ║ ➤ Affectations simples et composées
 ╚════════════════════════════════════╝

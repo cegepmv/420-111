@@ -66,10 +66,10 @@ if (age >= 18 && citoyen) {
 ```
 
 ```java
-boolean pluie = true;
-boolean parapluie = false;
+boolean ilPleut = true;
+boolean aParapluie = false;
 
-if (pluie && !parapluie) {
+if (ilPleut && !aParapluie) {
     System.out.println("Tu vas être mouillé !");
 }
 ```
@@ -215,21 +215,12 @@ boolean estBanni = false;
 Écris un programme qui affiche true si tu es mouillé:
 
 ```java
-boolean pluie = true;
-boolean parapluie = false;
+boolean ilPleut = true;
+boolean aParapluie = false;
 
 // Complète ici
 ```
 
 ---
 
-## 🔴 **Exercice 5 – Validation d’une note**
 
-Affiche "true" **seulement si** la note est **entre 0 et 100 inclus**. Sinon, affiche "false".
-
-```java
-int note = 105;
-
-// Complète ici
-```
----
