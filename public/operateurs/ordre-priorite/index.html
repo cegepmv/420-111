@@ -6,48 +6,48 @@
     <meta name="generator" content="Hugo 0.148.2">
     <meta name="generator" content="Relearn 8.0.0+9803d5122ebb3276acea823f476e9eb44f607862">
     <meta name="description" content="En Java, comme en mathématiques, certaines opérations sont effectuées avant d’autres. C’est ce qu’on appelle la priorité des opérateurs.
-🪜 Diagramme de priorité (du plus fort au plus faible) ╔════════════════════════════════════╗ ║ () ║ ➤ Parenthèses : forcent la priorité ╠════════════════════════════════════╣ ║ &#43;&#43; -- ! &#43; - ║ ➤ Incrément, décrément, NON logique, plus/moins ╠════════════════════════════════════╣ ║ * / % ║ ➤ Multiplication, division, modulo ╠════════════════════════════════════╣ ║ &#43; - ║ ➤ Addition, soustraction ╠════════════════════════════════════╣ ║ &lt; &lt;= &gt; &gt;= ║ ➤ Comparaisons ╠════════════════════════════════════╣ ║ == != ║ ➤ Égalité / inégalité ╠════════════════════════════════════╣ ║ &amp;&amp; ║ ➤ ET logique (et court-circuité) ╠════════════════════════════════════╣ ║ \|\| ║ ➤ OU logique (et court-circuité) ╠════════════════════════════════════╣ ║ = &#43;= -= *= /= %= ║ ➤ Affectations simples et composées ╚════════════════════════════════════╝ 🎓 Exemple d’analyse : sans parenthèses boolean resultat = 4 &#43; 2 * 3 &gt; 10 || !false; 🔍 Étapes d’évaluation :">
+🪜 Diagramme de priorité (du plus fort au plus faible) ╔════════════════════════════════════╗ ║ () ║ ➤ Parenthèses : forcent la priorité ╠════════════════════════════════════╣ ║ &#43;&#43; -- ! ║ ➤ Incrément, décrément, NON logique ╠════════════════════════════════════╣ ║ * / % ║ ➤ Multiplication, division, modulo ╠════════════════════════════════════╣ ║ &#43; - ║ ➤ Addition, soustraction ╠════════════════════════════════════╣ ║ &lt; &lt;= &gt; &gt;= ║ ➤ Comparaisons ╠════════════════════════════════════╣ ║ == != ║ ➤ Égalité / inégalité ╠════════════════════════════════════╣ ║ &amp;&amp; ║ ➤ ET logique (et court-circuité) ╠════════════════════════════════════╣ ║ || ║ ➤ OU logique (et court-circuité) ╠════════════════════════════════════╣ ║ = &#43;= -= *= /= %= ║ ➤ Affectations simples et composées ╚════════════════════════════════════╝ 🎓 Exemple d’analyse : sans parenthèses boolean resultat = 4 &#43; 2 * 3 &gt; 10 || !false; 🔍 Étapes d’évaluation :">
     <meta name="author" content="">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="🧭 Ordre de priorité des opérations en Java :: Introduction à la programmation">
     <meta name="twitter:description" content="En Java, comme en mathématiques, certaines opérations sont effectuées avant d’autres. C’est ce qu’on appelle la priorité des opérateurs.
-🪜 Diagramme de priorité (du plus fort au plus faible) ╔════════════════════════════════════╗ ║ () ║ ➤ Parenthèses : forcent la priorité ╠════════════════════════════════════╣ ║ &#43;&#43; -- ! &#43; - ║ ➤ Incrément, décrément, NON logique, plus/moins ╠════════════════════════════════════╣ ║ * / % ║ ➤ Multiplication, division, modulo ╠════════════════════════════════════╣ ║ &#43; - ║ ➤ Addition, soustraction ╠════════════════════════════════════╣ ║ &lt; &lt;= &gt; &gt;= ║ ➤ Comparaisons ╠════════════════════════════════════╣ ║ == != ║ ➤ Égalité / inégalité ╠════════════════════════════════════╣ ║ &amp;&amp; ║ ➤ ET logique (et court-circuité) ╠════════════════════════════════════╣ ║ \|\| ║ ➤ OU logique (et court-circuité) ╠════════════════════════════════════╣ ║ = &#43;= -= *= /= %= ║ ➤ Affectations simples et composées ╚════════════════════════════════════╝ 🎓 Exemple d’analyse : sans parenthèses boolean resultat = 4 &#43; 2 * 3 &gt; 10 || !false; 🔍 Étapes d’évaluation :">
+🪜 Diagramme de priorité (du plus fort au plus faible) ╔════════════════════════════════════╗ ║ () ║ ➤ Parenthèses : forcent la priorité ╠════════════════════════════════════╣ ║ &#43;&#43; -- ! ║ ➤ Incrément, décrément, NON logique ╠════════════════════════════════════╣ ║ * / % ║ ➤ Multiplication, division, modulo ╠════════════════════════════════════╣ ║ &#43; - ║ ➤ Addition, soustraction ╠════════════════════════════════════╣ ║ &lt; &lt;= &gt; &gt;= ║ ➤ Comparaisons ╠════════════════════════════════════╣ ║ == != ║ ➤ Égalité / inégalité ╠════════════════════════════════════╣ ║ &amp;&amp; ║ ➤ ET logique (et court-circuité) ╠════════════════════════════════════╣ ║ || ║ ➤ OU logique (et court-circuité) ╠════════════════════════════════════╣ ║ = &#43;= -= *= /= %= ║ ➤ Affectations simples et composées ╚════════════════════════════════════╝ 🎓 Exemple d’analyse : sans parenthèses boolean resultat = 4 &#43; 2 * 3 &gt; 10 || !false; 🔍 Étapes d’évaluation :">
     <meta property="og:url" content="http://localhost:1313/420-111/operateurs/ordre-priorite/index.html">
     <meta property="og:site_name" content="Introduction à la programmation">
     <meta property="og:title" content="🧭 Ordre de priorité des opérations en Java :: Introduction à la programmation">
     <meta property="og:description" content="En Java, comme en mathématiques, certaines opérations sont effectuées avant d’autres. C’est ce qu’on appelle la priorité des opérateurs.
-🪜 Diagramme de priorité (du plus fort au plus faible) ╔════════════════════════════════════╗ ║ () ║ ➤ Parenthèses : forcent la priorité ╠════════════════════════════════════╣ ║ &#43;&#43; -- ! &#43; - ║ ➤ Incrément, décrément, NON logique, plus/moins ╠════════════════════════════════════╣ ║ * / % ║ ➤ Multiplication, division, modulo ╠════════════════════════════════════╣ ║ &#43; - ║ ➤ Addition, soustraction ╠════════════════════════════════════╣ ║ &lt; &lt;= &gt; &gt;= ║ ➤ Comparaisons ╠════════════════════════════════════╣ ║ == != ║ ➤ Égalité / inégalité ╠════════════════════════════════════╣ ║ &amp;&amp; ║ ➤ ET logique (et court-circuité) ╠════════════════════════════════════╣ ║ \|\| ║ ➤ OU logique (et court-circuité) ╠════════════════════════════════════╣ ║ = &#43;= -= *= /= %= ║ ➤ Affectations simples et composées ╚════════════════════════════════════╝ 🎓 Exemple d’analyse : sans parenthèses boolean resultat = 4 &#43; 2 * 3 &gt; 10 || !false; 🔍 Étapes d’évaluation :">
+🪜 Diagramme de priorité (du plus fort au plus faible) ╔════════════════════════════════════╗ ║ () ║ ➤ Parenthèses : forcent la priorité ╠════════════════════════════════════╣ ║ &#43;&#43; -- ! ║ ➤ Incrément, décrément, NON logique ╠════════════════════════════════════╣ ║ * / % ║ ➤ Multiplication, division, modulo ╠════════════════════════════════════╣ ║ &#43; - ║ ➤ Addition, soustraction ╠════════════════════════════════════╣ ║ &lt; &lt;= &gt; &gt;= ║ ➤ Comparaisons ╠════════════════════════════════════╣ ║ == != ║ ➤ Égalité / inégalité ╠════════════════════════════════════╣ ║ &amp;&amp; ║ ➤ ET logique (et court-circuité) ╠════════════════════════════════════╣ ║ || ║ ➤ OU logique (et court-circuité) ╠════════════════════════════════════╣ ║ = &#43;= -= *= /= %= ║ ➤ Affectations simples et composées ╚════════════════════════════════════╝ 🎓 Exemple d’analyse : sans parenthèses boolean resultat = 4 &#43; 2 * 3 &gt; 10 || !false; 🔍 Étapes d’évaluation :">
     <meta property="og:locale" content="fr_ca">
     <meta property="og:type" content="website">
     <meta itemprop="name" content="🧭 Ordre de priorité des opérations en Java :: Introduction à la programmation">
     <meta itemprop="description" content="En Java, comme en mathématiques, certaines opérations sont effectuées avant d’autres. C’est ce qu’on appelle la priorité des opérateurs.
-🪜 Diagramme de priorité (du plus fort au plus faible) ╔════════════════════════════════════╗ ║ () ║ ➤ Parenthèses : forcent la priorité ╠════════════════════════════════════╣ ║ &#43;&#43; -- ! &#43; - ║ ➤ Incrément, décrément, NON logique, plus/moins ╠════════════════════════════════════╣ ║ * / % ║ ➤ Multiplication, division, modulo ╠════════════════════════════════════╣ ║ &#43; - ║ ➤ Addition, soustraction ╠════════════════════════════════════╣ ║ &lt; &lt;= &gt; &gt;= ║ ➤ Comparaisons ╠════════════════════════════════════╣ ║ == != ║ ➤ Égalité / inégalité ╠════════════════════════════════════╣ ║ &amp;&amp; ║ ➤ ET logique (et court-circuité) ╠════════════════════════════════════╣ ║ \|\| ║ ➤ OU logique (et court-circuité) ╠════════════════════════════════════╣ ║ = &#43;= -= *= /= %= ║ ➤ Affectations simples et composées ╚════════════════════════════════════╝ 🎓 Exemple d’analyse : sans parenthèses boolean resultat = 4 &#43; 2 * 3 &gt; 10 || !false; 🔍 Étapes d’évaluation :">
+🪜 Diagramme de priorité (du plus fort au plus faible) ╔════════════════════════════════════╗ ║ () ║ ➤ Parenthèses : forcent la priorité ╠════════════════════════════════════╣ ║ &#43;&#43; -- ! ║ ➤ Incrément, décrément, NON logique ╠════════════════════════════════════╣ ║ * / % ║ ➤ Multiplication, division, modulo ╠════════════════════════════════════╣ ║ &#43; - ║ ➤ Addition, soustraction ╠════════════════════════════════════╣ ║ &lt; &lt;= &gt; &gt;= ║ ➤ Comparaisons ╠════════════════════════════════════╣ ║ == != ║ ➤ Égalité / inégalité ╠════════════════════════════════════╣ ║ &amp;&amp; ║ ➤ ET logique (et court-circuité) ╠════════════════════════════════════╣ ║ || ║ ➤ OU logique (et court-circuité) ╠════════════════════════════════════╣ ║ = &#43;= -= *= /= %= ║ ➤ Affectations simples et composées ╚════════════════════════════════════╝ 🎓 Exemple d’analyse : sans parenthèses boolean resultat = 4 &#43; 2 * 3 &gt; 10 || !false; 🔍 Étapes d’évaluation :">
     <meta itemprop="datePublished" content="2025-09-03T15:03:33-04:00">
     <meta itemprop="dateModified" content="2025-09-03T15:03:33-04:00">
-    <meta itemprop="wordCount" content="674">
+    <meta itemprop="wordCount" content="671">
     <title>🧭 Ordre de priorité des opérations en Java :: Introduction à la programmation</title>
     <link href="/420-111/operateurs/ordre-priorite/index.xml" rel="alternate" type="application/rss+xml" title="🧭 Ordre de priorité des opérations en Java :: Introduction à la programmation">
-    <link href="/420-111/images/favicon.png?1757612591" rel="icon" type="image/png">
-    <link href="/420-111/css/auto-complete/auto-complete.min.css?1757612591" rel="stylesheet">
-    <script src="/420-111/js/auto-complete/auto-complete.min.js?1757612591" defer></script>
-    <script src="/420-111/js/search-lunr.js?1757612591" defer></script>
-    <script src="/420-111/js/search.js?1757612591" defer></script>
+    <link href="/420-111/images/favicon.png?1757938318" rel="icon" type="image/png">
+    <link href="/420-111/css/auto-complete/auto-complete.min.css?1757938318" rel="stylesheet">
+    <script src="/420-111/js/auto-complete/auto-complete.min.js?1757938318" defer></script>
+    <script src="/420-111/js/search-lunr.js?1757938318" defer></script>
+    <script src="/420-111/js/search.js?1757938318" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/420-111/searchindex.en.js?1757612591";
+      window.relearn.index_js_url="/420-111/searchindex.en.js?1757938318";
     </script>
-    <script src="/420-111/js/lunr/lunr.min.js?1757612591" defer></script>
-    <script src="/420-111/js/lunr/lunr.stemmer.support.min.js?1757612591" defer></script>
-    <script src="/420-111/js/lunr/lunr.multi.min.js?1757612591" defer></script>
-    <script src="/420-111/js/lunr/lunr.fr.min.js?1757612591" defer></script>
+    <script src="/420-111/js/lunr/lunr.min.js?1757938318" defer></script>
+    <script src="/420-111/js/lunr/lunr.stemmer.support.min.js?1757938318" defer></script>
+    <script src="/420-111/js/lunr/lunr.multi.min.js?1757938318" defer></script>
+    <script src="/420-111/js/lunr/lunr.fr.min.js?1757938318" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['fr'];
     </script>
-    <link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1757612591" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1757612591" rel="stylesheet"></noscript>
-    <link href="/420-111/css/perfect-scrollbar/perfect-scrollbar.min.css?1757612591" rel="stylesheet">
-    <link href="/420-111/css/theme.css?1757612591" rel="stylesheet">
-    <link href="/420-111/css/format-html.css?1757612591" rel="stylesheet" id="R-format-style">
+    <link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1757938318" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1757938318" rel="stylesheet"></noscript>
+    <link href="/420-111/css/perfect-scrollbar/perfect-scrollbar.min.css?1757938318" rel="stylesheet">
+    <link href="/420-111/css/theme.css?1757938318" rel="stylesheet">
+    <link href="/420-111/css/format-html.css?1757938318" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -153,7 +153,7 @@
           <div class="topbar-area topbar-area-end" data-area="end">
             <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/420-111/operateurs/logique/index.html" title="⚙️ Les opérateurs logiques en Java (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
             </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/420-111/exercices/index.html" title="Exercices (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/420-111/conversions-de-types/index.html" title="Conversions De Types (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
             </div>
             <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
               <div class="topbar-content">
@@ -182,7 +182,7 @@
 <div class="highlight wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">╔════════════════════════════════════╗
 </span></span><span class="line"><span class="cl">║ ()                                 ║ ➤ Parenthèses : forcent la priorité
 </span></span><span class="line"><span class="cl">╠════════════════════════════════════╣
-</span></span><span class="line"><span class="cl">║ ++  --  !  +  -                    ║ ➤ Incrément, décrément, NON logique, plus/moins 
+</span></span><span class="line"><span class="cl">║ ++  --  !                          ║ ➤ Incrément, décrément, NON logique
 </span></span><span class="line"><span class="cl">╠════════════════════════════════════╣
 </span></span><span class="line"><span class="cl">║ *   /   %                          ║ ➤ Multiplication, division, modulo
 </span></span><span class="line"><span class="cl">╠════════════════════════════════════╣
@@ -194,7 +194,7 @@
 </span></span><span class="line"><span class="cl">╠════════════════════════════════════╣
 </span></span><span class="line"><span class="cl">║ &amp;&amp;                                 ║ ➤ ET logique (et court-circuité)
 </span></span><span class="line"><span class="cl">╠════════════════════════════════════╣
-</span></span><span class="line"><span class="cl">║ \|\|                               ║ ➤ OU logique (et court-circuité)
+</span></span><span class="line"><span class="cl">║ ||                                 ║ ➤ OU logique (et court-circuité)
 </span></span><span class="line"><span class="cl">╠════════════════════════════════════╣
 </span></span><span class="line"><span class="cl">║ =  +=  -=  *=  /=  %=              ║ ➤ Affectations simples et composées
 </span></span><span class="line"><span class="cl">╚════════════════════════════════════╝</span></span></code></pre></div>
@@ -388,6 +388,7 @@ Explique étape par étape comme dans les exemples.</p></blockquote>
             <li class="" data-nav-id="/420-111/operateurs/comparaison/index.html"><a class="padding" href="/420-111/operateurs/comparaison/index.html">Comparaison</a></li>
             <li class="" data-nav-id="/420-111/operateurs/logique/index.html"><a class="padding" href="/420-111/operateurs/logique/index.html">Logique</a></li>
             <li class="active " data-nav-id="/420-111/operateurs/ordre-priorite/index.html"><a class="padding" href="/420-111/operateurs/ordre-priorite/index.html">Ordre Priorite</a></li></ul></li>
+            <li class="" data-nav-id="/420-111/conversions-de-types/index.html"><a class="padding" href="/420-111/conversions-de-types/index.html">Conversions De Types</a></li>
             <li class="" data-nav-id="/420-111/exercices/index.html"><a class="padding" href="/420-111/exercices/index.html">Exercices</a><ul id="R-subsections-393f73ec6223292328da5c03b7f3a881" class="collapsible-menu"></ul></li>
           </ul>
         </div>
@@ -424,8 +425,8 @@ Explique étape par étape comme dans les exemples.</p></blockquote>
 <div id="R-footer"></div>
       </div>
     </aside>
-    <script src="/420-111/js/clipboard/clipboard.min.js?1757612591" defer></script>
-    <script src="/420-111/js/perfect-scrollbar/perfect-scrollbar.min.js?1757612591" defer></script>
-    <script src="/420-111/js/theme.js?1757612591" defer></script>
+    <script src="/420-111/js/clipboard/clipboard.min.js?1757938318" defer></script>
+    <script src="/420-111/js/perfect-scrollbar/perfect-scrollbar.min.js?1757938318" defer></script>
+    <script src="/420-111/js/theme.js?1757938318" defer></script>
   </body>
 </html>

@@ -87,22 +87,22 @@ Le terme le plus utilisé pour la technique de conversion est « Casting ».
 #### Cas 1
 
 ##### Conversion 1 : String vers les numériques
-<img src="annexe/img/rencontre4/1.png">
+<img src="/420-111/images/rencontre4/1.png">
 
 ##### Conversion 2 : Les numériques vers une String en utilisant la méthode valueOf()
-<img src="annexe/img/rencontre4/2.png">
+<img src="/420-111/images/rencontre4/2.png">
 
 ##### Conversion 3 : Les numériques vers une String en utilisant la méthode toString()
-<img src="annexe/img/rencontre4/3.png">
+<img src="/420-111/images/rencontre4/3.png">
 
 ##### Conversion 4 : String vers les primitifs
-<img src="annexe/img/rencontre4/4.png">
+<img src="/420-111/images/rencontre4/4.png">
 
 ##### Conversion 5 : Primitifs vers String
-<img src="annexe/img/rencontre4/5.png">
+<img src="/420-111/images/rencontre4/5.png">
 
 ##### Conversion 6 : Les primitifs vers une String en utilisant la méthode valueOf()
-<img src="annexe/img/rencontre4/6.png">
+<img src="/420-111/images/rencontre4/6.png">
 
 
 
@@ -114,7 +114,7 @@ Conversion automatique : il s’agit d’une conversion d'un type plus petit en 
 
 byte -> short -> char -> int -> long -> float -> double
 
-<img src="annexe/img/rencontre4/7.png">
+<img src="/420-111/images/rencontre4/7.png">
 
 #### Cas 2
 
