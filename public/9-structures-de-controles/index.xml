@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Structures De Controles :: Introduction à la programmation</title>
+    <link>http://localhost:1313/420-111/9-structures-de-controles/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <lastBuildDate>Fri, 19 Sep 2025 12:03:59 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/420-111/9-structures-de-controles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conditionnelles</title>
+      <link>http://localhost:1313/420-111/9-structures-de-controles/conditionnelles/if-else/index.html</link>
+      <pubDate>Fri, 19 Sep 2025 10:45:10 -0400</pubDate>
+      <guid>http://localhost:1313/420-111/9-structures-de-controles/conditionnelles/if-else/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Boucles</title>
+      <link>http://localhost:1313/420-111/9-structures-de-controles/boucles/1-for/index.html</link>
+      <pubDate>Fri, 19 Sep 2025 12:02:43 -0400</pubDate>
+      <guid>http://localhost:1313/420-111/9-structures-de-controles/boucles/1-for/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Break Continue</title>
+      <link>http://localhost:1313/420-111/9-structures-de-controles/break-continue/index.html</link>
+      <pubDate>Fri, 19 Sep 2025 12:03:59 -0400</pubDate>
+      <guid>http://localhost:1313/420-111/9-structures-de-controles/break-continue/index.html</guid>
+      <description>🛑 break &amp; continue en Java Les instructions break et continue permettent de contrôler le déroulement des boucles (for, while, etc.).&#xA;Elles sont très utiles pour interrompre une boucle plus tôt ou sauter certaines itérations.&#xA;🚪 break : sortir d’une boucle immédiatement L’instruction break permet de quitter immédiatement la boucle en cours, même si la condition est encore vraie.&#xA;🔂 Exemple simple avec break for (int i = 0; i &lt; 10; i++) { if (i == 5) { break; } System.out.println(&#34;i = &#34; + i); } 🔎 Résultat :</description>
+    </item>
+  </channel>
+</rss>

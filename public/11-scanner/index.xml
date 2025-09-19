@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scanner :: Introduction à la programmation</title>
+    <link>http://localhost:1313/420-111/11-scanner/index.html</link>
+    <description>🍥 Lien vers la classe Scanner de l’API Java&#xA;📥 Lire des données avec Scanner en Java La classe Scanner permet de lire des données saisies par l’utilisateur dans la console (ou d’autres sources).&#xA;Très utile pour créer des programmes interactifs, qui posent des questions à l’utilisateur !&#xA;📦 Importer Scanner Avant d’utiliser Scanner, tu dois l’importer :&#xA;import java.util.Scanner; 🧱 Créer un objet Scanner Scanner sc = new Scanner(System.in); ➡️ System.in signifie : lire depuis la console (clavier)</description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/420-111/11-scanner/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

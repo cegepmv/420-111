@@ -2,7 +2,7 @@
 title = "Intro"
 type = "chapter"
 weight = 1
-url = "/intro/java/"
+url = "/1-intro/java/"
 
 +++
 

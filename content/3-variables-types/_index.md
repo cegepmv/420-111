@@ -1,7 +1,7 @@
 +++
 title = "Variables & Types"
 type = "chapter"
-url = "./variables-types/variables/"
+url = "/3-variables-types/variables/"
 weight = 3
 +++
 

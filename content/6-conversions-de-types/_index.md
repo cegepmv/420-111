@@ -7,7 +7,7 @@ weight = 6
 
 ---
 
-# 🔄 Conversion implicite vs explicite en Java
+## 🔄 Conversion implicite vs explicite en Java
 
 La conversion permet de changer le type d’une donnée pour l’adapter à une autre variable ou expression.
 

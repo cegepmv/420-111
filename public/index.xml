@@ -6,13 +6,13 @@
     <description>Plans de cours 📋 Maxime Fournier : Plan de cours&#xA;📋 Samuel Fostiné : Plan de cours&#xA;Horaire et disponibilités des enseignants ✔️ Maxime Fournier : Lien vers mon horaire et mes disponibilités&#xA;✔️ Samuel Fostiné : Lien vers mon horaire et mes disponibilités&#xA;Maxime Fournier Nom de l’évaluation Pondération Date de l’évaluation Laboratoire 1 10 % Semaine 5 Laboratoire 2 10 % Semaine 11 Laboratoire 3 15 % Semaine 14 5 Quiz 3 meilleures notes 15 % Semaine 2 à 13 Examen 1 20 % Semaine 8 Examen Final 30 % ESO Samuel Fostiné Nom de l’évaluation Pondération Date de l’évaluation Devoir Scratch 5% Semaine 3 Laboratoire 1 10 % Semaine 6 Laboratoire 2 10 % Semaine 11 Laboratoire 3 15 % Semaine 14 Quiz (entre 12 quiz) 10 meilleures notes 10 % Semaine 3 à 14 Examen 1 20 % Semaine 9 Examen Final 30 % ESO</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
-    <lastBuildDate>Fri, 19 Sep 2025 10:45:10 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 19 Sep 2025 13:17:31 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/420-111/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Intro</title>
-      <link>http://localhost:1313/420-111/intro/java/index.html</link>
+      <link>http://localhost:1313/420-111/1-intro/java/index.html</link>
       <pubDate>Thu, 21 Aug 2025 20:52:37 -0400</pubDate>
-      <guid>http://localhost:1313/420-111/intro/java/index.html</guid>
+      <guid>http://localhost:1313/420-111/1-intro/java/index.html</guid>
       <description>This is a new chapter.</description>
     </item>
     <item>
@@ -24,9 +24,9 @@
     </item>
     <item>
       <title>Variables &amp; Types</title>
-      <link>http://localhost:1313/420-111/variables-types/variables/index.html</link>
+      <link>http://localhost:1313/420-111/3-variables-types/variables/index.html</link>
       <pubDate>Tue, 26 Aug 2025 14:39:35 -0400</pubDate>
-      <guid>http://localhost:1313/420-111/variables-types/variables/index.html</guid>
+      <guid>http://localhost:1313/420-111/3-variables-types/variables/index.html</guid>
       <description></description>
     </item>
     <item>
@@ -38,9 +38,9 @@
     </item>
     <item>
       <title>Opérateurs</title>
-      <link>http://localhost:1313/420-111/operateurs/arithmetique/index.html</link>
+      <link>http://localhost:1313/420-111/5-operateurs/arithmetique/index.html</link>
       <pubDate>Wed, 03 Sep 2025 15:03:33 -0400</pubDate>
-      <guid>http://localhost:1313/420-111/operateurs/arithmetique/index.html</guid>
+      <guid>http://localhost:1313/420-111/5-operateurs/arithmetique/index.html</guid>
       <description></description>
     </item>
     <item>
@@ -52,16 +52,44 @@
     </item>
     <item>
       <title>Tableaux</title>
-      <link>http://localhost:1313/420-111/8-tableaux/index.html</link>
+      <link>http://localhost:1313/420-111/7-tableaux/index.html</link>
       <pubDate>Fri, 19 Sep 2025 10:11:03 -0400</pubDate>
-      <guid>http://localhost:1313/420-111/8-tableaux/index.html</guid>
+      <guid>http://localhost:1313/420-111/7-tableaux/index.html</guid>
       <description>📦 Les tableaux 1D en Java Un tableau (array) permet de stocker plusieurs valeurs dans une même variable, toutes du même type (int, double, etc.).&#xA;Les tableaux à une dimension (1D) sont comme une liste ordonnée de valeurs, accessibles grâce à leur indice.&#xA;🏗️ Déclaration et création ✏️ Déclarer un tableau int[] notes; // déclaration 🛠️ Créer un tableau notes = new int[5]; // tableau de 5 entiers (tous à 0) Ou, préférablement, tout en une ligne :</description>
     </item>
     <item>
       <title>Structures De Controles</title>
-      <link>http://localhost:1313/420-111/9-structures-de-controles/conditionnelles/if-else/index.html</link>
+      <link>http://localhost:1313/420-111/8-structures-de-controles/conditionnelles/if-else/index.html</link>
       <pubDate>Fri, 19 Sep 2025 10:45:10 -0400</pubDate>
-      <guid>http://localhost:1313/420-111/9-structures-de-controles/conditionnelles/if-else/index.html</guid>
+      <guid>http://localhost:1313/420-111/8-structures-de-controles/conditionnelles/if-else/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Debug</title>
+      <link>http://localhost:1313/420-111/9-debug/index.html</link>
+      <pubDate>Fri, 19 Sep 2025 13:16:44 -0400</pubDate>
+      <guid>http://localhost:1313/420-111/9-debug/index.html</guid>
+      <description>🐞 Utiliser le débogueur Java dans VSCode Le débogueur est un outil essentiel pour comprendre ce que fait ton programme, repérer des erreurs et analyser le comportement du code pas à pas.&#xA;Dans Visual Studio Code, tu peux facilement déboguer du Java avec l’extension adéquate.&#xA;🧰 Prérequis Avant de commencer :&#xA;✔️ Avoir Java installé (JDK 11+ recommandé) ✔️ Avoir VSCode installé ✔️ Avoir installé l’extension Java Extension Pack ou au minimum :</description>
+    </item>
+    <item>
+      <title>Fonctions</title>
+      <link>http://localhost:1313/420-111/10-fonctions/index.html</link>
+      <pubDate>Fri, 19 Sep 2025 13:16:57 -0400</pubDate>
+      <guid>http://localhost:1313/420-111/10-fonctions/index.html</guid>
+      <description>🧩 Les fonctions (ou méthodes) en Java Une fonction (appelée méthode en Java) est un bloc de code réutilisable qui effectue une tâche précise.&#xA;Elles permettent de structurer ton programme, d’éviter la répétition, et de mieux organiser le code.&#xA;🧱 Structure d’une méthode typeRetour nomDeLaMéthode(paramètres) { // instructions return valeur; } Élément Description typeRetour Le type de la valeur renvoyée (int, String, etc.) nomDeLaMéthode Le nom de la méthode (en camelCase) paramètres Données reçues en entrée (optionnel) return Permet de renvoyer un résultat (optionnel si void) ✋ Exemple simple public static int addition(int a, int b) { return a + b; } 💡 Cette méthode prend deux entiers et renvoie leur somme.</description>
+    </item>
+    <item>
+      <title>Scanner</title>
+      <link>http://localhost:1313/420-111/11-scanner/index.html</link>
+      <pubDate>Fri, 19 Sep 2025 13:17:31 -0400</pubDate>
+      <guid>http://localhost:1313/420-111/11-scanner/index.html</guid>
+      <description>🍥 Lien vers la classe Scanner de l’API Java&#xA;📥 Lire des données avec Scanner en Java La classe Scanner permet de lire des données saisies par l’utilisateur dans la console (ou d’autres sources).&#xA;Très utile pour créer des programmes interactifs, qui posent des questions à l’utilisateur !&#xA;📦 Importer Scanner Avant d’utiliser Scanner, tu dois l’importer :&#xA;import java.util.Scanner; 🧱 Créer un objet Scanner Scanner sc = new Scanner(System.in); ➡️ System.in signifie : lire depuis la console (clavier)</description>
+    </item>
+    <item>
+      <title>Fichier</title>
+      <link>http://localhost:1313/420-111/12-fichier/lecture/index.html</link>
+      <pubDate>Fri, 19 Sep 2025 13:17:31 -0400</pubDate>
+      <guid>http://localhost:1313/420-111/12-fichier/lecture/index.html</guid>
       <description></description>
     </item>
     <item>
