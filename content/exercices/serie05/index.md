@@ -36,7 +36,7 @@ La longueur du mot est égale au nombre : false
 
 ---
 
-### **Exercice 2 (3 pts)
+### **Exercice 2** (3 pts)
 
 Déclare la plus petite variable pour chacune de ces données et initie-la:
 ```
@@ -72,6 +72,6 @@ Identifiant généré : LEFEBVRE_S88
 > Contraintes :
 
 * Nom en majuscules
-* La première lettre du prénom en majuscule suivie d’un seul caractère (`S` ici)
+* La première lettre du prénom en majuscule(`S` ici)
 * Les **deux derniers chiffres** de l’année de naissance
 
