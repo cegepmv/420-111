@@ -41,7 +41,7 @@
       <link>http://localhost:1313/420-111/exercices/serie05/index.html</link>
       <pubDate>Wed, 20 Aug 2025 19:02:43 -0400</pubDate>
       <guid>http://localhost:1313/420-111/exercices/serie05/index.html</guid>
-      <description>🧪 Exercice 1 (3 pts) Déclare les variables suivantes : String mot = &#34;Programmation&#34;; int n = 12; Affiche les informations suivantes : Le nombre de lettres dans le mot Si ce nombre est supérieur ou égal à 10 Si ce nombre est pair ou impair Si le nombre n est pair Si le nombre de lettres du mot est égal au nombre n Sortie attendue (exemple) Le mot &#34;Programmation&#34; contient 13 lettres Le mot contient au moins 10 lettres : true Le mot a un nombre de lettres pair : false La longueur du mot est égale au nombre : false **Exercice 2 (3 pts) Déclare la plus petite variable pour chacune de ces données et initie-la:</description>
+      <description>🧪 Exercice 1 (3 pts) Déclare les variables suivantes : String mot = &#34;Programmation&#34;; int n = 12; Affiche les informations suivantes : Le nombre de lettres dans le mot Si ce nombre est supérieur ou égal à 10 Si ce nombre est pair ou impair Si le nombre de lettres du mot est égal au nombre n Sortie attendue (exemple) Le mot &#34;Programmation&#34; contient 13 lettres Le mot contient au moins 10 lettres : true Le mot a un nombre de lettres pair : false La longueur du mot est égale au nombre : false Exercice 2 (3 pts) Déclare la plus petite variable pour chacune de ces données et initie-la:</description>
     </item>
     <item>
       <title>Série 6</title>

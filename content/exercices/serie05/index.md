@@ -20,7 +20,6 @@ int n = 12;
 * Le nombre de lettres dans le mot
 * Si ce nombre est **supérieur ou égal à 10**
 * Si ce nombre est **pair** ou **impair**
-* Si le nombre `n` est **pair**
 * Si le nombre de lettres du mot est **égal** au nombre `n`
 
 ---

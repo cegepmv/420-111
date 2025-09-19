@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>If Else :: Introduction à la programmation</title>
+    <link>http://localhost:1313/420-111/9-structures-de-controles/if-else/index.html</link>
+    <description>🧩 Les conditions if, else if et else en Java Les structures conditionnelles permettent de prendre des décisions dans le programme : on peut exécuter certains blocs de code uniquement si une condition est vraie.&#xA;C’est fondamental pour écrire des programmes intelligents, interactifs et dynamiques !&#xA;❓ La structure if La condition if permet de tester si l’expression qui est entre parenthèse est vraie (true). Si c’est le cas, le bloc de code associé est exécuté.</description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/420-111/9-structures-de-controles/if-else/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
