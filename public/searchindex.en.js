@@ -393,8 +393,8 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "Introduction à la programmation",
-    "content": "This is a new chapter.",
-    "description": "This is a new chapter.",
+    "content": "Série 1",
+    "description": "Série 1",
     "tags": [],
     "title": "Exercices",
     "uri": "/420-111/exercices/index.html"

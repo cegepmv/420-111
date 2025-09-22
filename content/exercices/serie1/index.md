@@ -275,5 +275,5 @@ return false;
 
 
 
-<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie1">Solutions</a>
+<a href="https://github.com/cegepmv/420-111/tree/main/soltions/serie1">Solutions</a>
 
