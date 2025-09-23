@@ -11,17 +11,17 @@ weight = 110
 
 [Série 3](/420-111/exercices/serie3/)
 
-[Série 4](/420-111/exercices/serie4/)
+[Série 4](/420-111/exercices/serie04/)
 
-[Série 5](/420-111/exercices/serie5/)
+[Série 5](/420-111/exercices/serie05/)
 
-[Série 6](/420-111/exercices/serie6/)
+[Série 6](/420-111/exercices/serie06/)
 
-[Série 7](/420-111/exercices/serie7/)
+[Série 7](/420-111/exercices/serie07/)
 
-[Série 8](/420-111/exercices/serie8/)
+[Série 8](/420-111/exercices/serie08/)
 
-[Série 9](/420-111/exercices/serie9/)
+[Série 9](/420-111/exercices/serie09/)
 
 [Série 10](/420-111/exercices/serie010/)
 
