@@ -5,49 +5,41 @@
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.148.2">
     <meta name="generator" content="Relearn 8.0.0+9803d5122ebb3276acea823f476e9eb44f607862">
-    <meta name="description" content="📂 Lire un fichier texte avec Scanner en Java La classe Scanner permet aussi de lire le contenu d’un fichier texte très facilement, ligne par ligne.
-🧱 Importer les classes nécessaires import java.io.File; import java.io.FileNotFoundException; import java.util.Scanner; ```hugo serve --disableFastRender --ignoreCache --- ## 📄 Exemple simple de lecture d’un fichier ```java public class LectureFichier { public static void main(String[] args) { try { File fichier = new File(&#34;donnees.txt&#34;); Scanner sc = new Scanner(fichier); while (sc.hasNextLine()) { String ligne = sc.nextLine(); System.out.println(ligne); } sc.close(); } catch (FileNotFoundException e) { System.out.println(&#34;Fichier introuvable !&#34;); } } } 🔍 Explications Instruction Rôle File fichier = new File(&#34;donnees.txt&#34;); Crée une référence vers le fichier Scanner sc = new Scanner(fichier); Ouvre le fichier pour lecture sc.hasNextLine() Vérifie s’il reste une ligne sc.nextLine() Lit la ligne suivante sc.close() Ferme le scanner (libère ressources) catch (FileNotFoundException e) Gère le cas où le fichier est absent ⚠️ Points importants Toujours gérer l’exception FileNotFoundException quand tu ouvres un fichier. Pense à fermer le scanner avec sc.close() pour libérer les ressources. La méthode nextLine() lit une ligne complète du fichier. 🧠 À retenir Scanner est simple à utiliser pour lire un fichier texte. Utilise une boucle while (sc.hasNextLine()) pour lire toutes les lignes. Gère toujours les erreurs avec un try-catch. Ferme le scanner après utilisation. 📘 Exercice 1 : Compter les lignes d’un fichier 🎯 Objectif : Lire un fichier texte et compter combien de lignes il contient.">
+    <meta name="description" content="">
     <meta name="author" content="">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Lecture :: Introduction à la programmation">
-    <meta name="twitter:description" content="📂 Lire un fichier texte avec Scanner en Java La classe Scanner permet aussi de lire le contenu d’un fichier texte très facilement, ligne par ligne.
-🧱 Importer les classes nécessaires import java.io.File; import java.io.FileNotFoundException; import java.util.Scanner; ```hugo serve --disableFastRender --ignoreCache --- ## 📄 Exemple simple de lecture d’un fichier ```java public class LectureFichier { public static void main(String[] args) { try { File fichier = new File(&#34;donnees.txt&#34;); Scanner sc = new Scanner(fichier); while (sc.hasNextLine()) { String ligne = sc.nextLine(); System.out.println(ligne); } sc.close(); } catch (FileNotFoundException e) { System.out.println(&#34;Fichier introuvable !&#34;); } } } 🔍 Explications Instruction Rôle File fichier = new File(&#34;donnees.txt&#34;); Crée une référence vers le fichier Scanner sc = new Scanner(fichier); Ouvre le fichier pour lecture sc.hasNextLine() Vérifie s’il reste une ligne sc.nextLine() Lit la ligne suivante sc.close() Ferme le scanner (libère ressources) catch (FileNotFoundException e) Gère le cas où le fichier est absent ⚠️ Points importants Toujours gérer l’exception FileNotFoundException quand tu ouvres un fichier. Pense à fermer le scanner avec sc.close() pour libérer les ressources. La méthode nextLine() lit une ligne complète du fichier. 🧠 À retenir Scanner est simple à utiliser pour lire un fichier texte. Utilise une boucle while (sc.hasNextLine()) pour lire toutes les lignes. Gère toujours les erreurs avec un try-catch. Ferme le scanner après utilisation. 📘 Exercice 1 : Compter les lignes d’un fichier 🎯 Objectif : Lire un fichier texte et compter combien de lignes il contient.">
+    <meta name="twitter:title" content="Fichier :: Introduction à la programmation">
     <meta property="og:url" content="http://localhost:1313/420-111/12-fichier/lecture/index.html">
     <meta property="og:site_name" content="Introduction à la programmation">
-    <meta property="og:title" content="Lecture :: Introduction à la programmation">
-    <meta property="og:description" content="📂 Lire un fichier texte avec Scanner en Java La classe Scanner permet aussi de lire le contenu d’un fichier texte très facilement, ligne par ligne.
-🧱 Importer les classes nécessaires import java.io.File; import java.io.FileNotFoundException; import java.util.Scanner; ```hugo serve --disableFastRender --ignoreCache --- ## 📄 Exemple simple de lecture d’un fichier ```java public class LectureFichier { public static void main(String[] args) { try { File fichier = new File(&#34;donnees.txt&#34;); Scanner sc = new Scanner(fichier); while (sc.hasNextLine()) { String ligne = sc.nextLine(); System.out.println(ligne); } sc.close(); } catch (FileNotFoundException e) { System.out.println(&#34;Fichier introuvable !&#34;); } } } 🔍 Explications Instruction Rôle File fichier = new File(&#34;donnees.txt&#34;); Crée une référence vers le fichier Scanner sc = new Scanner(fichier); Ouvre le fichier pour lecture sc.hasNextLine() Vérifie s’il reste une ligne sc.nextLine() Lit la ligne suivante sc.close() Ferme le scanner (libère ressources) catch (FileNotFoundException e) Gère le cas où le fichier est absent ⚠️ Points importants Toujours gérer l’exception FileNotFoundException quand tu ouvres un fichier. Pense à fermer le scanner avec sc.close() pour libérer les ressources. La méthode nextLine() lit une ligne complète du fichier. 🧠 À retenir Scanner est simple à utiliser pour lire un fichier texte. Utilise une boucle while (sc.hasNextLine()) pour lire toutes les lignes. Gère toujours les erreurs avec un try-catch. Ferme le scanner après utilisation. 📘 Exercice 1 : Compter les lignes d’un fichier 🎯 Objectif : Lire un fichier texte et compter combien de lignes il contient.">
+    <meta property="og:title" content="Fichier :: Introduction à la programmation">
     <meta property="og:locale" content="fr_ca">
     <meta property="og:type" content="website">
-    <meta itemprop="name" content="Lecture :: Introduction à la programmation">
-    <meta itemprop="description" content="📂 Lire un fichier texte avec Scanner en Java La classe Scanner permet aussi de lire le contenu d’un fichier texte très facilement, ligne par ligne.
-🧱 Importer les classes nécessaires import java.io.File; import java.io.FileNotFoundException; import java.util.Scanner; ```hugo serve --disableFastRender --ignoreCache --- ## 📄 Exemple simple de lecture d’un fichier ```java public class LectureFichier { public static void main(String[] args) { try { File fichier = new File(&#34;donnees.txt&#34;); Scanner sc = new Scanner(fichier); while (sc.hasNextLine()) { String ligne = sc.nextLine(); System.out.println(ligne); } sc.close(); } catch (FileNotFoundException e) { System.out.println(&#34;Fichier introuvable !&#34;); } } } 🔍 Explications Instruction Rôle File fichier = new File(&#34;donnees.txt&#34;); Crée une référence vers le fichier Scanner sc = new Scanner(fichier); Ouvre le fichier pour lecture sc.hasNextLine() Vérifie s’il reste une ligne sc.nextLine() Lit la ligne suivante sc.close() Ferme le scanner (libère ressources) catch (FileNotFoundException e) Gère le cas où le fichier est absent ⚠️ Points importants Toujours gérer l’exception FileNotFoundException quand tu ouvres un fichier. Pense à fermer le scanner avec sc.close() pour libérer les ressources. La méthode nextLine() lit une ligne complète du fichier. 🧠 À retenir Scanner est simple à utiliser pour lire un fichier texte. Utilise une boucle while (sc.hasNextLine()) pour lire toutes les lignes. Gère toujours les erreurs avec un try-catch. Ferme le scanner après utilisation. 📘 Exercice 1 : Compter les lignes d’un fichier 🎯 Objectif : Lire un fichier texte et compter combien de lignes il contient.">
-    <meta itemprop="datePublished" content="2025-09-19T13:21:12-04:00">
-    <meta itemprop="dateModified" content="2025-09-19T13:21:12-04:00">
-    <meta itemprop="wordCount" content="397">
-    <title>Lecture :: Introduction à la programmation</title>
-    <link href="/420-111/12-fichier/lecture/index.xml" rel="alternate" type="application/rss+xml" title="Lecture :: Introduction à la programmation">
-    <link href="/420-111/images/favicon.png?1758307212" rel="icon" type="image/png">
-    <link href="/420-111/css/auto-complete/auto-complete.min.css?1758307212" rel="stylesheet">
-    <script src="/420-111/js/auto-complete/auto-complete.min.js?1758307212" defer></script>
-    <script src="/420-111/js/search-lunr.js?1758307212" defer></script>
-    <script src="/420-111/js/search.js?1758307212" defer></script>
+    <meta itemprop="name" content="Fichier :: Introduction à la programmation">
+    <meta itemprop="datePublished" content="2025-09-19T13:17:31-04:00">
+    <meta itemprop="dateModified" content="2025-09-19T13:17:31-04:00">
+    <title>Fichier :: Introduction à la programmation</title>
+    <link href="/420-111/12-fichier/lecture/index.xml" rel="alternate" type="application/rss+xml" title="Fichier :: Introduction à la programmation">
+    <link href="/420-111/images/favicon.png?1758643158" rel="icon" type="image/png">
+    <link href="/420-111/css/auto-complete/auto-complete.min.css?1758643158" rel="stylesheet">
+    <script src="/420-111/js/auto-complete/auto-complete.min.js?1758643158" defer></script>
+    <script src="/420-111/js/search-lunr.js?1758643158" defer></script>
+    <script src="/420-111/js/search.js?1758643158" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/420-111/searchindex.en.js?1758307212";
+      window.relearn.index_js_url="/420-111/searchindex.en.js?1758643158";
     </script>
-    <script src="/420-111/js/lunr/lunr.min.js?1758307212" defer></script>
-    <script src="/420-111/js/lunr/lunr.stemmer.support.min.js?1758307212" defer></script>
-    <script src="/420-111/js/lunr/lunr.multi.min.js?1758307212" defer></script>
-    <script src="/420-111/js/lunr/lunr.fr.min.js?1758307212" defer></script>
+    <script src="/420-111/js/lunr/lunr.min.js?1758643158" defer></script>
+    <script src="/420-111/js/lunr/lunr.stemmer.support.min.js?1758643158" defer></script>
+    <script src="/420-111/js/lunr/lunr.multi.min.js?1758643158" defer></script>
+    <script src="/420-111/js/lunr/lunr.fr.min.js?1758643158" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['fr'];
     </script>
-    <link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1758307212" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1758307212" rel="stylesheet"></noscript>
-    <link href="/420-111/css/perfect-scrollbar/perfect-scrollbar.min.css?1758307212" rel="stylesheet">
-    <link href="/420-111/css/theme.css?1758307212" rel="stylesheet">
-    <link href="/420-111/css/format-html.css?1758307212" rel="stylesheet" id="R-format-style">
+    <link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1758643158" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1758643158" rel="stylesheet"></noscript>
+    <link href="/420-111/css/perfect-scrollbar/perfect-scrollbar.min.css?1758643158" rel="stylesheet">
+    <link href="/420-111/css/theme.css?1758643158" rel="stylesheet">
+    <link href="/420-111/css/format-html.css?1758643158" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -119,32 +111,17 @@
             </div>
             <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
               <div class="topbar-content">
-                <div class="topbar-content-wrapper">
-<nav class="TableOfContents">
-  <ul>
-    <li><a href="#-lire-un-fichier-texte-avec-scanner-en-java">📂 Lire un fichier texte avec <code>Scanner</code> en Java</a></li>
-    <li><a href="#-importer-les-classes-nécessaires">🧱 Importer les classes nécessaires</a></li>
-    <li><a href="#-explications">🔍 Explications</a></li>
-    <li><a href="#-points-importants">⚠️ Points importants</a></li>
-    <li><a href="#-à-retenir">🧠 À retenir</a>
-      <ul>
-        <li><a href="#-exercice-1--compter-les-lignes-dun-fichier">📘 <strong>Exercice 1 : Compter les lignes d’un fichier</strong></a></li>
-        <li><a href="#-exercice-2--afficher-uniquement-les-lignes-non-vides">✂️ <strong>Exercice 2 : Afficher uniquement les lignes non vides</strong></a></li>
-        <li><a href="#-exercice-3--recherche-dun-mot-clé-dans-un-fichier">🔍 <strong>Exercice 3 : Recherche d’un mot-clé dans un fichier</strong></a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+                <div class="topbar-content-wrapper"> 
                 </div>
               </div>
             </div>
           </div>
-          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/420-111/index.html"><span itemprop="name">Introduction à la programmation</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Fichier</span><meta itemprop="position" content="2"></li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Lecture</span><meta itemprop="position" content="3"></li>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/420-111/index.html"><span itemprop="name">Introduction à la programmation</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Fichier</span><meta itemprop="position" content="2"></li>
           </ol>
           <div class="topbar-area topbar-area-end" data-area="end">
-            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/420-111/12-fichier/lecture/index.html" title="Fichier (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/420-111/11-scanner/index.html" title="Scanner (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
             </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/420-111/12-fichier/ecriture/index.html" title="Écriture (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/420-111/12-fichier/lecture/index.html" title="Lecture (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
             </div>
             <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
               <div class="topbar-content">
@@ -164,130 +141,8 @@
   <header class="headline">
   </header>
 
-<h1 id="lecture">Lecture</h1>
+<h1 id="fichier">Fichier</h1>
 
-<hr>
-<h2 id="-lire-un-fichier-texte-avec-scanner-en-java">📂 Lire un fichier texte avec <code>Scanner</code> en Java</h2>
-<p>La classe <strong><code>Scanner</code></strong> permet aussi de <strong>lire le contenu d’un fichier texte</strong> très facilement, ligne par ligne.</p>
-<hr>
-<h2 id="-importer-les-classes-nécessaires">🧱 Importer les classes nécessaires</h2>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">import</span><span class="w"> </span><span class="nn">java.io.File</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.io.FileNotFoundException</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kn">import</span><span class="w"> </span><span class="nn">java.util.Scanner</span><span class="p">;</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="err">```</span><span class="n">hugo</span><span class="w"> </span><span class="n">serve</span><span class="w"> </span><span class="o">--</span><span class="n">disableFastRender</span><span class="w"> </span><span class="o">--</span><span class="n">ignoreCache</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="o">---</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="err">##</span><span class="w"> </span><span class="err">📄</span><span class="w"> </span><span class="n">Exemple</span><span class="w"> </span><span class="n">simple</span><span class="w"> </span><span class="n">de</span><span class="w"> </span><span class="n">lecture</span><span class="w"> </span><span class="n">d</span><span class="err">’</span><span class="n">un</span><span class="w"> </span><span class="n">fichier</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="err">```</span><span class="n">java</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">LectureFichier</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">try</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">File</span><span class="w"> </span><span class="n">fichier</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">File</span><span class="p">(</span><span class="s">&#34;donnees.txt&#34;</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">Scanner</span><span class="w"> </span><span class="n">sc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">Scanner</span><span class="p">(</span><span class="n">fichier</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">sc</span><span class="p">.</span><span class="na">hasNextLine</span><span class="p">())</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">                </span><span class="n">String</span><span class="w"> </span><span class="n">ligne</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sc</span><span class="p">.</span><span class="na">nextLine</span><span class="p">();</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">                </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">ligne</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="p">}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">sc</span><span class="p">.</span><span class="na">close</span><span class="p">();</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w"> </span><span class="k">catch</span><span class="w"> </span><span class="p">(</span><span class="n">FileNotFoundException</span><span class="w"> </span><span class="n">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;Fichier introuvable !&#34;</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div>
-<hr>
-<h2 id="-explications">🔍 Explications</h2>
-<table>
-  <thead>
-      <tr>
-          <th>Instruction</th>
-          <th>Rôle</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><code>File fichier = new File(&quot;donnees.txt&quot;);</code></td>
-          <td>Crée une référence vers le fichier</td>
-      </tr>
-      <tr>
-          <td><code>Scanner sc = new Scanner(fichier);</code></td>
-          <td>Ouvre le fichier pour lecture</td>
-      </tr>
-      <tr>
-          <td><code>sc.hasNextLine()</code></td>
-          <td>Vérifie s’il reste une ligne</td>
-      </tr>
-      <tr>
-          <td><code>sc.nextLine()</code></td>
-          <td>Lit la ligne suivante</td>
-      </tr>
-      <tr>
-          <td><code>sc.close()</code></td>
-          <td>Ferme le scanner (libère ressources)</td>
-      </tr>
-      <tr>
-          <td><code>catch (FileNotFoundException e)</code></td>
-          <td>Gère le cas où le fichier est absent</td>
-      </tr>
-  </tbody>
-</table>
-<hr>
-<h2 id="-points-importants">⚠️ Points importants</h2>
-<ul>
-<li><strong>Toujours gérer l’exception</strong> <code>FileNotFoundException</code> quand tu ouvres un fichier.</li>
-<li><strong>Pense à fermer</strong> le scanner avec <code>sc.close()</code> pour libérer les ressources.</li>
-<li>La méthode <code>nextLine()</code> lit une <strong>ligne complète</strong> du fichier.</li>
-</ul>
-<hr>
-<h2 id="-à-retenir">🧠 À retenir</h2>
-<ul>
-<li><code>Scanner</code> est simple à utiliser pour lire un fichier texte.</li>
-<li>Utilise une boucle <code>while (sc.hasNextLine())</code> pour lire toutes les lignes.</li>
-<li>Gère toujours les erreurs avec un <code>try-catch</code>.</li>
-<li>Ferme le scanner après utilisation.</li>
-</ul>
-<hr>
-<h3 id="-exercice-1--compter-les-lignes-dun-fichier">📘 <strong>Exercice 1 : Compter les lignes d’un fichier</strong></h3>
-<p><strong>🎯 Objectif :</strong> Lire un fichier texte et compter combien de lignes il contient.</p>
-<h4 id="-consigne-">🔧 Consigne :</h4>
-<ol>
-<li>
-<p>Le programme prend le <strong>nom du fichier</strong> à lire via <code>new File(...)</code>.</p>
-</li>
-<li>
-<p>Il affiche :</p>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>Le fichier contient X lignes.</code></pre></div>
-</li>
-</ol>
-<p>🔁 <strong>Bonus</strong> : Affiche un message d’erreur si le fichier est introuvable.</p>
-<hr>
-<h3 id="-exercice-2--afficher-uniquement-les-lignes-non-vides">✂️ <strong>Exercice 2 : Afficher uniquement les lignes non vides</strong></h3>
-<p><strong>🎯 Objectif :</strong> Lire un fichier texte et afficher <strong>seulement les lignes qui ne sont pas vides</strong>.</p>
-<h4 id="-consigne--1">🔧 Consigne :</h4>
-<ol>
-<li>Parcours le fichier ligne par ligne avec <code>Scanner</code>.</li>
-<li>Affiche uniquement les lignes dont le contenu n’est <strong>pas vide</strong> (<code>!ligne.trim().isEmpty()</code>).</li>
-</ol>
-<h4 id="exemple-attendu-pour-un-fichier-contenant-des-lignes-vides-">Exemple attendu (pour un fichier contenant des lignes vides) :</h4>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>Bonjour
-Cette ligne est utile
-Fin</code></pre></div>
-<hr>
-<h3 id="-exercice-3--recherche-dun-mot-clé-dans-un-fichier">🔍 <strong>Exercice 3 : Recherche d’un mot-clé dans un fichier</strong></h3>
-<p><strong>🎯 Objectif :</strong> Afficher uniquement les lignes contenant un <strong>mot-clé spécifique</strong>.</p>
-<h4 id="-consigne--2">🔧 Consigne :</h4>
-<ol>
-<li>Le mot-clé est <strong>défini dans le code</strong> (ex. <code>&quot;important&quot;</code>).</li>
-<li>Si une ligne du fichier contient ce mot, elle est affichée.</li>
-</ol>
-<blockquote>
-<p>Tu peux utiliser : <code>ligne.contains(&quot;important&quot;)</code></p></blockquote>
-<p>🔁 <strong>Bonus</strong> : Rends le mot-clé <strong>insensible à la casse</strong> (<code>toLowerCase()</code>).</p>
-<hr>
 
   <footer class="footline">
               <i class='fa-fw fas fa-calendar'></i> Sep 19, 2025
@@ -356,8 +211,8 @@ Fin</code></pre></div>
             <li class="" data-nav-id="/420-111/9-debug/index.html"><a class="padding" href="/420-111/9-debug/index.html">Debug</a></li>
             <li class="" data-nav-id="/420-111/10-fonctions/index.html"><a class="padding" href="/420-111/10-fonctions/index.html">Fonctions</a><ul id="R-subsections-e4181c72c636f10f24765f042a0f0763" class="collapsible-menu"></ul></li>
             <li class="" data-nav-id="/420-111/11-scanner/index.html"><a class="padding" href="/420-111/11-scanner/index.html">Scanner</a></li>
-            <li class="parent " data-nav-id="/420-111/12-fichier/lecture/index.html"><a class="padding" href="/420-111/12-fichier/lecture/index.html">Fichier</a><ul id="R-subsections-7d34dcc2710810bfed736603e11f989d" class="collapsible-menu">
-            <li class="active " data-nav-id="/420-111/12-fichier/lecture/index.html"><a class="padding" href="/420-111/12-fichier/lecture/index.html">Lecture</a></li>
+            <li class="active parent " data-nav-id="/420-111/12-fichier/lecture/index.html"><a class="padding" href="/420-111/12-fichier/lecture/index.html">Fichier</a><ul id="R-subsections-7d34dcc2710810bfed736603e11f989d" class="collapsible-menu">
+            <li class="" data-nav-id="/420-111/12-fichier/lecture/index.html"><a class="padding" href="/420-111/12-fichier/lecture/index.html">Lecture</a></li>
             <li class="" data-nav-id="/420-111/12-fichier/ecriture/index.html"><a class="padding" href="/420-111/12-fichier/ecriture/index.html">Écriture</a></li></ul></li>
             <li class="" data-nav-id="/420-111/exercices/index.html"><a class="padding" href="/420-111/exercices/index.html">Exercices</a><ul id="R-subsections-393f73ec6223292328da5c03b7f3a881" class="collapsible-menu"></ul></li>
           </ul>
@@ -395,8 +250,8 @@ Fin</code></pre></div>
 <div id="R-footer"></div>
       </div>
     </aside>
-    <script src="/420-111/js/clipboard/clipboard.min.js?1758307212" defer></script>
-    <script src="/420-111/js/perfect-scrollbar/perfect-scrollbar.min.js?1758307212" defer></script>
-    <script src="/420-111/js/theme.js?1758307212" defer></script>
+    <script src="/420-111/js/clipboard/clipboard.min.js?1758643158" defer></script>
+    <script src="/420-111/js/perfect-scrollbar/perfect-scrollbar.min.js?1758643158" defer></script>
+    <script src="/420-111/js/theme.js?1758643158" defer></script>
   </body>
 </html>

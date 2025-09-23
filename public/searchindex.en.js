@@ -393,8 +393,8 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "Introduction à la programmation",
-    "content": "Série 1",
-    "description": "Série 1",
+    "content": "Série 1\nSérie 2\nSérie 3\nSérie 4\nSérie 5\nSérie 6\nSérie 7\nSérie 8\nSérie 9\nSérie 10\nSérie 11\nSérie 12\nSérie 13\nSérie 14\nSérie 15",
+    "description": "Série 1\nSérie 2\nSérie 3\nSérie 4\nSérie 5\nSérie 6\nSérie 7\nSérie 8\nSérie 9\nSérie 10\nSérie 11\nSérie 12\nSérie 13\nSérie 14\nSérie 15",
     "tags": [],
     "title": "Exercices",
     "uri": "/420-111/exercices/index.html"
