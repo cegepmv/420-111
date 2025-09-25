@@ -5,7 +5,7 @@ public class SOL2 {
            //0.5
            float températureExtActuelle = -5.3f;
            //0.5
-           final byte nbHeureJournée = 24;
+           final byte NOMBRE_HEURES_JOURNÉE = 24;
            //0.5
            boolean isCompteActif = false;
            //0.5
