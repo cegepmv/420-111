@@ -197,4 +197,4 @@ Merci pour votre visite!
 
 
 
-<a href="https://github.com/cegepmv/420-111/tree/main/soltions/serie12">Solutions</a>
+<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie12">Solutions</a>

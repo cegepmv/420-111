@@ -503,4 +503,4 @@ Affiche une version "masquée" :
 a***************@example.com
 ```
 
-<a href="https://github.com/cegepmv/420-111/tree/main/soltions/serie9">Solutions</a>
+<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie9">Solutions</a>

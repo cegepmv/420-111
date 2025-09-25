@@ -326,7 +326,7 @@ Est-ce un majeur ? : true/false
 ---
 
 
-<a href="https://github.com/cegepmv/420-111/tree/main/soltions/serie4">Solutions</a>
+<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie4">Solutions</a>
 
 
 
