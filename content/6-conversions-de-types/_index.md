@@ -342,10 +342,7 @@ java Convertisseur 25
 #### 🔧 Consigne :
 
 1. Le programme prend **un entier** en argument.
-2. Il affiche :
-
-   * "`Nombre pair`" si divisible par 2
-   * "`Nombre impair`" sinon
+2. Il affiche si le nombre est pair ou non
 
 #### 📝 Exemple attendu :
 
@@ -354,37 +351,5 @@ java Parite 41
 ```
 
 ```
-Nombre impair
+Le nombre est pair? : false
 ```
-
-> 🛑 Ajoute une gestion d’erreur si l’argument est absent ou non entier.
-
----
-
-### 📚 **Exercice 3 : Compteur de mots**
-
-**🎯 Objectif :** Compter le nombre total de mots passés en argument.
-
-#### 🔧 Consigne :
-
-1. Le programme prend **n'importe quel nombre de mots** (chaînes) en arguments.
-2. Il affiche :
-
-   ```
-   Nombre de mots : X
-   ```
-
-#### 📝 Exemple attendu :
-
-```bash
-java Compteur Bonjour à tous les étudiants
-```
-
-```
-Nombre de mots : 5
-```
-
-> 🛡️ Gère le cas où aucun mot n’est fourni (afficher un message).
-
----
-

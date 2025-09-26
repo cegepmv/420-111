@@ -138,7 +138,7 @@ Somme convertie : 16
 
 ---
 
-### 🧪 **Exercice 8 – Tableaux et `String.format()`**
+### 🧪 **Exercice 8 – Tableaux**
 
 À partir de :
 
@@ -147,7 +147,7 @@ String[] user = {"Lucie", "Ginette", "Jean-Michel"};
 int[] age = {32, 43, 78};
 ```
 
-Utilise `String.format(...)` pour produire l'affichage suivant :
+Produit l'affichage suivant :
 
 ### Sortie attendue
 
