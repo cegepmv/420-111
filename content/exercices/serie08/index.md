@@ -10,7 +10,7 @@ weight = 8
 Quelle est la sortie attendue de ce bout de code : 
 
 ```java
-boolean calcul = 18 % 5 + 1 == 4 && !(2 * 2 >= 5);4
+boolean calcul = 18 % 5 + 1 == 4 && !(2 * 2 >= 5);
 System.out.println("Résultat : " + calcul)
 ```
 
