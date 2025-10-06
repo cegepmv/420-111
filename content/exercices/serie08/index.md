@@ -130,8 +130,8 @@ int[][] mat = {
 Sortie possible :
 
 ```
-Somme : 10
-Somme impaire
+Somme : 8
+Somme pair
 Il y a des valeurs négatives
 Max : 7
 ```
