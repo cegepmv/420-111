@@ -25,13 +25,11 @@ Encercle les 3 erreurs dans le code suivant :
     int b = 5;
     int c = 5;
 
-    if(a == b && a == c){
+    if (a == b && a == c) {
         System.out.println("Triangle équilatéral");
-    }
-    else if((a == b) || (a == c) || (b == c)){
+    } else if ((a == b) || (a == c) || (b == c)) {
         System.out.println("Triangle isocèle");
-    }
-    else{
+    } else {
         System.out.println("Triangle scalène");
     }
 ```
