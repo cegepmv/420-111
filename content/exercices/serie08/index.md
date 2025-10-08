@@ -4,7 +4,7 @@ title = 'Série 8'
 weight = 8
 +++
 ## Examen préparatif 1 partie théorique ( /8)
-
+![alt text](image.png)
 ## Question 1 ( /2):
 
 Quelle est la sortie attendue de ce bout de code : 

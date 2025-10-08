@@ -1,7 +1,7 @@
 
 ## Question 1 ( /2):
-```java
-true
+```
+Résultat : true
 ```
 
 ## Question 2 ( /1)
