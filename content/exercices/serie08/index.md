@@ -80,7 +80,7 @@ Crée un programme `Calculatrice.java` qui :
 1. Reçoit **trois arguments** :
 
    * le premier nombre
-   * un opérateur (`+`, `-`, `*`, `/`) Mettez des guillements lorsque vous passez vos opérateurs en argument
+   * un opérateur (`+`, `-`, `x`, `/`)
    * le deuxième nombre
 2. Utilise un **switch** pour effectuer l’opération.
 3. Affiche le résultat.
@@ -89,7 +89,7 @@ Crée un programme `Calculatrice.java` qui :
 ### Exemple
 
 ```
-> java Calculatrice 8 * 3
+> java Calculatrice 8 x 3
 Résultat : 24
 ```
 

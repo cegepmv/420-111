@@ -10,7 +10,7 @@ Crée un programme `Calculatrice.java` qui :
 1. Reçoit **trois arguments** :
 
    * le premier nombre
-   * un opérateur (`+`, `-`, `*`, `/`)
+   * un opérateur (`+`, `-`, `x`, `/`)
    * le deuxième nombre
 2. Utilise un **switch** pour effectuer l’opération.
 3. Affiche le résultat.
@@ -41,7 +41,7 @@ public class Calculatrice {
             System.out.println("Résultat : " + (nombre1 - nombre2));
             break;
 
-         case "*":
+         case "x":
             System.out.println("Résultat : " + (nombre1 * nombre2));
             break;
 
