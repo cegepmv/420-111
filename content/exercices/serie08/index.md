@@ -23,7 +23,7 @@ Déclare une variable qui servira à enregistrer des nombres entier entre -120 e
 
 ## Question 4 ( /3)
 
-Encercle les 3 erreurs dans le code suivant :
+Encercle 3 des erreurs dans le code suivant et donne une courte explication. Si une erreur se répète, elle ne compte qu'une fois.
 
 ```java
     int a = 5;
@@ -32,11 +32,9 @@ Encercle les 3 erreurs dans le code suivant :
 
     if(a == b || a == c){
         System.out.println("Triangle équilatéral");
-    }
-    else if((a == b) || (a == c) || (b == c)){
+    } else if((a == b) || (a == c) || (b == c)){
         System.out.println("Triangle isocèle")
-    }
-    else{
+    } else{
     System.out.println("Triangle scalène");
     }
 ```
