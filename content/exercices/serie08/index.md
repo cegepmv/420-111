@@ -135,3 +135,5 @@ Max : 7
 ```
 
 ---
+
+<a href="https://github.com/cegepmv/420-111/tree/main/soltions/serie8">Solutions</a>

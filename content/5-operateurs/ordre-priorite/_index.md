@@ -46,12 +46,17 @@ boolean resultat = 4 + 2 * 3 > 10 || !false;
 ```
 
 🔍 Étapes d’évaluation :
+```java
+boolean resultat = 4 + 2 * 3 > 10 || !false;
+resultat = 4 + 2 * 3 > 10 || true;
+resultat = 4 + 6 > 10 || true;
+resultat = 10 > 10 || true;
+resultat = false || true;
+resultat = true;
 
-1. `2 * 3` → `6`
-2. `4 + 6` → `10`
-3. `10 > 10` → `false`
-4. `!false` → `true`
-5. `false || true` → `true`
+
+```
+
 
 ✅ Résultat final : `true`
 
@@ -75,23 +80,17 @@ boolean res1 = 10 + 2 * 5 < 30 && (4 + 3 * 2 == 10 || false);
 
 ### ✳️ Étapes d’évaluation :
 
-1. **Multiplications** :
-   `2 * 5` → `10`
-   `3 * 2` → `6`
-
-2. **Additions** :
-   `10 + 10` → `20`
-   `4 + 6` → `10`
-
-3. **Comparaisons** :
-   `20 < 30` → `true`
-   `10 == 10` → `true`
-
-4. **OU logique** :
-   `true || false` → `true`
-
-5. **ET logique** :
-   `true && true` → `true`
+```java
+boolean res1 = 10 + 2 * 5 < 30 && (4 + 3 * 2 == 10 || false);
+res1 = 10 + 2 * 5 < 30 && (4 + 6 == 10 || false);
+res1 = 10 + 2 * 5 < 30 && (10 == 10 || false);
+res1 = 10 + 2 * 5 < 30 && (true || false);
+res1 = 10 + 2 * 5 < 30 && true;
+res1 = 10 + 10 < 30 && true;
+res1 = 20 < 30 && true;
+res1 = true && true;
+res1 = true;
+```
 
 ✅ Résultat final :
 
@@ -109,27 +108,18 @@ boolean res2 = !(15 % 4 == 3) || (8 / 2 + 1 > 4 && true);
 
 ### ✳️ Étapes d’évaluation :
 
-1. **Modulo** :
-   `15 % 4` → `3`
+```java
+boolean res2 = !(15 % 4 == 3) || (8 / 2 + 1 > 4 && true);
+res2 = !(3 == 3) || (8 / 2 + 1 > 4 && true);
+res2 = !(true) || (8 / 2 + 1 > 4 && true);
+res2 = false || (8 / 2 + 1 > 4 && true);
+res2 = false || (4 + 1 > 4 && true);
+res2 = false || (5 > 4 && true);
+res2 = false || (true && true);
+res2 = false || true;
+res2 = true;
 
-2. **Comparaison** :
-   `3 == 3` → `true`
-
-3. **NON logique** :
-   `!(true)` → `false`
-
-4. **Division & addition** :
-   `8 / 2` → `4`
-   `4 + 1` → `5`
-
-5. **Comparaison** :
-   `5 > 4` → `true`
-
-6. **ET logique** :
-   `true && true` → `true`
-
-7. **OU logique** :
-   `false || true` → `true`
+```
 
 ✅ Résultat final :
 
