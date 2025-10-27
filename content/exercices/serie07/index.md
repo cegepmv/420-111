@@ -318,4 +318,4 @@ Lancement du programme
 ```
 
 ---
-<a href="https://github.com/cegepmv/420-111/tree/main/soltions/serie7">Solutions</a>
+<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie7">Solutions</a>

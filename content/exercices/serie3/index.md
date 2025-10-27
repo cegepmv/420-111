@@ -199,4 +199,4 @@ Total HT      : 119.98 $
 * Calcule le total avec `quantite * prixUnitaire`
 * Affiche le total avec **2 décimales seulement**
 
-<a href="https://github.com/cegepmv/420-111/tree/main/soltions/serie3">Solutions</a>
+<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie3">Solutions</a>

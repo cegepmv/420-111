@@ -136,4 +136,4 @@ Max : 7
 
 ---
 
-<a href="https://github.com/cegepmv/420-111/tree/main/soltions/serie8">Solutions</a>
+<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie8">Solutions</a>

@@ -333,6 +333,6 @@ Additionne la première valeur de la première ligne avec la dernière valeur de
 
 ---
 
-<a href="https://github.com/cegepmv/420-111/tree/main/soltions/serie6">Solutions</a>
+<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie6">Solutions</a>
 
 

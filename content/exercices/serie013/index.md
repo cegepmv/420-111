@@ -136,4 +136,4 @@ Lis un fichier `contacts.csv` avec des données séparées par des virgules : no
 
 ---
 
-<a href="https://github.com/cegepmv/420-111/tree/main/soltions/serie13">Solutions</a>
+<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie13">Solutions</a>

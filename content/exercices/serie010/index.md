@@ -266,4 +266,4 @@ Créez une méthode qui reçois l'entier n.
 ```
 
 
-<a href="https://github.com/cegepmv/420-111/tree/main/soltions/serie10">Solutions</a>
+<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie10">Solutions</a>
