@@ -29,24 +29,24 @@ Demande à l’utilisateur de saisir deux entiers, puis affiche la somme.
 
 Demande à l’utilisateur de saisir un nombre à virgule (double) et affiche ce nombre arrondi à 2 décimales.
 
-Si la saisie n’est pas correcte, redemande jusqu’à ce qu’un nombre valide soit entré.
-
 ---
 
-### 🧪 **Exercice 5 – Lire une phrase complète**
+### 🧪 **Exercice 6 – Lire une phrase complète**
 
 Demande à l’utilisateur de saisir une phrase complète (avec espaces), puis affiche-la.
 
 ---
 
-### 🧪 **Exercice 6 – Calculer la moyenne de 3 notes**
+### 🧪 **Exercice 7 – Calculer la moyenne de 3 notes**
 
 Demande à l’utilisateur de saisir 3 notes (double) séparées par un espace sur la même ligne, calcule la moyenne et affiche-la arrondie à 2 décimales.
 
-Si la saisie n’est pas correcte, redemande jusqu’à ce qu’elle le soit.
+
 ---
 
-### Exo_7
+### Exo_55
+
+Niveau : 3 ⭐
 
 **Exercice** :
 
@@ -55,9 +55,6 @@ l'utilisateur de saisir une année, puis affiche "Année bissextile" si l'année
 divisible par 4 et non divisible par 100, ou si elle est divisible par 400. Sinon,
 affiche "Année non bissextile".
 
-Si la saisie n’est pas correcte, redemande jusqu’à ce qu’elle le soit.
-
-
 ```
 Entrez une année : 2025
 Année non bissextile
@@ -65,13 +62,10 @@ Année non bissextile
 
 ---
 
-# Menus
 
 ### 🧪 **Exercice 1 – Menu simple de salutation**
 
 Affiche ce menu :
-
-Effectuez la validation et indiquez les erreurs à l’utilisateur s’il y en a.
 
 ```
 1. Dire bonjour  
@@ -91,8 +85,6 @@ Affiche :
 ### 🧪 **Exercice 2 – Menu calculatrice simple**
 
 Affiche ce menu :
-
-Effectuez la validation et indiquez les erreurs à l’utilisateur s’il y en a.
 
 ```
 1. Addition  
@@ -114,8 +106,6 @@ Si division par zéro, affiche un message d’erreur.
 Déclare un tableau d’entiers vide de taille 5.
 Propose ce menu en boucle jusqu’à ce que l’utilisateur choisisse de quitter :
 
-Effectuez la validation et indiquez les erreurs à l’utilisateur s’il y en a.
-
 ```
 1. Ajouter un nombre au tableau  
 2. Afficher le tableau  
@@ -131,10 +121,9 @@ Effectuez la validation et indiquez les erreurs à l’utilisateur s’il y en a
 
 # Exo_71
 
+Niveau : 4 ⭐
 
 Créer un menu pour gérer un reçu avec des options pour ajouter ou retirer des items.
-
-Effectuez la validation et indiquez les erreurs à l’utilisateur s’il y en a.
 
 **Exercice** :
 - Créez un tableau de `String` pour les noms des plats : `["Crevette", "Salade", "Frite", "Hamburger", "Gâteau"]`.

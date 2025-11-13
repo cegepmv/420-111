@@ -58,6 +58,13 @@
       <description>🔀 Exercices – Structures de contrôle conditionnelles (if/else) en Java 🧪 Exercice 1 Déclare un entier int x = -3; Affiche s’il est positif ou négatif avec un message correspondant au résultat.&#xA;Sortie attendue Le nombre est négatif. 🧪 Exercice 2 Déclare int n = 7; Affiche si le nombre est pair ou impair.&#xA;Sortie attendue Le nombre 7 est impair. 🧪 Exercice 3 Déclare :&#xA;int a = 12; int b = 20; Affiche lequel est le plus grand. Affiche a et b sont égaux si c’est le cas.</description>
     </item>
     <item>
+      <title>Série 8</title>
+      <link>http://localhost:1313/420-111/exercices/serie08/index.html</link>
+      <pubDate>Wed, 20 Aug 2025 19:02:52 -0400</pubDate>
+      <guid>http://localhost:1313/420-111/exercices/serie08/index.html</guid>
+      <description>Examen préparatif 1 partie théorique ( /8) Question 1 ( /2): Quelle est la sortie attendue de ce bout de code :&#xA;boolean calcul = 18 % 5 + 1 == 4 &amp;&amp; !(2 * 2 &gt;= 5); System.out.println(&#34;Résultat : &#34; + calcul) Question 2 ( /1) Déclare une variable qui servira à enregistrer des nombres entier entre -120 et 31 000? (Nomme-la simplement variable)</description>
+    </item>
+    <item>
       <title>Série 9</title>
       <link>http://localhost:1313/420-111/exercices/serie09/index.html</link>
       <pubDate>Wed, 20 Aug 2025 19:02:55 -0400</pubDate>
