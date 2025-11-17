@@ -19,13 +19,13 @@ Demande à l’utilisateur de saisir son prénom (chaine de caractères) et affi
 
 ---
 
-### 🧪 **Exercice 3 – Lire deux entiers et afficher leur somme**
+### 🧪 **Exercice 2 – Lire deux entiers et afficher leur somme**
 
 Demande à l’utilisateur de saisir deux entiers, puis affiche la somme.
 
 ---
 
-### 🧪 **Exercice 4 – Lire un nombre à virgule**
+### 🧪 **Exercice 3 – Lire un nombre à virgule**
 
 Demande à l’utilisateur de saisir un nombre à virgule (double) et affiche ce nombre arrondi à 2 décimales.
 
@@ -33,20 +33,20 @@ Si la saisie n’est pas correcte, redemande jusqu’à ce qu’un nombre valide
 
 ---
 
-### 🧪 **Exercice 5 – Lire une phrase complète**
+### 🧪 **Exercice 4 – Lire une phrase complète**
 
 Demande à l’utilisateur de saisir une phrase complète (avec espaces), puis affiche-la.
 
 ---
 
-### 🧪 **Exercice 6 – Calculer la moyenne de 3 notes**
+### 🧪 **Exercice 5 – Calculer la moyenne de 3 notes**
 
 Demande à l’utilisateur de saisir 3 notes (double) séparées par un espace sur la même ligne, calcule la moyenne et affiche-la arrondie à 2 décimales.
 
 Si la saisie n’est pas correcte, redemande jusqu’à ce qu’elle le soit.
 ---
 
-### Exo_7
+### Exo_6
 
 **Exercice** :
 
@@ -67,7 +67,7 @@ Année non bissextile
 
 # Menus
 
-### 🧪 **Exercice 1 – Menu simple de salutation**
+### 🧪 **Exercice 7 – Menu simple de salutation**
 
 Affiche ce menu :
 
@@ -88,7 +88,7 @@ Affiche :
 
 ---
 
-### 🧪 **Exercice 2 – Menu calculatrice simple**
+### 🧪 **Exercice 8 – Menu calculatrice simple**
 
 Affiche ce menu :
 
@@ -109,7 +109,7 @@ Si division par zéro, affiche un message d’erreur.
 ---
 
 
-### 🧪 **Exercice 4 – Menu gestion de tableau**
+### 🧪 **Exercice 9 – Menu gestion de tableau**
 
 Déclare un tableau d’entiers vide de taille 5.
 Propose ce menu en boucle jusqu’à ce que l’utilisateur choisisse de quitter :
@@ -129,7 +129,7 @@ Effectuez la validation et indiquez les erreurs à l’utilisateur s’il y en a
 ---
 
 
-# Exo_71
+# Exo_10
 
 
 Créer un menu pour gérer un reçu avec des options pour ajouter ou retirer des items.
