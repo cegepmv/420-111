@@ -44,6 +44,7 @@ Demande à l’utilisateur de saisir une phrase complète (avec espaces), puis a
 Demande à l’utilisateur de saisir 3 notes (double) séparées par un espace sur la même ligne, calcule la moyenne et affiche-la arrondie à 2 décimales.
 
 Si la saisie n’est pas correcte, redemande jusqu’à ce qu’elle le soit.
+
 ---
 
 ### Exo_6
