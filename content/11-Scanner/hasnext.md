@@ -38,7 +38,7 @@ public class LectureSecurisee {
         while (!sc.hasNextInt()) {
             System.out.println("❌ Ce n’est pas un entier !");
             System.out.print("Essaie encore : ");
-            sc.next(); // on ignore la mauvaise entrée
+            sc.nextLine(); // on ignore la mauvaise entrée
         }
 
         int nombre = sc.nextInt();
@@ -53,7 +53,7 @@ public class LectureSecurisee {
 
 * `hasNextInt()` vérifie la prochaine donnée
 * Tant que ce n’est **pas** un entier → on affiche un message d’erreur
-* `sc.next()` sert à **vider** l’entrée incorrecte avant de recommencer
+* `sc.nextLine()` sert à **vider** l’entrée incorrecte avant de recommencer
 
 ---
 
@@ -65,7 +65,7 @@ System.out.print("Entre un nombre décimal : ");
 while (!sc.hasNextDouble()) {
     System.out.println("❌ Ce n’est pas un nombre décimal !");
     System.out.print("Essaie encore : ");
-    sc.next();
+    sc.nextLine();
 }
 
 double valeur = sc.nextDouble();
@@ -82,7 +82,7 @@ Pour éviter de répéter le même code, tu peux créer une **méthode utilitair
 public static int lireEntier(Scanner sc) {
     while (!sc.hasNextInt()) {
         System.out.println("❌ Erreur : entre un entier valide !");
-        sc.next();
+        sc.nextLine();
     }
     return sc.nextInt();
 }
