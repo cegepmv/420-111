@@ -33,27 +33,27 @@ C’est ici que les méthodes hasNext...() entrent en jeu.
     <meta itemprop="dateModified" content="2025-11-13T08:33:04-05:00">
     <meta itemprop="wordCount" content="411">
     <title>Gestion des Entrées :: Introduction à la programmation</title>
-    <link href="/420-111/images/favicon.png?1763338920" rel="icon" type="image/png">
-    <link href="/420-111/css/auto-complete/auto-complete.min.css?1763338920" rel="stylesheet">
-    <script src="/420-111/js/auto-complete/auto-complete.min.js?1763338920" defer></script>
-    <script src="/420-111/js/search-lunr.js?1763338920" defer></script>
-    <script src="/420-111/js/search.js?1763338920" defer></script>
+    <link href="/420-111/images/favicon.png?1765215170" rel="icon" type="image/png">
+    <link href="/420-111/css/auto-complete/auto-complete.min.css?1765215170" rel="stylesheet">
+    <script src="/420-111/js/auto-complete/auto-complete.min.js?1765215170" defer></script>
+    <script src="/420-111/js/search-lunr.js?1765215170" defer></script>
+    <script src="/420-111/js/search.js?1765215170" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/420-111/searchindex.en.js?1763338920";
+      window.relearn.index_js_url="/420-111/searchindex.en.js?1765215170";
     </script>
-    <script src="/420-111/js/lunr/lunr.min.js?1763338920" defer></script>
-    <script src="/420-111/js/lunr/lunr.stemmer.support.min.js?1763338920" defer></script>
-    <script src="/420-111/js/lunr/lunr.multi.min.js?1763338920" defer></script>
-    <script src="/420-111/js/lunr/lunr.fr.min.js?1763338920" defer></script>
+    <script src="/420-111/js/lunr/lunr.min.js?1765215170" defer></script>
+    <script src="/420-111/js/lunr/lunr.stemmer.support.min.js?1765215170" defer></script>
+    <script src="/420-111/js/lunr/lunr.multi.min.js?1765215170" defer></script>
+    <script src="/420-111/js/lunr/lunr.fr.min.js?1765215170" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['fr'];
     </script>
-    <link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1763338920" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1763338920" rel="stylesheet"></noscript>
-    <link href="/420-111/css/perfect-scrollbar/perfect-scrollbar.min.css?1763338920" rel="stylesheet">
-    <link href="/420-111/css/theme.css?1763338920" rel="stylesheet">
-    <link href="/420-111/css/format-html.css?1763338920" rel="stylesheet" id="R-format-style">
+    <link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1765215170" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1765215170" rel="stylesheet"></noscript>
+    <link href="/420-111/css/perfect-scrollbar/perfect-scrollbar.min.css?1765215170" rel="stylesheet">
+    <link href="/420-111/css/theme.css?1765215170" rel="stylesheet">
+    <link href="/420-111/css/format-html.css?1765215170" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -219,7 +219,7 @@ C’est ici que les méthodes hasNext...() entrent en jeu.
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">sc</span><span class="p">.</span><span class="na">hasNextInt</span><span class="p">())</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;❌ Ce n’est pas un entier !&#34;</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">print</span><span class="p">(</span><span class="s">&#34;Essaie encore : &#34;</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">sc</span><span class="p">.</span><span class="na">next</span><span class="p">();</span><span class="w"> </span><span class="c1">// on ignore la mauvaise entrée</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">            </span><span class="n">sc</span><span class="p">.</span><span class="na">nextLine</span><span class="p">();</span><span class="w"> </span><span class="c1">// on ignore la mauvaise entrée</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">nombre</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sc</span><span class="p">.</span><span class="na">nextInt</span><span class="p">();</span><span class="w">
@@ -232,7 +232,7 @@ C’est ici que les méthodes hasNext...() entrent en jeu.
 <ul>
 <li><code>hasNextInt()</code> vérifie la prochaine donnée</li>
 <li>Tant que ce n’est <strong>pas</strong> un entier → on affiche un message d’erreur</li>
-<li><code>sc.next()</code> sert à <strong>vider</strong> l’entrée incorrecte avant de recommencer</li>
+<li><code>sc.nextLine()</code> sert à <strong>vider</strong> l’entrée incorrecte avant de recommencer</li>
 </ul>
 <hr>
 <h2 id="-exemple-avec-un-double">🧮 Exemple avec un double</h2>
@@ -241,7 +241,7 @@ C’est ici que les méthodes hasNext...() entrent en jeu.
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">sc</span><span class="p">.</span><span class="na">hasNextDouble</span><span class="p">())</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;❌ Ce n’est pas un nombre décimal !&#34;</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">print</span><span class="p">(</span><span class="s">&#34;Essaie encore : &#34;</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">sc</span><span class="p">.</span><span class="na">next</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">sc</span><span class="p">.</span><span class="na">nextLine</span><span class="p">();</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kt">double</span><span class="w"> </span><span class="n">valeur</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sc</span><span class="p">.</span><span class="na">nextDouble</span><span class="p">();</span><span class="w">
@@ -252,7 +252,7 @@ C’est ici que les méthodes hasNext...() entrent en jeu.
 <div class="highlight wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="nf">lireEntier</span><span class="p">(</span><span class="n">Scanner</span><span class="w"> </span><span class="n">sc</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="o">!</span><span class="n">sc</span><span class="p">.</span><span class="na">hasNextInt</span><span class="p">())</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;❌ Erreur : entre un entier valide !&#34;</span><span class="p">);</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">sc</span><span class="p">.</span><span class="na">next</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">sc</span><span class="p">.</span><span class="na">nextLine</span><span class="p">();</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">sc</span><span class="p">.</span><span class="na">nextInt</span><span class="p">();</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div>
@@ -393,8 +393,8 @@ C’est ici que les méthodes hasNext...() entrent en jeu.
 <div id="R-footer"></div>
       </div>
     </aside>
-    <script src="/420-111/js/clipboard/clipboard.min.js?1763338920" defer></script>
-    <script src="/420-111/js/perfect-scrollbar/perfect-scrollbar.min.js?1763338920" defer></script>
-    <script src="/420-111/js/theme.js?1763338920" defer></script>
+    <script src="/420-111/js/clipboard/clipboard.min.js?1765215170" defer></script>
+    <script src="/420-111/js/perfect-scrollbar/perfect-scrollbar.min.js?1765215170" defer></script>
+    <script src="/420-111/js/theme.js?1765215170" defer></script>
   </body>
 </html>

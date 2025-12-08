@@ -31,29 +31,29 @@
 🧪 Exercice 3 – Lire un nombre à virgule Demande à l’utilisateur de saisir un nombre à virgule (double) et affiche ce nombre arrondi à 2 décimales.">
     <meta itemprop="datePublished" content="2025-08-20T19:03:11-04:00">
     <meta itemprop="dateModified" content="2025-08-20T19:03:11-04:00">
-    <meta itemprop="wordCount" content="716">
+    <meta itemprop="wordCount" content="859">
     <title>Série 12 :: Introduction à la programmation</title>
-    <link href="/420-111/images/favicon.png?1763338920" rel="icon" type="image/png">
-    <link href="/420-111/css/auto-complete/auto-complete.min.css?1763338920" rel="stylesheet">
-    <script src="/420-111/js/auto-complete/auto-complete.min.js?1763338920" defer></script>
-    <script src="/420-111/js/search-lunr.js?1763338920" defer></script>
-    <script src="/420-111/js/search.js?1763338920" defer></script>
+    <link href="/420-111/images/favicon.png?1765215170" rel="icon" type="image/png">
+    <link href="/420-111/css/auto-complete/auto-complete.min.css?1765215170" rel="stylesheet">
+    <script src="/420-111/js/auto-complete/auto-complete.min.js?1765215170" defer></script>
+    <script src="/420-111/js/search-lunr.js?1765215170" defer></script>
+    <script src="/420-111/js/search.js?1765215170" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/420-111/searchindex.en.js?1763338920";
+      window.relearn.index_js_url="/420-111/searchindex.en.js?1765215170";
     </script>
-    <script src="/420-111/js/lunr/lunr.min.js?1763338920" defer></script>
-    <script src="/420-111/js/lunr/lunr.stemmer.support.min.js?1763338920" defer></script>
-    <script src="/420-111/js/lunr/lunr.multi.min.js?1763338920" defer></script>
-    <script src="/420-111/js/lunr/lunr.fr.min.js?1763338920" defer></script>
+    <script src="/420-111/js/lunr/lunr.min.js?1765215170" defer></script>
+    <script src="/420-111/js/lunr/lunr.stemmer.support.min.js?1765215170" defer></script>
+    <script src="/420-111/js/lunr/lunr.multi.min.js?1765215170" defer></script>
+    <script src="/420-111/js/lunr/lunr.fr.min.js?1765215170" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['fr'];
     </script>
-    <link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1763338920" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1763338920" rel="stylesheet"></noscript>
-    <link href="/420-111/css/perfect-scrollbar/perfect-scrollbar.min.css?1763338920" rel="stylesheet">
-    <link href="/420-111/css/theme.css?1763338920" rel="stylesheet">
-    <link href="/420-111/css/format-html.css?1763338920" rel="stylesheet" id="R-format-style">
+    <link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1765215170" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1765215170" rel="stylesheet"></noscript>
+    <link href="/420-111/css/perfect-scrollbar/perfect-scrollbar.min.css?1765215170" rel="stylesheet">
+    <link href="/420-111/css/theme.css?1765215170" rel="stylesheet">
+    <link href="/420-111/css/format-html.css?1765215170" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -230,11 +230,11 @@ Affiche :</p>
 <h3 id="-exercice-8--menu-calculatrice-simple">🧪 <strong>Exercice 8 – Menu calculatrice simple</strong></h3>
 <p>Affiche ce menu :</p>
 <p>Effectuez la validation et indiquez les erreurs à l’utilisateur s’il y en a.</p>
-<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>1. Addition  
-2. Soustraction  
-3. Multiplication  
-4. Division  
-5. Quitter  </code></pre></div>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>+ Addition  
+- Soustraction  
+x Multiplication  
+/ Division  
+q Quitter  </code></pre></div>
 <p>Lis le choix, puis demande deux nombres (entiers).
 Effectue l’opération choisie et affiche le résultat.
 Si division par zéro, affiche un message d’erreur.</p>
@@ -257,9 +257,17 @@ Propose ce menu en boucle jusqu’à ce que l’utilisateur choisisse de quitter
 <p>Effectuez la validation et indiquez les erreurs à l’utilisateur s’il y en a.</p>
 <p><strong>Exercice</strong> :</p>
 <ul>
-<li>Créez un tableau de <code>String</code> pour les noms des plats : <code>[&quot;Crevette&quot;, &quot;Salade&quot;, &quot;Frite&quot;, &quot;Hamburger&quot;, &quot;Gâteau&quot;]</code>.</li>
-<li>Créez un tableau de <code>float</code> pour les prix des plats correspondants : <code>[8.99, 5.60, 6.40, 10.99, 7.99]</code>.</li>
-<li>Implémentez un menu interactif avec les options suivantes :
+<li>
+<p>Créez un tableau de <code>String</code> pour les noms des plats : <code>[&quot;Crevette&quot;, &quot;Salade&quot;, &quot;Frite&quot;, &quot;Hamburger&quot;, &quot;Gâteau&quot;]</code>.</p>
+</li>
+<li>
+<p>Créez un tableau de <code>float</code> pour les prix des plats correspondants : <code>[8.99, 5.60, 6.40, 10.99, 7.99]</code>.</p>
+</li>
+<li>
+<p>Créez un tableau de <code>boolean</code> pour retenir ce qui est commandé. On assume que chaque plat ne peut être commandé qu&rsquo;une seule fois.</p>
+</li>
+<li>
+<p>Implémentez un menu interactif avec les options suivantes :</p>
 <ol>
 <li>Ajouter un item.</li>
 <li>Retirer un item.</li>
@@ -267,8 +275,21 @@ Propose ce menu en boucle jusqu’à ce que l’utilisateur choisisse de quitter
 <li>Terminer la transaction (Afficher le reçu, écrire un message d&rsquo;adieu et arrête le programme).</li>
 </ol>
 </li>
-<li>À chaque ajout d&rsquo;item, le prix du plat sera ajouté au total de la facture.</li>
-<li>À chaque retrait d&rsquo;item, le prix du plat sera soustrait du total de la facture.</li>
+<li>
+<p>À chaque ajout d&rsquo;item, le prix du plat sera ajouté au total de la facture.</p>
+</li>
+<li>
+<p>À chaque retrait d&rsquo;item, le prix du plat sera soustrait du total de la facture.</p>
+</li>
+<li>
+<p>L&rsquo;option d&rsquo;ajouter un item doit être retirer s&rsquo;il est déjà ajouté.</p>
+</li>
+<li>
+<p>L&rsquo;option de retirer un item est disponible seulement s&rsquo;il est sur la facture actuellement.</p>
+</li>
+<li>
+<p>Si une mauvaise entrée est détecté, affiche un message d&rsquo;erreur et attend que l&rsquo;utilisateur appuie sur la touche entrée. Ensuite le ramène au menu principal.</p>
+</li>
 </ul>
 <p><strong>Exemple de sortie attendue</strong> :</p>
 <div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>Menu :
@@ -298,12 +319,34 @@ Menu :
 4. Terminer la transaction
 Total de la facture actuelle : 8.99$
 
+
+Entrez votre choix : 1
+Choisissez un item à ajouter :
+2. Salade             5.60$
+3. Frite              6.40$
+4. Hamburger         10.99$
+5. Gâteau             7.99$
+
+
+Entrez le numéro de l&#39;item : 3
+Plat ajouté : Frite
+Total de la facture actuelle : 15.39$
+
+Menu :
+1. Ajouter un item
+2. Retirer un item
+3. Afficher le reçu
+4. Terminer la transaction
+Total de la facture actuelle : 15.39$
+
+
 Entrez votre choix : 3
 Reçu :
 
 Crevette              8.99$
+Frite                 6.40$
 ---------------------------
-Total                 8.99$
+Total                15.39$
 
 
 Menu :
@@ -311,13 +354,14 @@ Menu :
 2. Retirer un item
 3. Afficher le reçu
 4. Terminer la transaction
-Total de la facture actuelle : 8.99$
+Total de la facture actuelle : 15.39$
 
 Entrez votre choix : 4
 
 Crevette              8.99$
+Frite                 6.40$
 ---------------------------
-Total                 8.99$
+Total                15.39$
 
 Merci pour votre visite!</code></pre></div>
 <hr>
@@ -439,8 +483,8 @@ Merci pour votre visite!</code></pre></div>
 <div id="R-footer"></div>
       </div>
     </aside>
-    <script src="/420-111/js/clipboard/clipboard.min.js?1763338920" defer></script>
-    <script src="/420-111/js/perfect-scrollbar/perfect-scrollbar.min.js?1763338920" defer></script>
-    <script src="/420-111/js/theme.js?1763338920" defer></script>
+    <script src="/420-111/js/clipboard/clipboard.min.js?1765215170" defer></script>
+    <script src="/420-111/js/perfect-scrollbar/perfect-scrollbar.min.js?1765215170" defer></script>
+    <script src="/420-111/js/theme.js?1765215170" defer></script>
   </body>
 </html>
