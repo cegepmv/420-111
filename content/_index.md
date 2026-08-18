@@ -28,7 +28,7 @@ type = "home"
 |TP 2| 10 % |Semaine 7|
 |TP 3| 10 % |Semaine 11|
 |TP 4| 15 % |Semaine 14|
-|Quiz (entre 7 quiz) 5 meilleures notes| 10 % |Semaine 3 à 14|
+| 7 quiz (5 meilleures notes)| 10 % |Semaine 3 à 14|
 |Examen 1| 20 % |Semaine 9|
 |Examen Final| 30 % |ESO|
 

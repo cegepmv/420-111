@@ -8,6 +8,7 @@ enableEmoji = true
 [params]  
   additionalCSS = ["css/custom.css"]
   disableInlineCopyToClipBoard = true
+  hideAuthorDate = true
 
 
   [[params.themeVariant]]
