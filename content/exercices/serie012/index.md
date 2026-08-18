@@ -4,6 +4,13 @@ title = 'Série 12'
 weight = 12
 +++
 
+# 🟣 NIVEAU 12 — PARLER AVEC L'UTILISATEUR
+
+### 📜 Histoire
+
+*Un programme interactif doit savoir écouter! Apprends à lire les entrées clavier avec `Scanner` pour créer des programmes qui dialoguent avec l'utilisateur.*
+
+💎 Points : ⭐⭐⭐⭐⭐ Difficulté : maître
 
 ---
 
@@ -237,4 +244,4 @@ Merci pour votre visite!
 
 
 
-<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie12">Solutions</a>
+{{% solutions-link "12" %}}

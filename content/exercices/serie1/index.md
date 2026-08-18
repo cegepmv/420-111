@@ -4,7 +4,13 @@ title = 'Série 1'
 weight = 1
 +++
 
+# 🟢 NIVEAU 1 — PREMIERS PAS EN JAVA
 
+### 📜 Histoire
+
+*Bienvenue, apprenti·e développeur·euse! Ton aventure commence ici : apprivoiser la syntaxe de Java, respecter ses règles strictes (points-virgules, accolades, conventions de nommage) et écrire tes tout premiers programmes.*
+
+💎 Points : 9 défis — ⭐ Difficulté : facile
 
 ---
 
@@ -275,5 +281,5 @@ return false;
 
 
 
-<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie1">Solutions</a>
+{{% solutions-link "1" %}}
 

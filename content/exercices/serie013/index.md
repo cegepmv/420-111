@@ -4,6 +4,15 @@ title = 'Série 13'
 weight = 13
 +++
 
+# 🟣 NIVEAU 13 — LIRE DES FICHIERS
+
+### 📜 Histoire
+
+*Dernier niveau de l'aventure! Apprends à lire des données stockées dans un fichier pour créer des programmes capables de traiter de vraies données externes.*
+
+💎 Points : ⭐⭐⭐⭐⭐ Difficulté : maître
+
+---
 
 # 📂 **Exercices – Lecture de fichiers en Java**
 
@@ -136,4 +145,4 @@ Lis un fichier `contacts.csv` avec des données séparées par des virgules : no
 
 ---
 
-<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie13">Solutions</a>
+{{% solutions-link "13" %}}

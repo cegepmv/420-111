@@ -1,0 +1,7 @@
+{{/*
+  Lien vers le dossier de solutions d'une série, servi par le site lui-même
+  (fichiers dans static/solutions/serieN).
+  Usage: {{% solutions-link "1" %}}
+*/}}
+{{- $serie := .Get 0 -}}
+<a href="{{ printf "exercices/solutions/serie%s/" $serie | relURL }}">Solutions</a>

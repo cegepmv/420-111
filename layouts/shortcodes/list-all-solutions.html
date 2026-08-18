@@ -1,0 +1,19 @@
+{{/*
+  Liste les liens vers toutes les pages de solutions (une série par ligne),
+  découvertes automatiquement dans static/solutions.
+  Usage: {{% list-all-solutions %}}
+*/}}
+{{- $absDir := "static/solutions" -}}
+{{- $series := slice -}}
+{{- range readDir $absDir -}}
+  {{- if .IsDir -}}
+    {{- $num := replace .Name "serie" "" -}}
+    {{- $series = $series | append (dict "name" .Name "num" (int $num)) -}}
+  {{- end -}}
+{{- end -}}
+{{- $series = sort $series "num" "asc" -}}
+<ul>
+{{- range $series }}
+  <li><a href="{{ printf "exercices/solutions/%s/" .name | relURL }}">Solutions - Série {{ .num }}</a></li>
+{{- end }}
+</ul>

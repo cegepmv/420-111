@@ -4,6 +4,13 @@ title = 'Série 4'
 weight = 4
 +++
 
+# 🟡 NIVEAU 4 — LES OPÉRATEURS EN ACTION
+
+### 📜 Histoire
+
+*Additions, multiplications, restes de division... les opérateurs sont tes outils de calcul. Maîtrise-les pour résoudre des problèmes numériques!*
+
+💎 Points : ⭐⭐ Difficulté : intermédiaire
 
 ---
 
@@ -326,7 +333,7 @@ Est-ce un majeur ? : true/false
 ---
 
 
-<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie4">Solutions</a>
+{{% solutions-link "4" %}}
 
 
 

@@ -17,7 +17,7 @@ weight = 1
 
 * Java est l'un des langages les plus populaires en 2025 selon TIOBE
 
-<img width="862" height="692" alt="image" src="https://github.com/user-attachments/assets/b4715955-8acd-4687-95b1-449326bd755c" />
+<img width="862" height="692" alt="image" src="/420-111/images/sondage_tiobe_2026.png" />
 
 [https://www.tiobe.com/tiobe-index/](https://www.tiobe.com/tiobe-index/)
 

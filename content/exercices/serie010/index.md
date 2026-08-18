@@ -4,6 +4,15 @@ title = 'Série 10'
 weight = 10
 +++
 
+# 🔴 NIVEAU 10 — LES FONCTIONS
+
+### 📜 Histoire
+
+*Un·e bon·ne développeur·euse ne répète jamais le même code deux fois! Apprends à créer tes propres fonctions pour organiser et réutiliser ton code.*
+
+💎 Points : ⭐⭐⭐⭐ Difficulté : experte
+
+---
 
 ### 🧪 **Exercice 1**
 
@@ -266,4 +275,4 @@ Créez une méthode qui reçois l'entier n.
 ```
 
 
-<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie10">Solutions</a>
+{{% solutions-link "10" %}}

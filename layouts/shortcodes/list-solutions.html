@@ -1,0 +1,9 @@
+{{/*
+  Liste (avec liens) tous les fichiers du dossier static/solutions/serieN
+  correspondant à la série donnée.
+  Usage: {{% list-solutions "1" %}}
+*/}}
+{{- $serie := .Get 0 -}}
+{{- $relDir := printf "solutions/serie%s" $serie -}}
+{{- $absDir := printf "static/%s" $relDir -}}
+{{ partial "solutions-tree.html" (dict "relDir" $relDir "absDir" $absDir) }}

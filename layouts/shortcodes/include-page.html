@@ -1,0 +1,11 @@
+{{/*
+  Inclut le contenu (rendu) d'une autre page du site.
+  Usage: {{% include-page "/1-intro/java" %}}
+*/}}
+{{- $target := .Get 0 -}}
+{{- $p := .Site.GetPage $target -}}
+{{- if $p -}}
+{{ $p.Content }}
+{{- else -}}
+{{- warnf "include-page: page introuvable pour %q (utilisé dans %s)" $target .Page.File.Path -}}
+{{- end -}}

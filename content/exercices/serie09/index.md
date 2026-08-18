@@ -4,7 +4,15 @@ title = 'Série 9'
 weight = 9
 +++
 
+# 🔴 NIVEAU 9 — LES BOUCLES FOR
 
+### 📜 Histoire
+
+*Pourquoi répéter du code manuellement quand une boucle peut le faire pour toi? Découvre la boucle `for`, l'un des outils les plus puissants de Java!*
+
+💎 Points : ⭐⭐⭐⭐ Difficulté : experte
+
+---
 
 # 🔁 **Exercices – Boucles `for` en Java avec `args[]` et tableaux**
 
@@ -503,4 +511,4 @@ Affiche une version "masquée" :
 a***************@example.com
 ```
 
-<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie9">Solutions</a>
+{{% solutions-link "9" %}}

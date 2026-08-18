@@ -4,6 +4,13 @@ title = 'Série 6'
 weight = 6
 +++
 
+# 🟠 NIVEAU 6 — LES TABLEAUX
+
+### 📜 Histoire
+
+*Un tableau te permet de ranger plusieurs valeurs dans une seule variable! Apprends à créer, accéder et manipuler des tableaux Java.*
+
+💎 Points : ⭐⭐⭐ Difficulté : avancée
 
 ---
 
@@ -333,6 +340,6 @@ Additionne la première valeur de la première ligne avec la dernière valeur de
 
 ---
 
-<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie6">Solutions</a>
+{{% solutions-link "6" %}}
 
 

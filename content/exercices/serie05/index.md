@@ -4,6 +4,14 @@ weight = 5
 title = 'Série 5'
 +++
 
+# 🟡 NIVEAU 5 — VRAI OU FAUX?
+
+### 📜 Histoire
+
+*Un programme doit souvent répondre par oui ou non. Découvre les expressions booléennes et les comparaisons logiques!*
+
+💎 Points : ⭐⭐ Difficulté : intermédiaire
+
 ---
 
 ### 🧪 **Exercice 1** (3 pts)

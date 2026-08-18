@@ -4,6 +4,14 @@ title = 'Série 3'
 weight = 3
 +++
 
+# 🟢 NIVEAU 3 — LE TEXTE DÉMYSTIFIÉ
+
+### 📜 Histoire
+
+*Les chaînes de caractères cachent bien des secrets : longueur, lettres, morceaux... Deviens un·e expert·e de la classe `String`!*
+
+💎 Points : 5 défis — ⭐ Difficulté : facile
+
 ---
 
 ### 🧪 **Exercice 1**
@@ -199,4 +207,4 @@ Total HT      : 119.98 $
 * Calcule le total avec `quantite * prixUnitaire`
 * Affiche le total avec **2 décimales seulement**
 
-<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie3">Solutions</a>
+{{% solutions-link "3" %}}

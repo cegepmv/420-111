@@ -1,0 +1,26 @@
+{{/*
+  Affiche récursivement le contenu d'un dossier (fichiers + sous-dossiers)
+  sous forme de liste de liens cliquables.
+  Paramètres (dict):
+    relDir - chemin relatif (pour construire l'URL), ex: "solutions/serie1"
+    absDir - chemin sur disque relatif à la racine du projet, ex: "static/solutions/serie1"
+*/}}
+{{- $relDir := .relDir -}}
+{{- $absDir := .absDir -}}
+{{- if not (os.FileExists $absDir) -}}
+<p><em>Aucune solution disponible pour le moment.</em></p>
+{{- else -}}
+{{- $entries := readDir $absDir -}}
+<ul>
+{{- range $entries }}
+  {{- $name := .Name }}
+  {{- if .IsDir }}
+  <li>{{ $name }}
+    {{ partial "solutions-tree.html" (dict "relDir" (printf "%s/%s" $relDir $name) "absDir" (printf "%s/%s" $absDir $name)) }}
+  </li>
+  {{- else }}
+  <li><a href="{{ printf "%s/%s" $relDir $name | relURL }}">{{ $name }}</a></li>
+  {{- end }}
+{{- end }}
+</ul>
+{{- end -}}

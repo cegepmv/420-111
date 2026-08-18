@@ -4,6 +4,13 @@ title = 'Série 7'
 weight = 7
 +++
 
+# 🟠 NIVEAU 7 — LES DÉCISIONS (IF/ELSE)
+
+### 📜 Histoire
+
+*Un vrai programme sait prendre des décisions! Maîtrise `if`, `else` et les conditions imbriquées pour donner de l'intelligence à ton code.*
+
+💎 Points : ⭐⭐⭐ Difficulté : avancée
 
 ---
 
@@ -318,4 +325,4 @@ Lancement du programme
 ```
 
 ---
-<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie7">Solutions</a>
+{{% solutions-link "7" %}}

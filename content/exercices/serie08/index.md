@@ -3,6 +3,17 @@ date = '2025-08-20T19:02:52-04:00'
 title = 'Série 8'
 weight = 8
 +++
+
+# 🔴 NIVEAU 8 — BOSS : RÉVISION
+
+### 📜 Histoire
+
+*Tu as vaincu 7 niveaux! Ce niveau boss combine tout ce que tu as appris : variables, opérateurs, booléens... Un vrai test de tes compétences avant de continuer l'aventure!*
+
+💎 Points : /8 — 👑 Difficulté : boss
+
+---
+
 ## Examen préparatif 1 partie théorique ( /8)
 ![alt text](image.png)
 ## Question 1 ( /2):
@@ -136,4 +147,4 @@ Max : 7
 
 ---
 
-<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie8">Solutions</a>
+{{% solutions-link "8" %}}

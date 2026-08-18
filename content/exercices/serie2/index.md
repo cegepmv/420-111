@@ -4,6 +4,13 @@ title = 'Série 2'
 weight = 2
 +++
 
+# 🟢 NIVEAU 2 — LE BON TYPE DE VARIABLE
+
+### 📜 Histoire
+
+*Chaque donnée mérite la bonne "boîte" pour la ranger : un entier, une décimale, un caractère... Apprends à choisir le type de variable le plus adapté et le plus économe.*
+
+💎 Points : 5 défis — ⭐ Difficulté : facile
 
 ---
 
@@ -195,4 +202,4 @@ Ville : Lyon
 
 ---
 
-<a href="https://github.com/cegepmv/420-111/tree/main/solutions/serie2">Solutions</a>
+{{% solutions-link "2" %}}
