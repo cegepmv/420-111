@@ -18,7 +18,7 @@ type = "home"
 ## Horaire et disponibilités des enseignants
 :heavy_check_mark: Samuel Fostiné  : <a href="/420-111/horaire_Samuel_Aut2026.pdf" target="_blanck">Lien vers mon horaire et mes disponibilités</a>
 
-:heavy_check_mark: Olivier Tardif  : <a href="/420-111/horaireAut2025.pdf" target="_blanck">Lien vers mon horaire et mes disponibilités</a>
+:heavy_check_mark: Olivier Tardif  : <a href="/420-111/horaireAut2026.pdf" target="_blanck">Lien vers mon horaire et mes disponibilités</a>
 
 ***
 
