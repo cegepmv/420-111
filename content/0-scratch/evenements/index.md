@@ -55,3 +55,5 @@ Blocs à utiliser :
 Événements à programmer :
 
 * Si le chat touche le fantôme → envoyer un message au fantôme pour qu'il disparaisse et se repositionne ailleurs.
+
+Indice: vous devez utiliser un bloc de type _Contrôle_ et un bloc de type _Capteur_.
