@@ -26,7 +26,7 @@ Lorsque plusieurs lutins et arrière-plans sont utilisés dans un même projet, 
 * Quand on clique sur la touche **flèche haut**, il faut orienter le lutin vers le haut et avancer de 10 pas.
 * Quand on clique sur la touche **flèche bas**, il faut orienter le lutin vers le bas et avancer de 10 pas.
 
-![Exemples combinant touches et conditions](exemple-touche-fleche.png)
+![Exemples de blocs utilisant les touches flèche et espace](touche-fleche-exemple.png)
 
 ---
 

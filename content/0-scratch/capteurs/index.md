@@ -22,9 +22,9 @@ Les blocs de type **Capteurs** servent à créer des conditions et à permettre 
 
 ## Créer un dialogue
 
-Le bloc `réponse` peut être inséré directement dans un bloc `dire ()` pour afficher la réponse de l'utilisateur. Un peu plus loin, dans la catégorie **Opérateurs**, tu découvriras le bloc `assembler () et ()`, qui permettra d'intégrer la réponse à l'intérieur d'une phrase complète (par exemple : "Bonjour " + réponse + " !").
+Le bloc `réponse` peut être inséré directement dans un bloc `dire ()` pour afficher la réponse de l'utilisateur. Un peu plus loin, dans la catégorie **Opérateurs**, tu découvriras le bloc `assembler () et ()`, qui permettra d'intégrer la réponse à l'intérieur d'une phrase complète, comme dans l'exemple ci-dessous (« Bonjour » + réponse) :
 
-![Exemple de dialogue avec demander et réponse](demander-repondre.png)
+![Exemple de dialogue avec demander, réponse et assembler](assembler-exemple.png)
 ![Exemple complet de dialogue interactif](dialogue-exemple.png)
 
 ## Exercice 1 — Faire connaissance
