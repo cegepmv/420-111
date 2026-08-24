@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VSCode :: Introduction à la programmation</title>
+    <link>https://cegepmv.github.io/420-111/2-vscode/index.html</link>
+    <description>Installation Lien d’instalation&#xA;Installation des extensions** Ouvrez la barre latérale de gauche dans VSCode. Cliquez sur l’icône des extensions ou utilisez le raccourci clavier Ctrl + Shift + X. Recherchez Language Support for Java(TM) by Red Hat et installez l’extension. Recherchez Debugger for Java et installez l’extension. Racourci clavier utilie Je n’ai pas testé la version Mac.&#xA;🖱️ Raccourcis de base Action Windows/Linux Mac Copier Ctrl + C Cmd (⌘) + C Coller Ctrl + V Cmd (⌘) + V Annuler (Undo) Ctrl + Z Cmd (⌘) + Z 🔍 Édition avancée Action Windows/Linux Mac Sélectionner prochaine occurrence Ctrl + D Cmd (⌘) + D Ajouter plusieurs curseurs (haut/bas) Ctrl + Alt + ↑ / ↓ Option (⌥) + Cmd (⌘) + ↑ / ↓ Copier ligne vers le haut ou le bas Shift + Alt + ↑ / ↓ Shift + Option (⌥) + ↑ / ↓ Commenter rapidement des lignes ctrl + é Surligner un String dont on oublié les &#34;, faites le &#34;et il s’ajoutera des deux côtés.</description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cegepmv.github.io/420-111/2-vscode/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

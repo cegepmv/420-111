@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction à la programmation</title>
+    <link>https://cegepmv.github.io/420-111/index.html</link>
+    <description>Plans de cours 📋 Samuel Fostiné : Plan de cours&#xA;📋 Olivier Tardif : Plan de cours&#xA;Horaire et disponibilités des enseignants ✔️ Samuel Fostiné : Lien vers mon horaire et mes disponibilités&#xA;✔️ Olivier Tardif : Lien vers mon horaire et mes disponibilités&#xA;Nom de l’évaluation Pondération Date de l’évaluation TP 1 - Scratch 5% Semaine 3 TP 2 10 % Semaine 7 TP 3 10 % Semaine 11 TP 4 15 % Semaine 14 7 quiz (5 meilleures notes) 10 % Semaine 3 à 14 Examen 1 20 % Semaine 9 Examen Final 30 % ESO</description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <lastBuildDate>Fri, 19 Sep 2025 13:17:31 -0400</lastBuildDate>
+    <atom:link href="https://cegepmv.github.io/420-111/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scratch</title>
+      <link>https://cegepmv.github.io/420-111/0-scratch/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cegepmv.github.io/420-111/0-scratch/index.html</guid>
+      <description>Introduction à la programmation avec Scratch Avant de commencer à programmer, nous allons découvrir les bases de la programmation avec Scratch, un langage visuel simple et amusant conçu pour les débutants. Aucune connaissance préalable n’est nécessaire!&#xA;Scratch permet d’apprendre les concepts fondamentaux de la programmation (variables, conditions, boucles, événements) sans se soucier de la syntaxe d’un langage textuel.&#xA;Cette section est inspirée du livre : Boccara, V. (2023). Scratch 3 - S’initier à la programmation, à la robotique et à l’IA par le jeu (2e éd.). Éditions ENI.</description>
+    </item>
+    <item>
+      <title>Intro</title>
+      <link>https://cegepmv.github.io/420-111/1-intro/index.html</link>
+      <pubDate>Thu, 21 Aug 2025 20:52:37 -0400</pubDate>
+      <guid>https://cegepmv.github.io/420-111/1-intro/index.html</guid>
+      <description>Introduction C’est quoi un language de programmation? Java est l’un des langages les plus populaires en 2025 selon TIOBE https://www.tiobe.com/tiobe-index/&#xA;Java fonctionne sur plusieurs systèmes d’exploitation (Windows, Mac, Linux, Raspberry Pi, etc.) Java est assez facile à apprendre, surtout pour les débutants, et il est agréable à utiliser.</description>
+    </item>
+    <item>
+      <title>VSCode</title>
+      <link>https://cegepmv.github.io/420-111/2-vscode/index.html</link>
+      <pubDate>Thu, 28 Aug 2025 21:15:14 -0400</pubDate>
+      <guid>https://cegepmv.github.io/420-111/2-vscode/index.html</guid>
+      <description>Installation Lien d’instalation&#xA;Installation des extensions** Ouvrez la barre latérale de gauche dans VSCode. Cliquez sur l’icône des extensions ou utilisez le raccourci clavier Ctrl + Shift + X. Recherchez Language Support for Java(TM) by Red Hat et installez l’extension. Recherchez Debugger for Java et installez l’extension. Racourci clavier utilie Je n’ai pas testé la version Mac.&#xA;🖱️ Raccourcis de base Action Windows/Linux Mac Copier Ctrl + C Cmd (⌘) + C Coller Ctrl + V Cmd (⌘) + V Annuler (Undo) Ctrl + Z Cmd (⌘) + Z 🔍 Édition avancée Action Windows/Linux Mac Sélectionner prochaine occurrence Ctrl + D Cmd (⌘) + D Ajouter plusieurs curseurs (haut/bas) Ctrl + Alt + ↑ / ↓ Option (⌥) + Cmd (⌘) + ↑ / ↓ Copier ligne vers le haut ou le bas Shift + Alt + ↑ / ↓ Shift + Option (⌥) + ↑ / ↓ Commenter rapidement des lignes ctrl + é Surligner un String dont on oublié les &#34;, faites le &#34;et il s’ajoutera des deux côtés.</description>
+    </item>
+    <item>
+      <title>Variables &amp; Types</title>
+      <link>https://cegepmv.github.io/420-111/3-variables-types/variables/index.html</link>
+      <pubDate>Tue, 26 Aug 2025 14:39:35 -0400</pubDate>
+      <guid>https://cegepmv.github.io/420-111/3-variables-types/variables/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>String</title>
+      <link>https://cegepmv.github.io/420-111/4-string/index.html</link>
+      <pubDate>Mon, 01 Sep 2025 18:18:28 -0400</pubDate>
+      <guid>https://cegepmv.github.io/420-111/4-string/index.html</guid>
+      <description>Les chaînes de caractères 🍥 Lien vers la classe String de l’API Java&#xA;Les Strings c’est quoi? En Java, une chaîne de caractères (ou String) est un objet qui représente une séquence de caractères. Contrairement à certains langages où les chaînes sont simplement des tableaux de caractères (char[]), en Java, elles sont des objets de la classe String.&#xA;Exemple :&#xA;String message = &#34;Bonjour !&#34;;&#xD;Utilisation simple Créer une chaîne :&#xA;String nom = &#34;Alice&#34;; //Afficher une chaîne : System.out.println(nom);&#xD;Connaître la longueur :</description>
+    </item>
+    <item>
+      <title>Opérateurs</title>
+      <link>https://cegepmv.github.io/420-111/5-operateurs/arithmetique/index.html</link>
+      <pubDate>Wed, 03 Sep 2025 15:03:33 -0400</pubDate>
+      <guid>https://cegepmv.github.io/420-111/5-operateurs/arithmetique/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Conversions De Types</title>
+      <link>https://cegepmv.github.io/420-111/6-conversions-de-types/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cegepmv.github.io/420-111/6-conversions-de-types/index.html</guid>
+      <description>🔄 Conversion implicite vs explicite en Java La conversion permet de changer le type d’une donnée pour l’adapter à une autre variable ou expression.&#xA;1. Conversion implicite (promotion automatique) Java effectue automatiquement la conversion quand il n’y a pas de risque de perte de données. Se produit souvent quand on passe d’un type plus petit à un type plus grand. Exemples classiques : De Vers Exemple int double double d = 5; byte int int x = 10; int a = 10; double b = a; // Conversion implicite&#xD;2. Conversion explicite (casting) Nécessaire quand il y a un risque de perte de données ou incompatibilité. Le programmeur doit forcer la conversion avec un cast (type). Exemples classiques : De Vers Exemple double int int x = (int) 9.99; long int int y = (int) 100000L; double x = 9.99; int y = (int) x; // Conversion explicite, décimale perdue&#xD;3. Différences clés Aspect Conversion implicite Conversion explicite Nécessite une action ? Non, automatique Oui, cast obligatoire (type) Risque de perte Non Oui Sens Du plus petit au plus grand Du plus grand au plus petit Exemples int → double double → int 4. En résumé Conversion implicite = sûre, automatique, du type petit vers grand. Conversion explicite = risquée, forcée, du type grand vers petit. Utilise toujours le casting explicite pour éviter les erreurs de compilation. 🧠 À retenir Java convertit tout seul quand c’est sûr. Pour tout ce qui peut perdre des infos, il faut caster manuellement. Sois vigilant avec les conversions explicites, elles peuvent tronquer ou modifier la valeur. Conversion_des_types Le terme le plus utilisé pour la technique de conversion est « Casting ».</description>
+    </item>
+    <item>
+      <title>Tableaux</title>
+      <link>https://cegepmv.github.io/420-111/7-tableaux/index.html</link>
+      <pubDate>Fri, 19 Sep 2025 10:11:03 -0400</pubDate>
+      <guid>https://cegepmv.github.io/420-111/7-tableaux/index.html</guid>
+      <description>📦 Les tableaux 1D en Java Un tableau (array) permet de stocker plusieurs valeurs dans une même variable, toutes du même type (int, double, etc.).&#xA;Les tableaux à une dimension (1D) sont comme une liste ordonnée de valeurs, accessibles grâce à leur indice.&#xA;🏗️ Déclaration et création ✏️ Déclarer un tableau int[] notes; // déclaration&#xD;🛠️ Créer un tableau notes = new int[5]; // tableau de 5 entiers (tous à 0)&#xD;Ou, préférablement, tout en une ligne :</description>
+    </item>
+    <item>
+      <title>Structures De Controles</title>
+      <link>https://cegepmv.github.io/420-111/8-structures-de-controles/conditionnelles/if-else/index.html</link>
+      <pubDate>Fri, 19 Sep 2025 10:45:10 -0400</pubDate>
+      <guid>https://cegepmv.github.io/420-111/8-structures-de-controles/conditionnelles/if-else/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Debug</title>
+      <link>https://cegepmv.github.io/420-111/9-debug/index.html</link>
+      <pubDate>Fri, 19 Sep 2025 13:16:44 -0400</pubDate>
+      <guid>https://cegepmv.github.io/420-111/9-debug/index.html</guid>
+      <description>🐞 Utiliser le débogueur Java dans VSCode Le débogueur est un outil essentiel pour comprendre ce que fait ton programme, repérer des erreurs et analyser le comportement du code pas à pas.&#xA;Dans Visual Studio Code, tu peux facilement déboguer du Java avec l’extension adéquate.&#xA;🧰 Prérequis Avant de commencer :&#xA;✔️ Avoir Java installé (JDK 11+ recommandé) ✔️ Avoir VSCode installé ✔️ Avoir installé l’extension Java Extension Pack ou au minimum :</description>
+    </item>
+    <item>
+      <title>Fonctions</title>
+      <link>https://cegepmv.github.io/420-111/10-fonctions/index.html</link>
+      <pubDate>Fri, 19 Sep 2025 13:16:57 -0400</pubDate>
+      <guid>https://cegepmv.github.io/420-111/10-fonctions/index.html</guid>
+      <description>🧩 Les fonctions (ou méthodes) en Java Une fonction (appelée méthode en Java) est un bloc de code réutilisable qui effectue une tâche précise.&#xA;Elles permettent de structurer ton programme, d’éviter la répétition, et de mieux organiser le code.&#xA;🧱 Structure d’une méthode typeRetour nomDeLaMéthode(paramètres) { // instructions return valeur; }&#xD;Élément Description typeRetour Le type de la valeur renvoyée (int, String, etc.) nomDeLaMéthode Le nom de la méthode (en camelCase) paramètres Données reçues en entrée (optionnel) return Permet de renvoyer un résultat (optionnel si void) ✋ Exemple simple public static int addition(int a, int b) { return a + b; }&#xD;💡 Cette méthode prend deux entiers et renvoie leur somme.</description>
+    </item>
+    <item>
+      <title>Scanner</title>
+      <link>https://cegepmv.github.io/420-111/11-scanner/index.html</link>
+      <pubDate>Fri, 19 Sep 2025 13:17:31 -0400</pubDate>
+      <guid>https://cegepmv.github.io/420-111/11-scanner/index.html</guid>
+      <description>🍥 Lien vers la classe Scanner de l’API Java&#xA;📥 Lire des données avec Scanner en Java La classe Scanner permet de lire des données saisies par l’utilisateur dans la console (ou d’autres sources).&#xA;Très utile pour créer des programmes interactifs, qui posent des questions à l’utilisateur !&#xA;📦 Importer Scanner Avant d’utiliser Scanner, tu dois l’importer :&#xA;import java.util.Scanner;&#xD;🧱 Créer un objet Scanner Scanner sc = new Scanner(System.in);&#xD;➡️ System.in signifie : lire depuis la console (clavier)</description>
+    </item>
+    <item>
+      <title>Fichier</title>
+      <link>https://cegepmv.github.io/420-111/12-fichier/lecture/index.html</link>
+      <pubDate>Fri, 19 Sep 2025 13:17:31 -0400</pubDate>
+      <guid>https://cegepmv.github.io/420-111/12-fichier/lecture/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exercices</title>
+      <link>https://cegepmv.github.io/420-111/exercices/index.html</link>
+      <pubDate>Wed, 20 Aug 2025 19:03:15 -0400</pubDate>
+      <guid>https://cegepmv.github.io/420-111/exercices/index.html</guid>
+      <description>🎮 LA GRANDE AVENTURE JAVA ! 🌟 Ta progression, niveau par niveau 🌟 Chaque série est un niveau à conquérir sur le chemin pour devenir un·e véritable développeur·euse Java. Plus les niveaux avancent, plus les défis se corsent : syntaxe, variables, boucles, tableaux, fonctions, fichiers… jusqu’aux boss finaux!&#xA;🗺️ CARTE DE L’AVENTURE JAVA 🟢 NIVEAU 1 🟢 NIVEAU 2 🟢 NIVEAU 3 🟡 NIVEAU 4&#xD;Premiers pas Le bon type Le texte Les opérateurs&#xD;en Java de variable démystifié en action&#xD;🟡 NIVEAU 5 🟠 NIVEAU 6 🟠 NIVEAU 7 🔴 NIVEAU 8&#xD;Vrai ou faux? Les tableaux Les décisions Boss :&#xD;(if/else) Révision&#xD;🔴 NIVEAU 9 🔴 NIVEAU 10 🟣 NIVEAU 12 🟣 NIVEAU 13&#xD;Les boucles Les fonctions Parler avec Lire des&#xD;for l&#39;utilisateur fichiers&#xD;⚔️ 12 NIVEAUX — CHAQUE SÉRIE EST UNE QUÊTE ! ⚔️&#xD;🟢 Facile · 🟡 Intermédiaire · 🟠 Avancé · 🔴 Expert · 🟣 Maître</description>
+    </item>
+  </channel>
+</rss>

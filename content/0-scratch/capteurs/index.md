@@ -22,13 +22,34 @@ Les blocs de type **Capteurs** servent à créer des conditions et à permettre 
 
 ## Créer un dialogue
 
-Le bloc `réponse` peut être associé au bloc `assembler () et ()`, situé dans la catégorie Opérateurs. Il permet d'intégrer la réponse apportée par l'utilisateur dans une phrase (par exemple : "Bonjour " + réponse + " !").
+Le bloc `réponse` peut être inséré directement dans un bloc `dire ()` pour afficher la réponse de l'utilisateur. Un peu plus loin, dans la catégorie **Opérateurs**, tu découvriras le bloc `assembler () et ()`, qui permettra d'intégrer la réponse à l'intérieur d'une phrase complète (par exemple : "Bonjour " + réponse + " !").
 
 ![Exemple de dialogue avec demander et réponse](demander-repondre.png)
 ![Exemple complet de dialogue interactif](dialogue-exemple.png)
 
-## Exercice — Faire connaissance
+## Exercice 1 — Faire connaissance
 
-Quand on clique sur le drapeau vert, le lutin demande "Comment tu t'appelles ?". Il attend la réponse, puis dit "Enchanté, [réponse] !" en utilisant le bloc `assembler`.
+Quand on clique sur le drapeau vert, le lutin demande "Comment tu t'appelles ?". Il attend la réponse, puis :
 
-*Objectif : combiner `demander`, `réponse` et `assembler` pour créer une conversation.*
+* dit "Enchanté !" pendant 1 seconde;
+* dit ensuite (réponse) pendant 1 seconde.
+
+*Objectif : combiner `demander` et `réponse` pour créer une conversation. (Tu pourras fusionner les deux phrases en une seule plus tard, avec le bloc `assembler` vu dans la section Opérateurs.)*
+
+## Exercice 2 — Attrape le fantôme
+
+**Objectif** : le joueur contrôle un lutin (par exemple un chat) avec les flèches pour attraper un fantôme.
+
+Blocs à utiliser :
+
+* `quand touche flèche gauche pressée` → ajouter -10 à x
+* `quand touche flèche droite pressée` → ajouter 10 à x
+* `quand touche flèche haut pressée` → ajouter 10 à y
+* `quand touche flèche bas pressée` → ajouter -10 à y
+* `quand je reçois [attraper]` → se cacher, puis `aller à (position aléatoire)`, puis se montrer (pour le fantôme)
+
+Événements à programmer :
+
+* Sur le lutin **chat**, utilise une boucle `répéter indéfiniment` contenant `si <je touche [fantôme]> alors envoyer à tous [attraper]`.
+
+*Indice : tu dois utiliser un bloc de type* Contrôle *(`si...alors`), un bloc de type* Capteurs *(`toucher`) et le bloc* Mouvement *`aller à (position aléatoire)` vu précédemment.*

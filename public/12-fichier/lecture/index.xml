@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fichier :: Introduction à la programmation</title>
+    <link>https://cegepmv.github.io/420-111/12-fichier/lecture/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <lastBuildDate>Fri, 19 Sep 2025 13:21:19 -0400</lastBuildDate>
+    <atom:link href="https://cegepmv.github.io/420-111/12-fichier/lecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture</title>
+      <link>https://cegepmv.github.io/420-111/12-fichier/lecture/index.html</link>
+      <pubDate>Fri, 19 Sep 2025 13:21:12 -0400</pubDate>
+      <guid>https://cegepmv.github.io/420-111/12-fichier/lecture/index.html</guid>
+      <description>📂 Lire un fichier texte avec Scanner en Java La classe Scanner permet aussi de lire le contenu d’un fichier texte très facilement, ligne par ligne.&#xA;🧱 Importer les classes nécessaires import java.io.File; import java.io.FileNotFoundException; import java.util.Scanner; ```hugo serve --disableFastRender --ignoreCache --- ## 📄 Exemple simple de lecture d’un fichier ```java public class LectureFichier { public static void main(String[] args) { try { File fichier = new File(&#34;donnees.txt&#34;); Scanner sc = new Scanner(fichier); while (sc.hasNextLine()) { String ligne = sc.nextLine(); System.out.println(ligne); } sc.close(); } catch (FileNotFoundException e) { System.out.println(&#34;Fichier introuvable !&#34;); } } }&#xD;🔍 Explications Instruction Rôle File fichier = new File(&#34;donnees.txt&#34;); Crée une référence vers le fichier Scanner sc = new Scanner(fichier); Ouvre le fichier pour lecture sc.hasNextLine() Vérifie s’il reste une ligne sc.nextLine() Lit la ligne suivante sc.close() Ferme le scanner (libère ressources) catch (FileNotFoundException e) Gère le cas où le fichier est absent ⚠️ Points importants Toujours gérer l’exception FileNotFoundException quand tu ouvres un fichier. Pense à fermer le scanner avec sc.close() pour libérer les ressources. La méthode nextLine() lit une ligne complète du fichier. 🧠 À retenir Scanner est simple à utiliser pour lire un fichier texte. Utilise une boucle while (sc.hasNextLine()) pour lire toutes les lignes. Gère toujours les erreurs avec un try-catch. Ferme le scanner après utilisation. 📘 Exercice 1 : Compter les lignes d’un fichier 🎯 Objectif : Lire un fichier texte et compter combien de lignes il contient.</description>
+    </item>
+    <item>
+      <title>Écriture</title>
+      <link>https://cegepmv.github.io/420-111/12-fichier/ecriture/index.html</link>
+      <pubDate>Fri, 19 Sep 2025 13:21:19 -0400</pubDate>
+      <guid>https://cegepmv.github.io/420-111/12-fichier/ecriture/index.html</guid>
+      <description>📤 Écrire dans un fichier en Java Pour écrire du texte dans un fichier, Java propose plusieurs classes. Ici, on va utiliser la classe PrintWriter, simple et pratique pour écrire du texte.&#xA;🧱 Importer les classes nécessaires import java.io.File; import java.io.FileNotFoundException; import java.io.PrintWriter;&#xD;📄 Exemple simple d’écriture dans un fichier public class EcritureFichier { public static void main(String[] args) { try { PrintWriter pw = new PrintWriter(new File(&#34;sortie.txt&#34;)); pw.println(&#34;Bonjour le monde !&#34;); pw.println(&#34;Voici une deuxième ligne.&#34;); pw.close(); // Important : ferme et écrit dans le fichier } catch (FileNotFoundException e) { System.out.println(&#34;Impossible de créer ou ouvrir le fichier.&#34;); } } }&#xD;🔍 Explications Instruction Rôle new PrintWriter(new File(&#34;sortie.txt&#34;)) Crée (ou écrase) le fichier sortie.txt pw.println(&#34;...&#34;) Écrit une ligne dans le fichier pw.close() Ferme le fichier et termine l’écriture catch (FileNotFoundException e) Gère le cas où le fichier ne peut pas être créé ⚠️ Points importants Le fichier est créé s’il n’existe pas. Si le fichier existe, son contenu est écrasé (attention !). Pour ajouter du texte sans écraser, il faut utiliser d’autres classes (ex : FileWriter en mode append). Toujours fermer le PrintWriter avec close() pour que tout soit bien sauvegardé. 🧠 À retenir PrintWriter est simple pour écrire du texte dans un fichier. Utilise println() pour écrire des lignes. Gère l’exception FileNotFoundException. Ferme toujours le writer avec close(). 🧪 Exercice 1 : Écrire un message personnalisé Objectif : Écrire dans un fichier un message composé de plusieurs lignes.</description>
+    </item>
+  </channel>
+</rss>

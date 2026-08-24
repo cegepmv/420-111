@@ -10,63 +10,7 @@ Voici une proposition de solution pour chaque exercice. Il existe souvent **plus
 
 ---
 
-### Exo 1 — Programme de calcul
-
-```
-demander "Choisis un nombre entier" et attendre
-mettre [résultat] à (réponse)
-mettre [résultat] à ((résultat) * 4)
-mettre [résultat] à ((résultat) - 1)
-mettre [résultat] à ((résultat) * 2)
-mettre [résultat] à ((résultat) + 7)
-dire (résultat)
-```
-
-Pour obtenir 77, il faut résoudre : (n×4 − 1)×2 + 7 = 77, donc n = 9.
-
----
-
-### Exo 2 — Deux variables
-
-Avec une seule variable, on perdrait la valeur du **nombre de départ** dès qu'on la remplacerait par le résultat intermédiaire — impossible ensuite de faire "résultat × nombre de départ". Il faut donc conserver les deux valeurs séparément :
-
-```
-demander "Nombre de départ ?" et attendre
-mettre [nombre de départ] à (réponse)
-mettre [résultat] à ((nombre de départ) + 2)
-mettre [résultat] à ((résultat) * (nombre de départ))
-mettre [résultat] à ((résultat) + 1)
-dire (résultat)
-```
-
----
-
-### Exo 3 — La dernière lettre d'un mot
-
-```
-demander "Quel est le mot ?" et attendre
-mettre [mot] à (réponse)
-dire (lettre (longueur de (mot)) de (mot))
-```
-
----
-
-### Exo 4 — La lettre du milieu
-
-```
-demander "Quel est le mot ?" et attendre
-mettre [mot] à (réponse)
-si ((longueur de (mot)) mod 2) = 1 alors
-    dire (lettre (arrondi de ((longueur de (mot)) / 2)) de (mot))
-sinon
-    dire "Ce mot a un nombre pair de lettres, il n'y a pas de lettre du milieu unique"
-```
-
-Avec un mot de longueur paire, il y a deux lettres "du milieu" (par exemple pour un mot de 6 lettres, ce sont les lettres 3 et 4). Il faudrait ajouter un `sinon` qui affiche les deux lettres centrales plutôt qu'une seule.
-
----
-
-### Exo 5 — Dessiner un triangle
+### Exo 1 — Dessiner un triangle
 
 ```
 quand [drapeau vert] cliqué
@@ -86,7 +30,7 @@ lever le stylo
 
 ---
 
-### Exo 6 — La somme de 1 à 100
+### Exo 2 — La somme de 1 à 100
 
 ```
 mettre [somme] à 0
@@ -99,7 +43,7 @@ dire (somme)
 
 ---
 
-### Exo 7 — La somme des nombres impairs
+### Exo 3 — La somme des nombres impairs
 
 ```
 mettre [somme] à 0
@@ -112,35 +56,49 @@ dire (somme)
 
 ---
 
-### Exo 8 — Compter les 6
+### Exo 4 — Table de multiplication
 
 ```
-mettre [compteur] à 0
-répéter (20) fois
-    si (nombre aléatoire entre (1) et (6)) = 6 alors
-        mettre [compteur] à ((compteur) + 1)
-dire (compteur)
+demander "Quel est le nombre ?" et attendre
+mettre [nombre] à (réponse)
+supprimer tout de [table]
+mettre [i] à 1
+répéter (10) fois
+    ajouter ((nombre) * (i)) à [table]
+    mettre [i] à ((i) + 1)
 ```
-
-Le résultat change à chaque exécution car les lancers sont **aléatoires** : chaque tirage a une probabilité indépendante de tomber sur 6.
 
 ---
 
-### Exo 9 — La somme de deux dés
+### Exo 5 — Somme des entiers jusqu'à N
 
 ```
-mettre [dé1] à (nombre aléatoire entre (1) et (6))
-mettre [dé2] à (nombre aléatoire entre (1) et (6))
-dire ((dé1) + (dé2))
+demander "Jusqu'à quel nombre ?" et attendre
+mettre [n] à (réponse)
+mettre [somme] à 0
+mettre [i] à 1
+répéter jusqu'à ce que (i) > (n)
+    mettre [somme] à ((somme) + (i))
+    mettre [i] à ((i) + 1)
+dire (somme)
 ```
-
-On ne peut jamais obtenir 0, car chaque dé donne au minimum 1 (le minimum possible est donc 2).
-
-Pour 100 lancers, on ajoute une boucle `répéter (100) fois` autour du script — les résultats se concentrent surtout autour de 7 (la somme la plus probable avec deux dés à 6 faces).
 
 ---
 
-### Exo 10 — Différence entre deux nombres
+### Exo 6 — La somme des carrés
+
+```
+mettre [somme] à 0
+mettre [i] à 1
+répéter (100) fois
+    mettre [somme] à ((somme) + ((i) * (i)))
+    mettre [i] à ((i) + 1)
+dire (somme)
+```
+
+---
+
+### Exo 7 — Différence entre deux nombres
 
 ```
 demander "Premier nombre ?" et attendre
@@ -155,7 +113,7 @@ sinon
 
 ---
 
-### Exo 11 — Racine carrée
+### Exo 8 — Racine carrée
 
 ```
 demander "Quel est le nombre ?" et attendre
@@ -168,7 +126,7 @@ sinon
 
 ---
 
-### Exo 12 — Le plus grand de trois nombres
+### Exo 9 — Le plus grand de trois nombres
 
 ```
 demander "Nombre 1 ?" et attendre
@@ -187,7 +145,7 @@ dire (max)
 
 ---
 
-### Exo 13 — Triangle rectangle
+### Exo 10 — Triangle rectangle
 
 ```
 demander "Petit côté a ?" et attendre
@@ -209,7 +167,7 @@ sinon
 
 ---
 
-### Exo 14 — Le jeu du dé
+### Exo 11 — Le jeu du dé
 
 ```
 demander "Choisis un nombre entre 1 et 6" et attendre
@@ -223,7 +181,7 @@ sinon
 
 ---
 
-### Exo 15 — Pair ou impair (division)
+### Exo 12 — Pair ou impair (division)
 
 ```
 demander "Quel est le nombre ?" et attendre
@@ -236,7 +194,7 @@ sinon
 
 ---
 
-### Exo 16 — Conversion d'unités
+### Exo 13 — Conversion d'unités
 
 ```
 demander "Mesure en mètres ?" et attendre
@@ -250,7 +208,7 @@ sinon
 
 ---
 
-### Exo 17 — Petite calculatrice
+### Exo 14 — Petite calculatrice
 
 ```
 demander "Premier nombre ?" et attendre
@@ -274,20 +232,7 @@ Pour ajouter la **division**, il faudrait vérifier que `n2` n'est pas égal à 
 
 ---
 
-### Exo 18 — Calcul en chaîne
-
-```
-demander "Choisis un nombre" et attendre
-mettre [résultat] à (réponse)
-mettre [résultat] à ((résultat) * 2)
-mettre [résultat] à ((résultat) + 11)
-mettre [résultat] à ((résultat) * 10)
-dire (résultat)
-```
-
----
-
-### Exo 19 — Prix réduit
+### Exo 15 — Prix réduit
 
 ```
 demander "Quel est le prix ?" et attendre
@@ -301,7 +246,143 @@ dire (assembler "Prix réduit : " ((prix) - (réduction)))
 
 ---
 
-### Exo 20 — Produit moins 10
+### Exo 16 — Compter les 6
+
+```
+mettre [compteur] à 0
+répéter (20) fois
+    si (nombre aléatoire entre (1) et (6)) = 6 alors
+        mettre [compteur] à ((compteur) + 1)
+dire (compteur)
+```
+
+Le résultat change à chaque exécution car les lancers sont **aléatoires** : chaque tirage a une probabilité indépendante de tomber sur 6.
+
+---
+
+### Exo 17 — La somme de deux dés
+
+```
+mettre [dé1] à (nombre aléatoire entre (1) et (6))
+mettre [dé2] à (nombre aléatoire entre (1) et (6))
+dire ((dé1) + (dé2))
+```
+
+On ne peut jamais obtenir 0, car chaque dé donne au minimum 1 (le minimum possible est donc 2).
+
+Pour 100 lancers, on ajoute une boucle `répéter (100) fois` autour du script — les résultats se concentrent surtout autour de 7 (la somme la plus probable avec deux dés à 6 faces).
+
+---
+
+### Exo 18 — Quatre dés
+
+```
+mettre [somme] à 0
+répéter (4) fois
+    mettre [somme] à ((somme) + (nombre aléatoire entre (1) et (6)))
+dire (somme)
+```
+
+---
+
+### Exo 19 — Lancers successifs
+
+```
+mettre [somme] à 0
+mettre [lancers] à 0
+répéter jusqu'à ce que (somme) > 25
+    mettre [somme] à ((somme) + (nombre aléatoire entre (1) et (6)))
+    mettre [lancers] à ((lancers) + 1)
+dire (assembler "Nombre de lancers : " (lancers))
+```
+
+---
+
+### Exo 20 — La somme est-elle petite?
+
+```
+mettre [somme] à 0
+répéter (4) fois
+    mettre [somme] à ((somme) + (nombre aléatoire entre (1) et (6)))
+
+si (somme) < 11 alors
+    dire (assembler "La somme " (assembler (somme) " est inférieure à 11"))
+sinon
+    dire (assembler "La somme " (assembler (somme) " n'est pas inférieure à 11"))
+```
+
+---
+
+### Exo 21 — La dernière lettre d'un mot
+
+```
+demander "Quel est le mot ?" et attendre
+mettre [mot] à (réponse)
+dire (lettre (longueur de (mot)) de (mot))
+```
+
+---
+
+### Exo 22 — La lettre du milieu
+
+```
+demander "Quel est le mot ?" et attendre
+mettre [mot] à (réponse)
+si ((longueur de (mot)) mod 2) = 1 alors
+    dire (lettre (arrondi de ((longueur de (mot)) / 2)) de (mot))
+sinon
+    dire "Ce mot a un nombre pair de lettres, il n'y a pas de lettre du milieu unique"
+```
+
+Avec un mot de longueur paire, il y a deux lettres "du milieu" (par exemple pour un mot de 6 lettres, ce sont les lettres 3 et 4). Il faudrait ajouter un `sinon` qui affiche les deux lettres centrales plutôt qu'une seule.
+
+---
+
+### Exo 23 — Programme de calcul
+
+```
+demander "Choisis un nombre entier" et attendre
+mettre [résultat] à (réponse)
+mettre [résultat] à ((résultat) * 4)
+mettre [résultat] à ((résultat) - 1)
+mettre [résultat] à ((résultat) * 2)
+mettre [résultat] à ((résultat) + 7)
+dire (résultat)
+```
+
+Pour obtenir 77, il faut résoudre : (n×4 − 1)×2 + 7 = 77, donc n = 9.
+
+---
+
+### Exo 24 — Deux variables
+
+Avec une seule variable, on perdrait la valeur du **nombre de départ** dès qu'on la remplacerait par le résultat intermédiaire — impossible ensuite de faire "résultat × nombre de départ". Il faut donc conserver les deux valeurs séparément :
+
+```
+demander "Nombre de départ ?" et attendre
+mettre [nombre de départ] à (réponse)
+mettre [résultat] à ((nombre de départ) + 2)
+mettre [résultat] à ((résultat) * (nombre de départ))
+mettre [résultat] à ((résultat) + 1)
+dire (résultat)
+```
+
+---
+
+### Exo 25 — Calcul en chaîne
+
+```
+demander "Choisis un nombre" et attendre
+mettre [résultat] à (réponse)
+mettre [résultat] à ((résultat) * 2)
+mettre [résultat] à ((résultat) + 11)
+mettre [résultat] à ((résultat) * 10)
+dire (résultat)
+```
+
+---
+
+### Exo 26 — Produit moins 10
 
 ```
 demander "Premier nombre ?" et attendre
@@ -313,7 +394,7 @@ mettre [résultat] à (((n1) * (n2)) - 10)
 
 ---
 
-### Exo 21 — Augmenter de la moitié
+### Exo 27 — Augmenter de la moitié
 
 ```
 demander "Quel est le nombre ?" et attendre
@@ -323,7 +404,7 @@ mettre [résultat] à ((nombre) + ((nombre) / 2))
 
 ---
 
-### Exo 22 — Somme puis produit
+### Exo 28 — Somme puis produit
 
 ```
 demander "Premier nombre ?" et attendre
@@ -337,7 +418,7 @@ mettre [résultat] à (((n1) + (n2)) * (n3))
 
 ---
 
-### Exo 23 — Le carré d'une différence
+### Exo 29 — Le carré d'une différence
 
 ```
 demander "Premier nombre ?" et attendre
@@ -349,7 +430,7 @@ mettre [résultat] à (((n1) - (n2)) * ((n1) - (n2)))
 
 ---
 
-### Exo 24 — Carré moins double
+### Exo 30 — Carré moins double
 
 ```
 demander "Quel est le nombre ?" et attendre
@@ -359,7 +440,7 @@ mettre [résultat] à (((nombre) * (nombre)) - ((nombre) * 2))
 
 ---
 
-### Exo 25 — Une seule variable
+### Exo 31 — Une seule variable
 
 **Avec trois variables :**
 
@@ -388,48 +469,7 @@ dire (Total)
 
 ---
 
-### Exo 26 — L'hypoténuse
-
-```
-demander "Premier côté ?" et attendre
-mettre [a] à (réponse)
-demander "Deuxième côté ?" et attendre
-mettre [b] à (réponse)
-dire (racine carrée de (((a)*(a)) + ((b)*(b))))
-```
-
----
-
-### Exo 27 — Table de multiplication
-
-```
-demander "Quel est le nombre ?" et attendre
-mettre [nombre] à (réponse)
-supprimer tout de [table]
-mettre [i] à 1
-répéter (10) fois
-    ajouter ((nombre) * (i)) à [table]
-    mettre [i] à ((i) + 1)
-```
-
----
-
-### Exo 28 — Somme des entiers jusqu'à N
-
-```
-demander "Jusqu'à quel nombre ?" et attendre
-mettre [n] à (réponse)
-mettre [somme] à 0
-mettre [i] à 1
-répéter jusqu'à ce que (i) > (n)
-    mettre [somme] à ((somme) + (i))
-    mettre [i] à ((i) + 1)
-dire (somme)
-```
-
----
-
-### Exo 29 — Moyenne de notes
+### Exo 32 — Moyenne de notes
 
 **Version 1 (nombre de notes connu à l'avance) :**
 
@@ -470,78 +510,7 @@ dire ((somme) / (longueur de [notes]))
 
 ---
 
-### Exo 30 — Croissance d'une population
-
-```
-mettre [population] à 100
-répéter (5) fois
-    mettre [population] à (arrondi de ((population) * 1.1))
-dire (population)
-```
-
----
-
-### Exo 31 — Quatre dés
-
-```
-mettre [somme] à 0
-répéter (4) fois
-    mettre [somme] à ((somme) + (nombre aléatoire entre (1) et (6)))
-dire (somme)
-```
-
----
-
-### Exo 32 — Lancers successifs
-
-```
-mettre [somme] à 0
-mettre [lancers] à 0
-répéter jusqu'à ce que (somme) > 25
-    mettre [somme] à ((somme) + (nombre aléatoire entre (1) et (6)))
-    mettre [lancers] à ((lancers) + 1)
-dire (assembler "Nombre de lancers : " (lancers))
-```
-
----
-
-### Exo 33 — La suite de Fibonacci
-
-```
-mettre [terme1] à 1
-mettre [terme2] à 1
-répéter (8) fois
-    mettre [terme3] à ((terme1) + (terme2))
-    mettre [terme1] à (terme2)
-    mettre [terme2] à (terme3)
-dire (terme2)
-```
-
-(On répète 8 fois pour obtenir le 10e terme, puisque les termes 1 et 2 sont déjà donnés au départ.)
-
----
-
-### Exo 34 — La division euclidienne
-
-```
-demander "Dividende ?" et attendre
-mettre [dividende] à (réponse)
-demander "Diviseur ?" et attendre
-mettre [diviseur] à (réponse)
-
-mettre [quotient] à 0
-mettre [reste] à (dividende)
-répéter jusqu'à ce que (reste) < (diviseur)
-    mettre [reste] à ((reste) - (diviseur))
-    mettre [quotient] à ((quotient) + 1)
-
-dire (assembler "Quotient : " (quotient))
-dire (assembler "Reste : " (reste))
-```
-
----
-
-### Exo 35 — Maximum et étendue
+### Exo 33 — Maximum et étendue
 
 ```
 supprimer tout de [série]
@@ -567,22 +536,66 @@ dire (assembler "Étendue : " ((max) - (min)))
 
 ---
 
-### Exo 36 — La somme est-elle petite?
+### Exo 34 — L'hypoténuse
 
 ```
-mettre [somme] à 0
-répéter (4) fois
-    mettre [somme] à ((somme) + (nombre aléatoire entre (1) et (6)))
-
-si (somme) < 11 alors
-    dire (assembler "La somme " (assembler (somme) " est inférieure à 11"))
-sinon
-    dire (assembler "La somme " (assembler (somme) " n'est pas inférieure à 11"))
+demander "Premier côté ?" et attendre
+mettre [a] à (réponse)
+demander "Deuxième côté ?" et attendre
+mettre [b] à (réponse)
+dire (racine carrée de (((a)*(a)) + ((b)*(b))))
 ```
 
 ---
 
-### Exo 37 — Sommes particulières
+### Exo 35 — Croissance d'une population
+
+```
+mettre [population] à 100
+répéter (5) fois
+    mettre [population] à (arrondi de ((population) * 1.1))
+dire (population)
+```
+
+---
+
+### Exo 36 — La suite de Fibonacci
+
+```
+mettre [terme1] à 1
+mettre [terme2] à 1
+répéter (8) fois
+    mettre [terme3] à ((terme1) + (terme2))
+    mettre [terme1] à (terme2)
+    mettre [terme2] à (terme3)
+dire (terme2)
+```
+
+(On répète 8 fois pour obtenir le 10e terme, puisque les termes 1 et 2 sont déjà donnés au départ.)
+
+---
+
+### Exo 37 — La division euclidienne
+
+```
+demander "Dividende ?" et attendre
+mettre [dividende] à (réponse)
+demander "Diviseur ?" et attendre
+mettre [diviseur] à (réponse)
+
+mettre [quotient] à 0
+mettre [reste] à (dividende)
+répéter jusqu'à ce que (reste) < (diviseur)
+    mettre [reste] à ((reste) - (diviseur))
+    mettre [quotient] à ((quotient) + 1)
+
+dire (assembler "Quotient : " (quotient))
+dire (assembler "Reste : " (reste))
+```
+
+---
+
+### Exo 38 — Sommes particulières
 
 ```
 demander "Quelle valeur de n ?" et attendre
@@ -611,18 +624,5 @@ sinon
             mettre [somme] à ((somme) + (i))
             mettre [i] à ((i) + 3)
 
-dire (somme)
-```
-
----
-
-### Exo 38 — La somme des carrés
-
-```
-mettre [somme] à 0
-mettre [i] à 1
-répéter (100) fois
-    mettre [somme] à ((somme) + ((i) * (i)))
-    mettre [i] à ((i) + 1)
 dire (somme)
 ```

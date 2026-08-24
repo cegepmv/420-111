@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Boucles Imbriquees :: Introduction à la programmation</title>
+    <link>https://cegepmv.github.io/420-111/8-structures-de-controles/boucles/5-boucles-imbriquees/index.html</link>
+    <description>🔁🔁 Les boucles imbriquées en Java Une boucle imbriquée (ou boucle dans une boucle) permet de répéter un ensemble d’instructions à l’intérieur d’une autre boucle. C’est très utile pour travailler avec des tableaux à plusieurs dimensions, afficher des grilles, ou répéter des structures complexes.&#xA;🧱 Structure d’une boucle imbriquée for (int i = 0; i &lt; 3; i++) { for (int j = 0; j &lt; 4; j++) { // Instructions exécutées à chaque combinaison de i et j } }&#xD;💡 Ici, pour chaque valeur de i, la boucle j s’exécute complètement.</description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cegepmv.github.io/420-111/8-structures-de-controles/boucles/5-boucles-imbriquees/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

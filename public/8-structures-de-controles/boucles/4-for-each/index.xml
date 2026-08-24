@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>For Each :: Introduction à la programmation</title>
+    <link>https://cegepmv.github.io/420-111/8-structures-de-controles/boucles/4-for-each/index.html</link>
+    <description>🔁 La boucle for-each en Java La boucle for-each (ou boucle améliorée for) permet de parcourir facilement les éléments d’un tableau ou d’une collection, sans se soucier des indices.&#xA;Elle est plus lisible et plus sûre que la boucle for classique quand tu n’as pas besoin de manipuler les indices manuellement.&#xA;🧱 Structure d’une boucle for-each for (Type element : collection) { // instructions à exécuter pour chaque élément }&#xD;Élément Rôle Type Le type des éléments (ex : int, String) element Une variable temporaire pour chaque valeur collection Un tableau (array) ou une collection (List, etc.) 🔂 Exemple simple avec un tableau int[] notes = {12, 15, 8, 17}; for (int note : notes) { System.out.println(&#34;Note : &#34; + note); }&#xD;🔎 Ce code affiche :</description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cegepmv.github.io/420-111/8-structures-de-controles/boucles/4-for-each/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

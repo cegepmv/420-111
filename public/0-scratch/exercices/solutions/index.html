@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="fr-ca" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.165.0">
+    <meta name="generator" content="Relearn 8.0.0+9803d5122ebb3276acea823f476e9eb44f607862">
+    <meta name="description" content="Solutionnaire des exercices Voici une proposition de solution pour chaque exercice. Il existe souvent plusieurs bonnes façons d’écrire un même script : compare ta solution avec celle-ci, mais ne t’inquiète pas si ton script est différent tant qu’il fonctionne correctement!
+Exo 1 — Dessiner un triangle quand [drapeau vert] cliquélever le styloaller à x:(0) y:(0)s&#39;orienter à (90)mettre le stylo en position d&#39;écritureavancer de (200) pastourner ↻ de (90) degrésavancer de (150) pass&#39;orienter à (135)avancer de (250) paslever le stylo(La longueur du dernier côté, l’hypoténuse, se calcule avec le théorème de Pythagore : √(200² &#43; 150²) = 250.)">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Solutionnaire :: Introduction à la programmation">
+    <meta name="twitter:description" content="Solutionnaire des exercices Voici une proposition de solution pour chaque exercice. Il existe souvent plusieurs bonnes façons d’écrire un même script : compare ta solution avec celle-ci, mais ne t’inquiète pas si ton script est différent tant qu’il fonctionne correctement!
+Exo 1 — Dessiner un triangle quand [drapeau vert] cliquélever le styloaller à x:(0) y:(0)s&#39;orienter à (90)mettre le stylo en position d&#39;écritureavancer de (200) pastourner ↻ de (90) degrésavancer de (150) pass&#39;orienter à (135)avancer de (250) paslever le stylo(La longueur du dernier côté, l’hypoténuse, se calcule avec le théorème de Pythagore : √(200² &#43; 150²) = 250.)">
+    <meta property="og:url" content="https://cegepmv.github.io/420-111/0-scratch/exercices/solutions/index.html">
+    <meta property="og:site_name" content="Introduction à la programmation">
+    <meta property="og:title" content="Solutionnaire :: Introduction à la programmation">
+    <meta property="og:description" content="Solutionnaire des exercices Voici une proposition de solution pour chaque exercice. Il existe souvent plusieurs bonnes façons d’écrire un même script : compare ta solution avec celle-ci, mais ne t’inquiète pas si ton script est différent tant qu’il fonctionne correctement!
+Exo 1 — Dessiner un triangle quand [drapeau vert] cliquélever le styloaller à x:(0) y:(0)s&#39;orienter à (90)mettre le stylo en position d&#39;écritureavancer de (200) pastourner ↻ de (90) degrésavancer de (150) pass&#39;orienter à (135)avancer de (250) paslever le stylo(La longueur du dernier côté, l’hypoténuse, se calcule avec le théorème de Pythagore : √(200² &#43; 150²) = 250.)">
+    <meta property="og:locale" content="fr_ca">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Scratch">
+    <meta itemprop="name" content="Solutionnaire :: Introduction à la programmation">
+    <meta itemprop="description" content="Solutionnaire des exercices Voici une proposition de solution pour chaque exercice. Il existe souvent plusieurs bonnes façons d’écrire un même script : compare ta solution avec celle-ci, mais ne t’inquiète pas si ton script est différent tant qu’il fonctionne correctement!
+Exo 1 — Dessiner un triangle quand [drapeau vert] cliquélever le styloaller à x:(0) y:(0)s&#39;orienter à (90)mettre le stylo en position d&#39;écritureavancer de (200) pastourner ↻ de (90) degrésavancer de (150) pass&#39;orienter à (135)avancer de (250) paslever le stylo(La longueur du dernier côté, l’hypoténuse, se calcule avec le théorème de Pythagore : √(200² &#43; 150²) = 250.)">
+    <meta itemprop="wordCount" content="2223">
+    <title>Solutionnaire :: Introduction à la programmation</title>
+    <link href="/420-111/images/favicon.png?1787542715" rel="icon" type="image/png">
+    <link href="/420-111/css/auto-complete/auto-complete.min.css?1787542715" rel="stylesheet">
+    <script src="/420-111/js/auto-complete/auto-complete.min.js?1787542715" defer></script>
+    <script src="/420-111/js/search-lunr.min.js?1787542715" defer></script>
+    <script src="/420-111/js/search.min.js?1787542715" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/420-111/searchindex.en.js?1787542715";
+    </script>
+    <script src="/420-111/js/lunr/lunr.min.js?1787542715" defer></script>
+    <script src="/420-111/js/lunr/lunr.stemmer.support.min.js?1787542715" defer></script>
+    <script src="/420-111/js/lunr/lunr.multi.min.js?1787542715" defer></script>
+    <script src="/420-111/js/lunr/lunr.fr.min.js?1787542715" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['fr'];
+    </script>
+    <link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1787542715" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1787542715" rel="stylesheet"></noscript>
+    <link href="/420-111/css/perfect-scrollbar/perfect-scrollbar.min.css?1787542715" rel="stylesheet">
+    <link href="/420-111/css/theme.min.css?1787542715" rel="stylesheet">
+    <link href="/420-111/css/format-html.min.css?1787542715" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/0-scratch\/exercices\/solutions\/index.html';
+      window.relearn.relBasePath='..\/..\/..';
+      window.relearn.relBaseUri='..\/..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/cegepmv.github.io\/420-111';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=true;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'relearn-auto', 'zen-light', 'zen-dark', 'neon', 'learn' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script><style>
+:root {
+    --MENU-WIDTH-S: 14.375rem;
+    --MENU-WIDTH-M: 14.375rem;
+    --MENU-WIDTH-L: 16rem;
+}
+</style>
+  </head>
+  <body class="mobile-support html" data-url="/420-111/0-scratch/exercices/solutions/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#exo-1--dessiner-un-triangle">Exo 1 — Dessiner un triangle</a></li>
+        <li><a href="#exo-2--la-somme-de-1-à-100">Exo 2 — La somme de 1 à 100</a></li>
+        <li><a href="#exo-3--la-somme-des-nombres-impairs">Exo 3 — La somme des nombres impairs</a></li>
+        <li><a href="#exo-4--table-de-multiplication">Exo 4 — Table de multiplication</a></li>
+        <li><a href="#exo-5--somme-des-entiers-jusquà-n">Exo 5 — Somme des entiers jusqu&rsquo;à N</a></li>
+        <li><a href="#exo-6--la-somme-des-carrés">Exo 6 — La somme des carrés</a></li>
+        <li><a href="#exo-7--différence-entre-deux-nombres">Exo 7 — Différence entre deux nombres</a></li>
+        <li><a href="#exo-8--racine-carrée">Exo 8 — Racine carrée</a></li>
+        <li><a href="#exo-9--le-plus-grand-de-trois-nombres">Exo 9 — Le plus grand de trois nombres</a></li>
+        <li><a href="#exo-10--triangle-rectangle">Exo 10 — Triangle rectangle</a></li>
+        <li><a href="#exo-11--le-jeu-du-dé">Exo 11 — Le jeu du dé</a></li>
+        <li><a href="#exo-12--pair-ou-impair-division">Exo 12 — Pair ou impair (division)</a></li>
+        <li><a href="#exo-13--conversion-dunités">Exo 13 — Conversion d&rsquo;unités</a></li>
+        <li><a href="#exo-14--petite-calculatrice">Exo 14 — Petite calculatrice</a></li>
+        <li><a href="#exo-15--prix-réduit">Exo 15 — Prix réduit</a></li>
+        <li><a href="#exo-16--compter-les-6">Exo 16 — Compter les 6</a></li>
+        <li><a href="#exo-17--la-somme-de-deux-dés">Exo 17 — La somme de deux dés</a></li>
+        <li><a href="#exo-18--quatre-dés">Exo 18 — Quatre dés</a></li>
+        <li><a href="#exo-19--lancers-successifs">Exo 19 — Lancers successifs</a></li>
+        <li><a href="#exo-20--la-somme-est-elle-petite">Exo 20 — La somme est-elle petite?</a></li>
+        <li><a href="#exo-21--la-dernière-lettre-dun-mot">Exo 21 — La dernière lettre d&rsquo;un mot</a></li>
+        <li><a href="#exo-22--la-lettre-du-milieu">Exo 22 — La lettre du milieu</a></li>
+        <li><a href="#exo-23--programme-de-calcul">Exo 23 — Programme de calcul</a></li>
+        <li><a href="#exo-24--deux-variables">Exo 24 — Deux variables</a></li>
+        <li><a href="#exo-25--calcul-en-chaîne">Exo 25 — Calcul en chaîne</a></li>
+        <li><a href="#exo-26--produit-moins-10">Exo 26 — Produit moins 10</a></li>
+        <li><a href="#exo-27--augmenter-de-la-moitié">Exo 27 — Augmenter de la moitié</a></li>
+        <li><a href="#exo-28--somme-puis-produit">Exo 28 — Somme puis produit</a></li>
+        <li><a href="#exo-29--le-carré-dune-différence">Exo 29 — Le carré d&rsquo;une différence</a></li>
+        <li><a href="#exo-30--carré-moins-double">Exo 30 — Carré moins double</a></li>
+        <li><a href="#exo-31--une-seule-variable">Exo 31 — Une seule variable</a></li>
+        <li><a href="#exo-32--moyenne-de-notes">Exo 32 — Moyenne de notes</a></li>
+        <li><a href="#exo-33--maximum-et-étendue">Exo 33 — Maximum et étendue</a></li>
+        <li><a href="#exo-34--lhypoténuse">Exo 34 — L&rsquo;hypoténuse</a></li>
+        <li><a href="#exo-35--croissance-dune-population">Exo 35 — Croissance d&rsquo;une population</a></li>
+        <li><a href="#exo-36--la-suite-de-fibonacci">Exo 36 — La suite de Fibonacci</a></li>
+        <li><a href="#exo-37--la-division-euclidienne">Exo 37 — La division euclidienne</a></li>
+        <li><a href="#exo-38--sommes-particulières">Exo 38 — Sommes particulières</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/420-111/index.html"><span itemprop="name">Introduction à la programmation</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/420-111/0-scratch/index.html"><span itemprop="name">Scratch</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/420-111/0-scratch/exercices/index.html"><span itemprop="name">Exercices d&#39;algorithmique</span></a><meta itemprop="position" content="3">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Solutionnaire</span><meta itemprop="position" content="4"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/420-111/0-scratch/exercices/index.html" title="Exercices d'algorithmique (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/420-111/1-intro/index.html" title="Intro (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 0-scratch" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="solutionnaire">Solutionnaire</h1>
+
+<h1 id="solutionnaire-des-exercices">Solutionnaire des exercices</h1>
+<p>Voici une proposition de solution pour chaque exercice. Il existe souvent <strong>plusieurs bonnes façons</strong> d&rsquo;écrire un même script : compare ta solution avec celle-ci, mais ne t&rsquo;inquiète pas si ton script est différent tant qu&rsquo;il fonctionne correctement!</p>
+<hr>
+<h3 id="exo-1--dessiner-un-triangle">Exo 1 — Dessiner un triangle</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>quand [drapeau vert] cliqué
+lever le stylo
+aller à x:(0) y:(0)
+s&#39;orienter à (90)
+mettre le stylo en position d&#39;écriture
+avancer de (200) pas
+tourner ↻ de (90) degrés
+avancer de (150) pas
+s&#39;orienter à (135)
+avancer de (250) pas
+lever le stylo</code></pre></div>
+<p>(La longueur du dernier côté, l&rsquo;hypoténuse, se calcule avec le théorème de Pythagore : √(200² + 150²) = 250.)</p>
+<hr>
+<h3 id="exo-2--la-somme-de-1-à-100">Exo 2 — La somme de 1 à 100</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>mettre [somme] à 0
+mettre [i] à 1
+répéter (100) fois
+    mettre [somme] à ((somme) + (i))
+    mettre [i] à ((i) + 1)
+dire (somme)</code></pre></div>
+<hr>
+<h3 id="exo-3--la-somme-des-nombres-impairs">Exo 3 — La somme des nombres impairs</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>mettre [somme] à 0
+mettre [i] à 1
+répéter (500) fois
+    mettre [somme] à ((somme) + (i))
+    mettre [i] à ((i) + 2)
+dire (somme)</code></pre></div>
+<hr>
+<h3 id="exo-4--table-de-multiplication">Exo 4 — Table de multiplication</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Quel est le nombre ?&#34; et attendre
+mettre [nombre] à (réponse)
+supprimer tout de [table]
+mettre [i] à 1
+répéter (10) fois
+    ajouter ((nombre) * (i)) à [table]
+    mettre [i] à ((i) + 1)</code></pre></div>
+<hr>
+<h3 id="exo-5--somme-des-entiers-jusquà-n">Exo 5 — Somme des entiers jusqu&rsquo;à N</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Jusqu&#39;à quel nombre ?&#34; et attendre
+mettre [n] à (réponse)
+mettre [somme] à 0
+mettre [i] à 1
+répéter jusqu&#39;à ce que (i) &gt; (n)
+    mettre [somme] à ((somme) + (i))
+    mettre [i] à ((i) + 1)
+dire (somme)</code></pre></div>
+<hr>
+<h3 id="exo-6--la-somme-des-carrés">Exo 6 — La somme des carrés</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>mettre [somme] à 0
+mettre [i] à 1
+répéter (100) fois
+    mettre [somme] à ((somme) + ((i) * (i)))
+    mettre [i] à ((i) + 1)
+dire (somme)</code></pre></div>
+<hr>
+<h3 id="exo-7--différence-entre-deux-nombres">Exo 7 — Différence entre deux nombres</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Premier nombre ?&#34; et attendre
+mettre [n1] à (réponse)
+demander &#34;Deuxième nombre ?&#34; et attendre
+mettre [n2] à (réponse)
+si (n1) &gt; (n2) alors
+    dire ((n1) - (n2))
+sinon
+    dire ((n2) - (n1))</code></pre></div>
+<hr>
+<h3 id="exo-8--racine-carrée">Exo 8 — Racine carrée</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Quel est le nombre ?&#34; et attendre
+mettre [nombre] à (réponse)
+si (nombre) &gt; 0 alors
+    dire (racine carrée de (nombre))
+sinon
+    dire &#34;Il fallait entrer un nombre positif&#34;</code></pre></div>
+<hr>
+<h3 id="exo-9--le-plus-grand-de-trois-nombres">Exo 9 — Le plus grand de trois nombres</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Nombre 1 ?&#34; et attendre
+mettre [n1] à (réponse)
+demander &#34;Nombre 2 ?&#34; et attendre
+mettre [n2] à (réponse)
+demander &#34;Nombre 3 ?&#34; et attendre
+mettre [n3] à (réponse)
+mettre [max] à (n1)
+si (n2) &gt; (max) alors
+    mettre [max] à (n2)
+si (n3) &gt; (max) alors
+    mettre [max] à (n3)
+dire (max)</code></pre></div>
+<hr>
+<h3 id="exo-10--triangle-rectangle">Exo 10 — Triangle rectangle</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Petit côté a ?&#34; et attendre
+mettre [a] à (réponse)
+demander &#34;Côté moyen b ?&#34; et attendre
+mettre [b] à (réponse)
+demander &#34;Grand côté c ?&#34; et attendre
+mettre [c] à (réponse)
+
+si (a) + (b) &gt; (c) alors
+    dire &#34;Ces longueurs forment bien un triangle&#34;
+    si (((a)*(a)) + ((b)*(b))) = ((c)*(c)) alors
+        dire &#34;Ce triangle est rectangle&#34;
+    sinon
+        dire &#34;Ce triangle n&#39;est pas rectangle&#34;
+sinon
+    dire &#34;Ces longueurs ne forment pas un triangle&#34;</code></pre></div>
+<hr>
+<h3 id="exo-11--le-jeu-du-dé">Exo 11 — Le jeu du dé</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Choisis un nombre entre 1 et 6&#34; et attendre
+mettre [choix] à (réponse)
+mettre [dé] à (nombre aléatoire entre (1) et (6))
+si (dé) = (choix) alors
+    dire &#34;Bravo, tu as gagné !&#34;
+sinon
+    dire (assembler &#34;Perdu ! Le dé a affiché &#34; (dé))</code></pre></div>
+<hr>
+<h3 id="exo-12--pair-ou-impair-division">Exo 12 — Pair ou impair (division)</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Quel est le nombre ?&#34; et attendre
+mettre [nombre] à (réponse)
+si ((nombre) mod 2) = 0 alors
+    dire ((nombre) / 2)
+sinon
+    dire (((nombre) - 1) / 2)</code></pre></div>
+<hr>
+<h3 id="exo-13--conversion-dunités">Exo 13 — Conversion d&rsquo;unités</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Mesure en mètres ?&#34; et attendre
+mettre [mètres] à (réponse)
+demander &#34;Convertir en cm ou mm ? (tape cm ou mm)&#34; et attendre
+si (réponse) = &#34;cm&#34; alors
+    dire (assembler ((mètres) * 100) &#34; cm&#34;)
+sinon
+    dire (assembler ((mètres) * 1000) &#34; mm&#34;)</code></pre></div>
+<hr>
+<h3 id="exo-14--petite-calculatrice">Exo 14 — Petite calculatrice</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Premier nombre ?&#34; et attendre
+mettre [n1] à (réponse)
+demander &#34;Deuxième nombre ?&#34; et attendre
+mettre [n2] à (réponse)
+demander &#34;Opération ? (A, M ou S)&#34; et attendre
+mettre [code] à (réponse)
+
+si (code) = &#34;A&#34; alors
+    dire ((n1) + (n2))
+sinon
+    si (code) = &#34;M&#34; alors
+        dire ((n1) * (n2))
+    sinon
+        si (code) = &#34;S&#34; alors
+            dire ((n1) - (n2))</code></pre></div>
+<p>Pour ajouter la <strong>division</strong>, il faudrait vérifier que <code>n2</code> n&rsquo;est pas égal à 0, sinon le calcul serait impossible (division par zéro).</p>
+<hr>
+<h3 id="exo-15--prix-réduit">Exo 15 — Prix réduit</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Quel est le prix ?&#34; et attendre
+mettre [prix] à (réponse)
+demander &#34;Quel est le taux de réduction (%) ?&#34; et attendre
+mettre [taux] à (réponse)
+mettre [réduction] à (((prix) * (taux)) / 100)
+dire (assembler &#34;Réduction : &#34; (réduction))
+dire (assembler &#34;Prix réduit : &#34; ((prix) - (réduction)))</code></pre></div>
+<hr>
+<h3 id="exo-16--compter-les-6">Exo 16 — Compter les 6</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>mettre [compteur] à 0
+répéter (20) fois
+    si (nombre aléatoire entre (1) et (6)) = 6 alors
+        mettre [compteur] à ((compteur) + 1)
+dire (compteur)</code></pre></div>
+<p>Le résultat change à chaque exécution car les lancers sont <strong>aléatoires</strong> : chaque tirage a une probabilité indépendante de tomber sur 6.</p>
+<hr>
+<h3 id="exo-17--la-somme-de-deux-dés">Exo 17 — La somme de deux dés</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>mettre [dé1] à (nombre aléatoire entre (1) et (6))
+mettre [dé2] à (nombre aléatoire entre (1) et (6))
+dire ((dé1) + (dé2))</code></pre></div>
+<p>On ne peut jamais obtenir 0, car chaque dé donne au minimum 1 (le minimum possible est donc 2).</p>
+<p>Pour 100 lancers, on ajoute une boucle <code>répéter (100) fois</code> autour du script — les résultats se concentrent surtout autour de 7 (la somme la plus probable avec deux dés à 6 faces).</p>
+<hr>
+<h3 id="exo-18--quatre-dés">Exo 18 — Quatre dés</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>mettre [somme] à 0
+répéter (4) fois
+    mettre [somme] à ((somme) + (nombre aléatoire entre (1) et (6)))
+dire (somme)</code></pre></div>
+<hr>
+<h3 id="exo-19--lancers-successifs">Exo 19 — Lancers successifs</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>mettre [somme] à 0
+mettre [lancers] à 0
+répéter jusqu&#39;à ce que (somme) &gt; 25
+    mettre [somme] à ((somme) + (nombre aléatoire entre (1) et (6)))
+    mettre [lancers] à ((lancers) + 1)
+dire (assembler &#34;Nombre de lancers : &#34; (lancers))</code></pre></div>
+<hr>
+<h3 id="exo-20--la-somme-est-elle-petite">Exo 20 — La somme est-elle petite?</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>mettre [somme] à 0
+répéter (4) fois
+    mettre [somme] à ((somme) + (nombre aléatoire entre (1) et (6)))
+
+si (somme) &lt; 11 alors
+    dire (assembler &#34;La somme &#34; (assembler (somme) &#34; est inférieure à 11&#34;))
+sinon
+    dire (assembler &#34;La somme &#34; (assembler (somme) &#34; n&#39;est pas inférieure à 11&#34;))</code></pre></div>
+<hr>
+<h3 id="exo-21--la-dernière-lettre-dun-mot">Exo 21 — La dernière lettre d&rsquo;un mot</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Quel est le mot ?&#34; et attendre
+mettre [mot] à (réponse)
+dire (lettre (longueur de (mot)) de (mot))</code></pre></div>
+<hr>
+<h3 id="exo-22--la-lettre-du-milieu">Exo 22 — La lettre du milieu</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Quel est le mot ?&#34; et attendre
+mettre [mot] à (réponse)
+si ((longueur de (mot)) mod 2) = 1 alors
+    dire (lettre (arrondi de ((longueur de (mot)) / 2)) de (mot))
+sinon
+    dire &#34;Ce mot a un nombre pair de lettres, il n&#39;y a pas de lettre du milieu unique&#34;</code></pre></div>
+<p>Avec un mot de longueur paire, il y a deux lettres &ldquo;du milieu&rdquo; (par exemple pour un mot de 6 lettres, ce sont les lettres 3 et 4). Il faudrait ajouter un <code>sinon</code> qui affiche les deux lettres centrales plutôt qu&rsquo;une seule.</p>
+<hr>
+<h3 id="exo-23--programme-de-calcul">Exo 23 — Programme de calcul</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Choisis un nombre entier&#34; et attendre
+mettre [résultat] à (réponse)
+mettre [résultat] à ((résultat) * 4)
+mettre [résultat] à ((résultat) - 1)
+mettre [résultat] à ((résultat) * 2)
+mettre [résultat] à ((résultat) + 7)
+dire (résultat)</code></pre></div>
+<p>Pour obtenir 77, il faut résoudre : (n×4 − 1)×2 + 7 = 77, donc n = 9.</p>
+<hr>
+<h3 id="exo-24--deux-variables">Exo 24 — Deux variables</h3>
+<p>Avec une seule variable, on perdrait la valeur du <strong>nombre de départ</strong> dès qu&rsquo;on la remplacerait par le résultat intermédiaire — impossible ensuite de faire &ldquo;résultat × nombre de départ&rdquo;. Il faut donc conserver les deux valeurs séparément :</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Nombre de départ ?&#34; et attendre
+mettre [nombre de départ] à (réponse)
+mettre [résultat] à ((nombre de départ) + 2)
+mettre [résultat] à ((résultat) * (nombre de départ))
+mettre [résultat] à ((résultat) + 1)
+dire (résultat)</code></pre></div>
+<hr>
+<h3 id="exo-25--calcul-en-chaîne">Exo 25 — Calcul en chaîne</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Choisis un nombre&#34; et attendre
+mettre [résultat] à (réponse)
+mettre [résultat] à ((résultat) * 2)
+mettre [résultat] à ((résultat) + 11)
+mettre [résultat] à ((résultat) * 10)
+dire (résultat)</code></pre></div>
+<hr>
+<h3 id="exo-26--produit-moins-10">Exo 26 — Produit moins 10</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Premier nombre ?&#34; et attendre
+mettre [n1] à (réponse)
+demander &#34;Deuxième nombre ?&#34; et attendre
+mettre [n2] à (réponse)
+mettre [résultat] à (((n1) * (n2)) - 10)</code></pre></div>
+<hr>
+<h3 id="exo-27--augmenter-de-la-moitié">Exo 27 — Augmenter de la moitié</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Quel est le nombre ?&#34; et attendre
+mettre [nombre] à (réponse)
+mettre [résultat] à ((nombre) + ((nombre) / 2))</code></pre></div>
+<hr>
+<h3 id="exo-28--somme-puis-produit">Exo 28 — Somme puis produit</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Premier nombre ?&#34; et attendre
+mettre [n1] à (réponse)
+demander &#34;Deuxième nombre ?&#34; et attendre
+mettre [n2] à (réponse)
+demander &#34;Troisième nombre ?&#34; et attendre
+mettre [n3] à (réponse)
+mettre [résultat] à (((n1) + (n2)) * (n3))</code></pre></div>
+<hr>
+<h3 id="exo-29--le-carré-dune-différence">Exo 29 — Le carré d&rsquo;une différence</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Premier nombre ?&#34; et attendre
+mettre [n1] à (réponse)
+demander &#34;Deuxième nombre ?&#34; et attendre
+mettre [n2] à (réponse)
+mettre [résultat] à (((n1) - (n2)) * ((n1) - (n2)))</code></pre></div>
+<hr>
+<h3 id="exo-30--carré-moins-double">Exo 30 — Carré moins double</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Quel est le nombre ?&#34; et attendre
+mettre [nombre] à (réponse)
+mettre [résultat] à (((nombre) * (nombre)) - ((nombre) * 2))</code></pre></div>
+<hr>
+<h3 id="exo-31--une-seule-variable">Exo 31 — Une seule variable</h3>
+<p><strong>Avec trois variables :</strong></p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Nombre 1 ?&#34; et attendre
+mettre [n1] à (réponse)
+demander &#34;Nombre 2 ?&#34; et attendre
+mettre [n2] à (réponse)
+demander &#34;Nombre 3 ?&#34; et attendre
+mettre [n3] à (réponse)
+mettre [Total] à ((n1) + (n2) + (n3))</code></pre></div>
+<p><strong>Avec une seule variable</strong> (on additionne directement chaque réponse à <code>Total</code> au fur et à mesure) :</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>mettre [Total] à 0
+demander &#34;Nombre 1 ?&#34; et attendre
+mettre [Total] à ((Total) + (réponse))
+demander &#34;Nombre 2 ?&#34; et attendre
+mettre [Total] à ((Total) + (réponse))
+demander &#34;Nombre 3 ?&#34; et attendre
+mettre [Total] à ((Total) + (réponse))
+dire (Total)</code></pre></div>
+<hr>
+<h3 id="exo-32--moyenne-de-notes">Exo 32 — Moyenne de notes</h3>
+<p><strong>Version 1 (nombre de notes connu à l&rsquo;avance) :</strong></p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>supprimer tout de [notes]
+demander &#34;Combien de notes ?&#34; et attendre
+mettre [nb] à (réponse)
+mettre [i] à 1
+répéter (nb) fois
+    demander &#34;Entre une note :&#34; et attendre
+    ajouter (réponse) à [notes]
+    mettre [i] à ((i) + 1)
+
+mettre [somme] à 0
+mettre [i] à 1
+répéter (longueur de [notes]) fois
+    mettre [somme] à ((somme) + (élément (i) de [notes]))
+    mettre [i] à ((i) + 1)
+dire ((somme) / (longueur de [notes]))</code></pre></div>
+<p><strong>Version 2 (arrêt avec -1) :</strong></p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>supprimer tout de [notes]
+demander &#34;Entre une note (-1 pour arrêter) :&#34; et attendre
+répéter jusqu&#39;à ce que (réponse) = -1
+    ajouter (réponse) à [notes]
+    demander &#34;Entre une note (-1 pour arrêter) :&#34; et attendre
+
+mettre [somme] à 0
+mettre [i] à 1
+répéter (longueur de [notes]) fois
+    mettre [somme] à ((somme) + (élément (i) de [notes]))
+    mettre [i] à ((i) + 1)
+dire ((somme) / (longueur de [notes]))</code></pre></div>
+<hr>
+<h3 id="exo-33--maximum-et-étendue">Exo 33 — Maximum et étendue</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>supprimer tout de [série]
+répéter (5) fois
+    demander &#34;Entre un nombre :&#34; et attendre
+    ajouter (réponse) à [série]
+
+mettre [max] à (élément (1) de [série])
+mettre [min] à (élément (1) de [série])
+mettre [i] à 2
+répéter (4) fois
+    si (élément (i) de [série]) &gt; (max) alors
+        mettre [max] à (élément (i) de [série])
+    si (élément (i) de [série]) &lt; (min) alors
+        mettre [min] à (élément (i) de [série])
+    mettre [i] à ((i) + 1)
+
+dire (assembler &#34;Maximum : &#34; (max))
+dire (assembler &#34;Étendue : &#34; ((max) - (min)))</code></pre></div>
+<p><em>Défi (sans liste)</em> : on peut utiliser cinq variables <code>n1</code> à <code>n5</code> et comparer chaque variable une à une avec <code>si...alors</code> pour trouver le maximum et le minimum, sans jamais utiliser de liste.</p>
+<hr>
+<h3 id="exo-34--lhypoténuse">Exo 34 — L&rsquo;hypoténuse</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Premier côté ?&#34; et attendre
+mettre [a] à (réponse)
+demander &#34;Deuxième côté ?&#34; et attendre
+mettre [b] à (réponse)
+dire (racine carrée de (((a)*(a)) + ((b)*(b))))</code></pre></div>
+<hr>
+<h3 id="exo-35--croissance-dune-population">Exo 35 — Croissance d&rsquo;une population</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>mettre [population] à 100
+répéter (5) fois
+    mettre [population] à (arrondi de ((population) * 1.1))
+dire (population)</code></pre></div>
+<hr>
+<h3 id="exo-36--la-suite-de-fibonacci">Exo 36 — La suite de Fibonacci</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>mettre [terme1] à 1
+mettre [terme2] à 1
+répéter (8) fois
+    mettre [terme3] à ((terme1) + (terme2))
+    mettre [terme1] à (terme2)
+    mettre [terme2] à (terme3)
+dire (terme2)</code></pre></div>
+<p>(On répète 8 fois pour obtenir le 10e terme, puisque les termes 1 et 2 sont déjà donnés au départ.)</p>
+<hr>
+<h3 id="exo-37--la-division-euclidienne">Exo 37 — La division euclidienne</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Dividende ?&#34; et attendre
+mettre [dividende] à (réponse)
+demander &#34;Diviseur ?&#34; et attendre
+mettre [diviseur] à (réponse)
+
+mettre [quotient] à 0
+mettre [reste] à (dividende)
+répéter jusqu&#39;à ce que (reste) &lt; (diviseur)
+    mettre [reste] à ((reste) - (diviseur))
+    mettre [quotient] à ((quotient) + 1)
+
+dire (assembler &#34;Quotient : &#34; (quotient))
+dire (assembler &#34;Reste : &#34; (reste))</code></pre></div>
+<hr>
+<h3 id="exo-38--sommes-particulières">Exo 38 — Sommes particulières</h3>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0"><code>demander &#34;Quelle valeur de n ?&#34; et attendre
+mettre [n] à (réponse)
+demander &#34;1 = impairs, 2 = pairs, 3 = multiples de 3 ?&#34; et attendre
+mettre [choix] à (réponse)
+
+mettre [somme] à 0
+mettre [i] à 0
+mettre [compteur] à 0
+
+si (choix) = 1 alors
+    mettre [i] à 1
+    répéter (n) fois
+        mettre [somme] à ((somme) + (i))
+        mettre [i] à ((i) + 2)
+sinon
+    si (choix) = 2 alors
+        mettre [i] à 0
+        répéter (n) fois
+            mettre [somme] à ((somme) + (i))
+            mettre [i] à ((i) + 2)
+    sinon
+        mettre [i] à 0
+        répéter (n) fois
+            mettre [somme] à ((somme) + (i))
+            mettre [i] à ((i) + 3)
+
+dire (somme)</code></pre></div>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+<a id="R-logo" 
+   style="display: flex; justify-content: center; align-items: center; text-decoration: none;" 
+   href="/420-111/index.html">
+
+    <img src="/420-111/images/logo.png" width="40" height="40" alt="logo" style="margin-right: 8px;">
+
+    <div style="display: flex; flex-direction: column; font-size: 130%; align-items: flex-start;">
+        <span>Introduction à</span>
+        <span>la programmation</span>
+    </div>
+</a>
+
+        </div>
+        <search><form action="/420-111/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/420-111/index.html"><a class="padding" href="/420-111/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="parent " data-nav-id="/420-111/0-scratch/index.html"><a class="padding" href="/420-111/0-scratch/index.html">Scratch</a><ul id="R-subsections-00170cbb4d97808d9eb606c68022e50e" class="collapsible-menu">
+            <li class="" data-nav-id="/420-111/0-scratch/introduction/index.html"><a class="padding" href="/420-111/0-scratch/introduction/index.html">Qu&#39;est-ce que la programmation?</a></li>
+            <li class="" data-nav-id="/420-111/0-scratch/interface/index.html"><a class="padding" href="/420-111/0-scratch/interface/index.html">L&#39;interface de Scratch</a></li>
+            <li class="" data-nav-id="/420-111/0-scratch/mouvement/index.html"><a class="padding" href="/420-111/0-scratch/mouvement/index.html">Les blocs Mouvement</a></li>
+            <li class="" data-nav-id="/420-111/0-scratch/evenements/index.html"><a class="padding" href="/420-111/0-scratch/evenements/index.html">Les blocs Événements</a></li>
+            <li class="" data-nav-id="/420-111/0-scratch/controle-et-boucles/index.html"><a class="padding" href="/420-111/0-scratch/controle-et-boucles/index.html">Les blocs Contrôle et les boucles</a></li>
+            <li class="" data-nav-id="/420-111/0-scratch/conditions/index.html"><a class="padding" href="/420-111/0-scratch/conditions/index.html">Les conditions</a></li>
+            <li class="" data-nav-id="/420-111/0-scratch/capteurs/index.html"><a class="padding" href="/420-111/0-scratch/capteurs/index.html">Les blocs Capteurs</a></li>
+            <li class="" data-nav-id="/420-111/0-scratch/operateurs/index.html"><a class="padding" href="/420-111/0-scratch/operateurs/index.html">Les blocs Opérateurs</a></li>
+            <li class="" data-nav-id="/420-111/0-scratch/variables/index.html"><a class="padding" href="/420-111/0-scratch/variables/index.html">Les variables et les listes</a></li>
+            <li class="parent alwaysopen " data-nav-id="/420-111/0-scratch/exercices/index.html"><a class="padding" href="/420-111/0-scratch/exercices/index.html">Exercices d&#39;algorithmique</a><ul id="R-subsections-72d22f3852a78aba5d756db4ea10947d" class="collapsible-menu">
+            <li class="active hidden " data-nav-id="/420-111/0-scratch/exercices/solutions/index.html"><a class="padding" href="/420-111/0-scratch/exercices/solutions/index.html">Solutionnaire</a></li></ul></li></ul></li>
+            <li class="" data-nav-id="/420-111/1-intro/index.html"><a class="padding" href="/420-111/1-intro/index.html">Intro</a><ul id="R-subsections-6fffaf9b92bcc839991ff76663fb9bac" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/420-111/2-vscode/index.html"><a class="padding" href="/420-111/2-vscode/index.html">VSCode</a></li>
+            <li class="" data-nav-id="/420-111/3-variables-types/variables/index.html"><a class="padding" href="/420-111/3-variables-types/variables/index.html">Variables &amp; Types</a><ul id="R-subsections-56652df65f37063b28a69d5d800b9039" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/420-111/4-string/index.html"><a class="padding" href="/420-111/4-string/index.html">String</a><ul id="R-subsections-782b65f21e652a1eafb534740db488ee" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/420-111/5-operateurs/arithmetique/index.html"><a class="padding" href="/420-111/5-operateurs/arithmetique/index.html">Opérateurs</a><ul id="R-subsections-cef453883c54c95d8fd8616f806d4cea" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/420-111/6-conversions-de-types/index.html"><a class="padding" href="/420-111/6-conversions-de-types/index.html">Conversions De Types</a></li>
+            <li class="" data-nav-id="/420-111/7-tableaux/index.html"><a class="padding" href="/420-111/7-tableaux/index.html">Tableaux</a><ul id="R-subsections-55c24a3b7117af4e14c631828fa164c4" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/420-111/8-structures-de-controles/conditionnelles/if-else/index.html"><a class="padding" href="/420-111/8-structures-de-controles/conditionnelles/if-else/index.html">Structures De Controles</a><ul id="R-subsections-9f8f049e95e0d117f4b5a03645c9071a" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/420-111/9-debug/index.html"><a class="padding" href="/420-111/9-debug/index.html">Debug</a></li>
+            <li class="" data-nav-id="/420-111/10-fonctions/index.html"><a class="padding" href="/420-111/10-fonctions/index.html">Fonctions</a><ul id="R-subsections-e4181c72c636f10f24765f042a0f0763" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/420-111/11-scanner/index.html"><a class="padding" href="/420-111/11-scanner/index.html">Scanner</a><ul id="R-subsections-2e7a5e82e009aac91720d05751cc77c0" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/420-111/12-fichier/lecture/index.html"><a class="padding" href="/420-111/12-fichier/lecture/index.html">Fichier</a><ul id="R-subsections-7d34dcc2710810bfed736603e11f989d" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/420-111/exercices/index.html"><a class="padding" href="/420-111/exercices/index.html">Exercices</a><ul id="R-subsections-393f73ec6223292328da5c03b7f3a881" class="collapsible-menu"></ul></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-relearn-auto" value="relearn-auto" selected>Relearn Light/Dark</option>
+                    <option id="R-select-variant-zen-light" value="zen-light">Zen Light</option>
+                    <option id="R-select-variant-zen-dark" value="zen-dark">Zen Dark</option>
+                    <option id="R-select-variant-neon" value="neon">Neon</option>
+                    <option id="R-select-variant-learn" value="learn">Learn</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer"></div>
+      </div>
+    </aside>
+    <script src="/420-111/js/clipboard/clipboard.min.js?1787542715" defer></script>
+    <script src="/420-111/js/perfect-scrollbar/perfect-scrollbar.min.js?1787542715" defer></script>
+    <script src="/420-111/js/theme.min.js?1787542715" defer></script>
+  </body>
+</html>

@@ -27,9 +27,11 @@ Programme un lutin pour qu'il dessine un **S** en avançant par bonds de 50 pas,
 
 # Orientation et rotation
 
-Le bloc `s'orienter à (90)` fixe l'orientation du lutin lorsqu'il doit changer de direction, par exemple en touchant un bord, en suivant la souris ou un autre lutin. Trois modes d'orientation sont possibles, mais le plus courant est le mode **gauche-droite**, qui donne un effet réaliste aux déplacements.
+Le bloc `s'orienter à ( )` fixe directement l'orientation du lutin sur la scène, peu importe sa direction actuelle, selon un angle donné en degrés. On l'utilise par exemple pour donner une direction de départ au lutin, ou pour le réorienter précisément après un événement (toucher un bord, suivre la souris, suivre un autre lutin, etc.). *(La signification exacte des degrés est expliquée plus bas, dans la section [Rotation](#rotation).)*
 
-> 💡 Pour faire rebondir le lutin quand il touche le bord, on utilise le bloc `rebondir si le bord est touché`.
+> 💡 Pour faire rebondir le lutin quand il touche le bord, on utilise plutôt le bloc `rebondir si le bord est touché`.
+
+Le bloc `fixer le sens de rotation` détermine comment l'apparence du lutin réagit lorsque son orientation change (par exemple après un rebond). Trois modes sont possibles, mais le plus courant est le mode **gauche-droite**, qui donne un effet réaliste aux déplacements.
 
 Le bloc `pointer vers` oriente le lutin soit vers le pointeur de la souris, soit vers un autre lutin choisi dans la liste déroulante des éléments du projet.
 
@@ -51,7 +53,16 @@ Voici deux scripts qui combinent `fixer le sens de rotation` avec `s'orienter ve
 |---|---|
 | `tourner ↻ de (15) degrés` | Fait pivoter le lutin dans le sens des aiguilles d'une montre. |
 | `tourner ↺ de (15) degrés` | Fait pivoter le lutin dans le sens contraire des aiguilles d'une montre. |
-| `s'orienter à (90)` | Définit la direction du lutin. Un cadran circulaire permet de choisir l'orientation : vers le haut (0°), vers le bas (180°), vers la droite (90°) ou vers la gauche (-90°). |
+| `s'orienter à (90)` | Définit directement la direction du lutin, sans tenir compte de son orientation actuelle (contrairement à `tourner`, qui fait pivoter le lutin *par rapport à* sa direction actuelle). |
+
+Le bloc `s'orienter à` fonctionne comme un **cadran circulaire** gradué de -180° à 180°, avec le **0° pointant vers le haut** de la scène :
+
+* **0°** → le lutin regarde vers le **haut** ⬆️
+* **90°** → le lutin regarde vers la **droite** ➡️
+* **180°** (ou **-180°**) → le lutin regarde vers le **bas** ⬇️
+* **-90°** → le lutin regarde vers la **gauche** ⬅️
+
+Autrement dit, les degrés augmentent dans le sens des aiguilles d'une montre à partir du haut, et deviennent négatifs si on tourne dans le sens inverse. Toutes les valeurs intermédiaires sont aussi possibles : par exemple, `s'orienter à (45)` pointe le lutin en diagonale, vers le haut-droite.
 
 ![Cadran d'orientation dans les 4 directions](rotation-cadran.png)
 
@@ -82,6 +93,11 @@ Les déplacements en valeurs **absolues** permettent de positionner un lutin à 
 
   ![Menu déroulant du bloc glisser à](autres-blocs1.png)
 
-## Exercice 3 — Rebond
+## Exercice 3 — Va-et-vient
 
-Programme un lutin qui se déplace de gauche à droite indéfiniment et qui rebondit automatiquement lorsqu'il touche le bord de la scène.
+Programme un lutin qui glisse doucement d'un bout à l'autre de la scène :
+
+* glisse en 1 seconde vers le coin droit de la scène (`x:200 y:0`);
+* glisse en 1 seconde vers le coin gauche de la scène (`x:-200 y:0`).
+
+*Indice : utilise uniquement le bloc `glisser en () secondes à x:() y:()` vu dans cette page — pas besoin de boucle pour cet exercice.*

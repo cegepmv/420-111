@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>🍯 Les opérateurs de comparaison en Java :: Introduction à la programmation</title>
+    <link>https://cegepmv.github.io/420-111/5-operateurs/comparaison/index.html</link>
+    <description>Les opérateurs de comparaison permettent de comparer deux valeurs pour savoir si elles sont égales, différentes, plus grandes, etc.&#xA;🎯 Ils sont essentiels dans les conditions (if, while, etc.) car ils renvoient toujours un résultat de type boolean (true ou false).&#xA;🧪 Les 6 opérateurs de comparaison de base Opérateur Signification Exemple (a = 5, b = 8) Résultat == Égal à a == b false != Différent de a != b true &lt; Inférieur à a &lt; b true &gt; Supérieur à a &gt; b false &lt;= Inférieur ou égal à a &lt;= b true &gt;= Supérieur ou égal à a &gt;= b false 🧠 Important à retenir == ne signifie pas “affecter une valeur”, mais “comparer l’égalité”. Ne confonds pas = (affectation) et == (comparaison). int x = 10; // OK : on donne la valeur 10 à x if (x == 10) { // OK : on teste si x est égal à 10 System.out.println(&#34;x vaut 10 !&#34;); }&#xD;🧠 Comparaison entre différents types Tu peux comparer :</description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cegepmv.github.io/420-111/5-operateurs/comparaison/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

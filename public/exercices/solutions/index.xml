@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Solutions :: Introduction à la programmation</title>
+    <link>https://cegepmv.github.io/420-111/exercices/solutions/index.html</link>
+    <description>Voici les solutions disponibles pour chaque série d’exercices.&#xA;Solutions - Série 1&#xD;Solutions - Série 2&#xD;Solutions - Série 3&#xD;Solutions - Série 4&#xD;Solutions - Série 5&#xD;Solutions - Série 6&#xD;Solutions - Série 7&#xD;Solutions - Série 8&#xD;Solutions - Série 9&#xD;Solutions - Série 10&#xD;Solutions - Série 12</description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <atom:link href="https://cegepmv.github.io/420-111/exercices/solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solutions - Série 1</title>
+      <link>https://cegepmv.github.io/420-111/exercices/solutions/serie1/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cegepmv.github.io/420-111/exercices/solutions/serie1/index.html</guid>
+      <description>Solution1_1.java&#xD;Solution1_2.java&#xD;Solution1_3.java&#xD;Solution1_4.java&#xD;Solution1_5.java&#xD;Solution1_6.java&#xD;Solution1_7.java&#xD;Solution1_8.java&#xD;Solution1_9.java</description>
+    </item>
+    <item>
+      <title>Solutions - Série 10</title>
+      <link>https://cegepmv.github.io/420-111/exercices/solutions/serie10/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cegepmv.github.io/420-111/exercices/solutions/serie10/index.html</guid>
+      <description>solution10_1.java&#xD;solution10_10.java&#xD;solution10_11.java&#xD;solution10_12.java&#xD;solution10_13.java&#xD;solution10_14.java&#xD;solution10_15.java&#xD;solution10_16.java&#xD;solution10_17.java&#xD;solution10_18.java&#xD;solution10_19.java&#xD;solution10_2.java&#xD;solution10_3.java&#xD;solution10_4.java&#xD;solution10_5.java&#xD;solution10_6.java&#xD;solution10_7.java&#xD;solution10_8.java&#xD;solution10_9.java</description>
+    </item>
+    <item>
+      <title>Solutions - Série 12</title>
+      <link>https://cegepmv.github.io/420-111/exercices/solutions/serie12/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cegepmv.github.io/420-111/exercices/solutions/serie12/index.html</guid>
+      <description>solution12_1.java&#xD;solution12_10.java&#xD;solution12_2.java&#xD;solution12_3.java&#xD;solution12_4.java&#xD;solution12_5.java&#xD;solution12_6.java&#xD;solution12_7.java&#xD;solution12_8.java&#xD;solution12_9.java</description>
+    </item>
+    <item>
+      <title>Solutions - Série 13</title>
+      <link>https://cegepmv.github.io/420-111/exercices/solutions/serie13/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cegepmv.github.io/420-111/exercices/solutions/serie13/index.html</guid>
+      <description>Aucune solution disponible pour le moment.</description>
+    </item>
+    <item>
+      <title>Solutions - Série 2</title>
+      <link>https://cegepmv.github.io/420-111/exercices/solutions/serie2/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cegepmv.github.io/420-111/exercices/solutions/serie2/index.html</guid>
+      <description>solution2_1.java&#xD;solution2_2.java&#xD;solution2_3.java&#xD;solution2_4.java&#xD;solution2_5.java&#xD;solution2_6.java&#xD;solution2_7.java&#xD;solution2_8.java&#xD;solution2_9.java</description>
+    </item>
+    <item>
+      <title>Solutions - Série 3</title>
+      <link>https://cegepmv.github.io/420-111/exercices/solutions/serie3/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cegepmv.github.io/420-111/exercices/solutions/serie3/index.html</guid>
+      <description>solution3_1.java&#xD;solution3_10.java&#xD;solution3_2.java&#xD;solution3_3.java&#xD;solution3_4.java&#xD;solution3_5.java&#xD;solution3_6.java&#xD;solution3_7.java&#xD;solution3_8.java&#xD;solution3_9.java</description>
+    </item>
+    <item>
+      <title>Solutions - Série 4</title>
+      <link>https://cegepmv.github.io/420-111/exercices/solutions/serie4/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cegepmv.github.io/420-111/exercices/solutions/serie4/index.html</guid>
+      <description>solution4_1.java&#xD;solution4_10.java&#xD;solution4_11.java&#xD;solution4_12.java&#xD;solution4_13.java&#xD;solution4_14.java&#xD;solution4_15.java&#xD;solution4_16.java&#xD;solution4_17.java&#xD;solution4_18.java&#xD;solution4_19.java&#xD;solution4_2.java&#xD;solution4_20.java&#xD;solution4_3.java&#xD;solution4_4.java&#xD;solution4_5.java&#xD;solution4_6.java&#xD;solution4_7.java&#xD;solution4_8.java&#xD;solution4_9.java</description>
+    </item>
+    <item>
+      <title>Solutions - Série 5</title>
+      <link>https://cegepmv.github.io/420-111/exercices/solutions/serie5/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cegepmv.github.io/420-111/exercices/solutions/serie5/index.html</guid>
+      <description>LABO1_G1&#xD;SOL1.java&#xD;SOL2.java&#xD;SOL3.java&#xD;LABO1_G2&#xD;SOL1.java&#xD;SOL2.java&#xD;SOL3.java&#xD;Main.java</description>
+    </item>
+    <item>
+      <title>Solutions - Série 6</title>
+      <link>https://cegepmv.github.io/420-111/exercices/solutions/serie6/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cegepmv.github.io/420-111/exercices/solutions/serie6/index.html</guid>
+      <description>solution6_1.java&#xD;solution6_10.java&#xD;solution6_11.java&#xD;solution6_12.java&#xD;solution6_13.java&#xD;solution6_14.java&#xD;solution6_15.java&#xD;solution6_16.java&#xD;solution6_2.java&#xD;solution6_3.java&#xD;solution6_4.java&#xD;solution6_5.java&#xD;solution6_6.java&#xD;solution6_7.java&#xD;solution6_8.java&#xD;solution6_9.java</description>
+    </item>
+    <item>
+      <title>Solutions - Série 7</title>
+      <link>https://cegepmv.github.io/420-111/exercices/solutions/serie7/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cegepmv.github.io/420-111/exercices/solutions/serie7/index.html</guid>
+      <description>solution7_1.java&#xD;solution7_10.java&#xD;solution7_11.java&#xD;solution7_12.java&#xD;solution7_13.java&#xD;solution7_14.java&#xD;solution7_15.java&#xD;solution7_2.java&#xD;solution7_3.java&#xD;solution7_4.java&#xD;solution7_5.java&#xD;solution7_6.java&#xD;solution7_7.java&#xD;solution7_8.java&#xD;solution7_9.java</description>
+    </item>
+    <item>
+      <title>Solutions - Série 8</title>
+      <link>https://cegepmv.github.io/420-111/exercices/solutions/serie8/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cegepmv.github.io/420-111/exercices/solutions/serie8/index.html</guid>
+      <description>Calculatrice.java&#xD;Examen1&#xD;Calculatrice.java&#xD;E1_Pratique.docx&#xD;E1_Theorique.docx&#xD;Egaux.java&#xD;MatriceStats.java&#xD;MatriceStats.java&#xD;NoteApp.java&#xD;Théorique.md</description>
+    </item>
+    <item>
+      <title>Solutions - Série 9</title>
+      <link>https://cegepmv.github.io/420-111/exercices/solutions/serie9/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://cegepmv.github.io/420-111/exercices/solutions/serie9/index.html</guid>
+      <description>solution9_1.java&#xD;solution9_10.java&#xD;solution9_11.java&#xD;solution9_12.java&#xD;solution9_13.java&#xD;solution9_14.java&#xD;solution9_15.java&#xD;solution9_16.java&#xD;solution9_17.java&#xD;solution9_18.java&#xD;solution9_19.java&#xD;solution9_2.java&#xD;solution9_20.java&#xD;solution9_21.java&#xD;solution9_22.java&#xD;solution9_23.java&#xD;solution9_24.java&#xD;solution9_25.java&#xD;solution9_3.java&#xD;solution9_4.java&#xD;solution9_5.java&#xD;solution9_6.java&#xD;solution9_7.java&#xD;solution9_8.java&#xD;solution9_9.java</description>
+    </item>
+  </channel>
+</rss>

@@ -40,20 +40,11 @@ Les messages servent à déclencher des actions, qu'elles soient communes ou pro
 
 ![Envoi et réception de messages entre lutins](messages.png)
 
-## Exercice 2 — Attrape le fantôme
+## Exercice 2 — Le feu de circulation
 
-**Objectif** : le joueur contrôle un lutin (par exemple un chat) avec les flèches pour attraper un fantôme qui se déplace aléatoirement.
+**Objectif** : deux lutins communiquent par messages pour simuler un feu de circulation très simple.
 
-Blocs à utiliser :
+* Le lutin **feu rouge** est visible au départ. Quand la touche **espace** est pressée, il envoie le message `"passer au vert"`, puis se cache.
+* Le lutin **feu vert** est caché au départ. Quand il reçoit le message `"passer au vert"` (`quand je reçois [passer au vert]`), il s'affiche.
 
-* `quand touche flèche gauche pressée` → ajouter -10 à x
-* `quand touche flèche droite pressée` → ajouter 10 à x
-* `quand touche flèche haut pressée` → ajouter 10 à y
-* `quand touche flèche bas pressée` → ajouter -10 à y
-* `quand je reçois [attraper]` → se cacher (pour le fantôme)
-
-Événements à programmer :
-
-* Si le chat touche le fantôme → envoyer un message au fantôme pour qu'il disparaisse et se repositionne ailleurs.
-
-Indice: vous devez utiliser un bloc de type _Contrôle_ et un bloc de type _Capteur_.
+*Indice : utilise `quand [drapeau vert] cliqué`, `quand la touche [espace] est pressée`, `envoyer à tous []`, `quand je reçois []`, ainsi que les blocs d'apparence `se cacher` et `se montrer`.*

@@ -39,6 +39,12 @@ quand le lutin est cliqué
 changer [score] de 1
 ```
 
+## Exercice — Nombre secret avec plage
+
+Crée une variable `secret`. Quand on clique sur le drapeau vert, génère un `nombre aléatoire entre (1) et (10)` et stocke-le dans `secret`. Demande à l'utilisateur de deviner. Utilise l'opérateur logique `et` pour vérifier si sa réponse est comprise entre 1 et 10, sinon dis "Choisis un nombre entre 1 et 10 !". Sinon, compare la réponse à `secret` pour dire si elle a trouvé ou non.
+
+*Objectif : combiner la création d'une variable avec l'opérateur logique `et` et des comparaisons.*
+
 ---
 
 # Projet complet : une calculatrice pour les enfants

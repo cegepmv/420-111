@@ -29,7 +29,13 @@ Dans un programme, certaines instructions doivent se répéter. Pour simplifier 
 ![Bloc répéter indéfiniment](repeter-indefiniment.png)
 ![Bloc répéter jusqu'à ce que](repeter-jusqua.png)
 
-## Exercice — Lutin rebondissant et changeant de taille
+## Exercice 1 — Rebond
+
+Programme un lutin qui se déplace de gauche à droite indéfiniment et qui rebondit automatiquement lorsqu'il touche le bord de la scène.
+
+*Indice : utilise `quand drapeau vert cliqué`, une boucle `répéter indéfiniment` contenant `avancer de () pas`, et le bloc `rebondir si le bord est touché`.*
+
+## Exercice 2 — Lutin rebondissant et changeant de taille
 
 **Contexte** : tu vas créer un lutin qui bouge automatiquement sur la scène et peut changer de taille selon les touches que l'utilisateur appuie.
 

@@ -78,9 +78,3 @@ Quand on clique sur le drapeau vert, demande un nombre. Si ce nombre est > 10, d
 Quand on clique sur le drapeau vert, demande "Choisis un nombre entre 1 et 5". Si le nombre est = 3, dire "Bravo, tu as trouvé !". Sinon, dire "Essaie encore".
 
 *Objectif : condition avec `=`.*
-
-### Exercice 5 — Nombre secret avec plage
-
-Génère un `nombre aléatoire entre (1) et (10)` et stocke-le dans une variable `secret`. Demande à l'utilisateur de deviner. Utilise `et` pour vérifier si sa réponse est comprise entre 1 et 10, sinon dis "Choisis un nombre entre 1 et 10 !".
-
-*Objectif : combiner opérateur logique `et` avec des comparaisons.*
