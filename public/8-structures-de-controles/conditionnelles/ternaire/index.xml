@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ternaire :: Introduction à la programmation</title>
-    <link>https://cegepmv.github.io/420-111/8-structures-de-controles/conditionnelles/ternaire/index.html</link>
+    <link>http://localhost:64804/420-111/8-structures-de-controles/conditionnelles/ternaire/index.html</link>
     <description>❓ L’opérateur ternaire en Java L’opérateur ternaire est une forme abrégée du if...else, qui permet d’écrire des conditions simples en une seule ligne.&#xA;Il est souvent utilisé pour rendre le code plus concis, surtout lorsqu’on veut affecter une valeur selon une condition.&#xA;🧰 Syntaxe de base (condition) ? valeurSiVrai : valeurSiFaux;&#xD;C’est comme dire : “Si la condition est vraie, retourne ceci ; sinon, retourne cela.”&#xA;📦 Exemple simple int âge = 20; String statut = (âge &gt;= 18) ? &#34;Majeur&#34; : &#34;Mineur&#34;; System.out.println(statut); // Affiche : Majeur&#xD;✳️ C’est équivalent à :</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://cegepmv.github.io/420-111/8-structures-de-controles/conditionnelles/ternaire/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:64804/420-111/8-structures-de-controles/conditionnelles/ternaire/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

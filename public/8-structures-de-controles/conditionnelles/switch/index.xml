@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Switch :: Introduction à la programmation</title>
-    <link>https://cegepmv.github.io/420-111/8-structures-de-controles/conditionnelles/switch/index.html</link>
+    <link>http://localhost:64804/420-111/8-structures-de-controles/conditionnelles/switch/index.html</link>
     <description>🎛️ Les instructions switch en Java L’instruction switch permet de tester la valeur d’une variable et d’exécuter différents blocs de code selon son contenu exact.&#xA;C’est une alternative plus claire aux chaînes de if...else if quand on compare une même variable à plusieurs valeurs possibles.&#xA;🧰 Syntaxe de base switch (variable) { case valeur1: // Code si variable == valeur1 break; case valeur2: // Code si variable == valeur2 break; default: // Code si aucune des valeurs ne correspond }&#xD;🧱 Éléments clés : Mot-clé Rôle case Spécifie une valeur à tester break Termine le switch, évite les “chutes” default (optionnel) Bloc exécuté par défaut 📦 Exemple simple int jour = 3; switch (jour) { case 1: System.out.println(&#34;Lundi&#34;); break; case 2: System.out.println(&#34;Mardi&#34;); break; case 3: System.out.println(&#34;Mercredi&#34;); break; default: System.out.println(&#34;Jour inconnu&#34;); }&#xD;➡️ Affichera : Mercredi</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://cegepmv.github.io/420-111/8-structures-de-controles/conditionnelles/switch/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:64804/420-111/8-structures-de-controles/conditionnelles/switch/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

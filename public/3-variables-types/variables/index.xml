@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Variables &amp; Types :: Introduction à la programmation</title>
-    <link>https://cegepmv.github.io/420-111/3-variables-types/variables/index.html</link>
+    <link>http://localhost:64804/420-111/3-variables-types/variables/index.html</link>
     <description></description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
     <lastBuildDate>Sun, 24 Aug 2025 16:52:12 -0400</lastBuildDate>
-    <atom:link href="https://cegepmv.github.io/420-111/3-variables-types/variables/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:64804/420-111/3-variables-types/variables/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Variables</title>
-      <link>https://cegepmv.github.io/420-111/3-variables-types/variables/index.html</link>
+      <link>http://localhost:64804/420-111/3-variables-types/variables/index.html</link>
       <pubDate>Sun, 24 Aug 2025 16:51:03 -0400</pubDate>
-      <guid>https://cegepmv.github.io/420-111/3-variables-types/variables/index.html</guid>
+      <guid>http://localhost:64804/420-111/3-variables-types/variables/index.html</guid>
       <description>Une variable, c’est comme une boîte dans laquelle on range une valeur. Elle a toujours trois éléments essentiels :&#xA;👉 type nom = valeur;&#xA;Par exemple :&#xA;int var1 = 42;&#xD;Ici :&#xA;🧾 int → le type de la variable (entier) 🏷️ var1 → le nom de la variable 🎁 42 → la valeur qu’elle contient 📢 Afficher une variable Tu peux afficher une variable comme tu afficherais n’importe quelle valeur :</description>
     </item>
     <item>
       <title>Types Primitifs</title>
-      <link>https://cegepmv.github.io/420-111/3-variables-types/types-primitifs/index.html</link>
+      <link>http://localhost:64804/420-111/3-variables-types/types-primitifs/index.html</link>
       <pubDate>Sun, 24 Aug 2025 16:52:12 -0400</pubDate>
-      <guid>https://cegepmv.github.io/420-111/3-variables-types/types-primitifs/index.html</guid>
+      <guid>http://localhost:64804/420-111/3-variables-types/types-primitifs/index.html</guid>
       <description>En Java, les types de données sont divisés en deux grandes familles :&#xA;🧱 Les types primitifs (8 types) 🧩 Les types références (classes comme String, Scanner, etc.) Les types primitifs sont les briques de base de tout programme Java. Ils permettent de représenter les informations simples : nombres, caractères, booléens.&#xA;🎁 Pourquoi différents types de “boîtes” ? En Java (et dans la plupart des langages), il existe plusieurs types de variables — ou “boîtes” — pour deux raisons principales :</description>
     </item>
   </channel>

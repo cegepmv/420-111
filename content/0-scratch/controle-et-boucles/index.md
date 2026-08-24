@@ -53,3 +53,18 @@ Programme un lutin qui se déplace de gauche à droite indéfiniment et qui rebo
 * Utiliser les blocs d'**Événements** : `quand drapeau vert cliqué`, `quand touche pressée`.
 * Utiliser une boucle **répéter indéfiniment** pour faire bouger le lutin.
 * Choisir deux touches pour changer la taille du lutin (par exemple haut et bas).
+
+## Exercice 3 — Évite l'ennemi 👾
+
+**Contexte** : un ennemi rebondit sans arrêt sur la scène pendant que le joueur contrôle son propre lutin pour l'éviter.
+
+**Objectifs** :
+
+* L'ennemi se déplace tout seul en ligne droite et rebondit automatiquement sur les bords de la scène, indéfiniment.
+* Le joueur peut déplacer son lutin dans les 4 directions à l'aide des touches flèches.
+* Fais durer la partie le plus longtemps possible sans que les deux lutins ne se touchent (on ne sait pas encore détecter le contact — ce sera pour bientôt!).
+
+**Consignes** :
+
+* Sur le lutin **ennemi** : utilise `quand [drapeau vert] cliqué`, une boucle `répéter indéfiniment` contenant `avancer de () pas` et `rebondir si le bord est touché`.
+* Sur le lutin **joueur** : réutilise les 4 blocs `quand touche flèche [] pressée` vus dans la section Événements pour le déplacer avec `ajouter () à x` et `ajouter () à y`.

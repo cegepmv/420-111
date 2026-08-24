@@ -78,3 +78,13 @@ Quand on clique sur le drapeau vert, demande un nombre. Si ce nombre est > 10, d
 Quand on clique sur le drapeau vert, demande "Choisis un nombre entre 1 et 5". Si le nombre est = 3, dire "Bravo, tu as trouvé !". Sinon, dire "Essaie encore".
 
 *Objectif : condition avec `=`.*
+
+### Exercice 5 — Pierre-Papier-Ciseaux 🪨📄✂️
+
+Programme une partie de Pierre-Papier-Ciseaux contre l'ordinateur :
+
+* Quand on clique sur le drapeau vert, demande "Pierre (1), Papier (2) ou Ciseaux (3) ?".
+* Génère un `nombre aléatoire entre (1) et (3)` pour représenter le choix de l'ordinateur.
+* Compare les deux choix et affiche "Égalité", "Tu as gagné !" ou "L'ordinateur a gagné !" selon les règles du jeu (Pierre bat Ciseaux, Ciseaux bat Papier, Papier bat Pierre).
+
+*Objectif : combiner `nombre aléatoire`, les opérateurs de comparaison `=` et les opérateurs logiques `et`/`ou` à l'intérieur de plusieurs blocs `si...alors...sinon`.*

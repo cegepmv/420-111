@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fonctions :: Introduction à la programmation</title>
-    <link>https://cegepmv.github.io/420-111/10-fonctions/index.html</link>
+    <link>http://localhost:64804/420-111/10-fonctions/index.html</link>
     <description>🧩 Les fonctions (ou méthodes) en Java Une fonction (appelée méthode en Java) est un bloc de code réutilisable qui effectue une tâche précise.&#xA;Elles permettent de structurer ton programme, d’éviter la répétition, et de mieux organiser le code.&#xA;🧱 Structure d’une méthode typeRetour nomDeLaMéthode(paramètres) { // instructions return valeur; }&#xD;Élément Description typeRetour Le type de la valeur renvoyée (int, String, etc.) nomDeLaMéthode Le nom de la méthode (en camelCase) paramètres Données reçues en entrée (optionnel) return Permet de renvoyer un résultat (optionnel si void) ✋ Exemple simple public static int addition(int a, int b) { return a + b; }&#xD;💡 Cette méthode prend deux entiers et renvoie leur somme.</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
     <lastBuildDate>Fri, 19 Sep 2025 13:17:15 -0400</lastBuildDate>
-    <atom:link href="https://cegepmv.github.io/420-111/10-fonctions/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:64804/420-111/10-fonctions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Parametres</title>
-      <link>https://cegepmv.github.io/420-111/10-fonctions/parametres/index.html</link>
+      <link>http://localhost:64804/420-111/10-fonctions/parametres/index.html</link>
       <pubDate>Fri, 19 Sep 2025 13:17:08 -0400</pubDate>
-      <guid>https://cegepmv.github.io/420-111/10-fonctions/parametres/index.html</guid>
+      <guid>http://localhost:64804/420-111/10-fonctions/parametres/index.html</guid>
       <description>📦 Les paramètres &amp; le passage par valeur / par référence en Java Quand tu appelles une méthode, tu peux lui transmettre des informations : ce sont les paramètres.&#xA;Mais comment sont-ils transmis ? Est-ce que la méthode peut modifier les variables d’origine ? C’est là qu’interviennent les notions de passage par valeur et passage par référence.&#xA;🎁 Définir et utiliser des paramètres Une méthode peut recevoir un ou plusieurs paramètres :</description>
     </item>
     <item>
       <title>return</title>
-      <link>https://cegepmv.github.io/420-111/10-fonctions/return/index.html</link>
+      <link>http://localhost:64804/420-111/10-fonctions/return/index.html</link>
       <pubDate>Fri, 19 Sep 2025 13:17:15 -0400</pubDate>
-      <guid>https://cegepmv.github.io/420-111/10-fonctions/return/index.html</guid>
+      <guid>http://localhost:64804/420-111/10-fonctions/return/index.html</guid>
       <description>🔙 Le mot-clé return en Java Le mot-clé return permet à une méthode de renvoyer une valeur à l’endroit où elle a été appelée.&#xA;Il est essentiel dans les fonctions qui calculent un résultat ou transmettent une information.&#xA;🧱 Syntaxe de base typeRetour nomDeLaMéthode(...) { // instructions return valeur; }&#xD;💡 Le type de la valeur renvoyée doit correspondre à celui indiqué dans la déclaration de la méthode.</description>
     </item>
   </channel>

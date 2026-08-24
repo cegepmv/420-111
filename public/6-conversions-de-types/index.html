@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr-ca" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
-  <head>
+  <head><script src="/420-111/livereload.js?mindelay=10&amp;v=2&amp;port=64804&amp;path=420-111/livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.165.0">
@@ -12,7 +12,7 @@
     <meta name="twitter:title" content="Conversions De Types :: Introduction à la programmation">
     <meta name="twitter:description" content="🔄 Conversion implicite vs explicite en Java La conversion permet de changer le type d’une donnée pour l’adapter à une autre variable ou expression.
 1. Conversion implicite (promotion automatique) Java effectue automatiquement la conversion quand il n’y a pas de risque de perte de données. Se produit souvent quand on passe d’un type plus petit à un type plus grand. Exemples classiques : De Vers Exemple int double double d = 5; byte int int x = 10; int a = 10; double b = a; // Conversion implicite2. Conversion explicite (casting) Nécessaire quand il y a un risque de perte de données ou incompatibilité. Le programmeur doit forcer la conversion avec un cast (type). Exemples classiques : De Vers Exemple double int int x = (int) 9.99; long int int y = (int) 100000L; double x = 9.99; int y = (int) x; // Conversion explicite, décimale perdue3. Différences clés Aspect Conversion implicite Conversion explicite Nécessite une action ? Non, automatique Oui, cast obligatoire (type) Risque de perte Non Oui Sens Du plus petit au plus grand Du plus grand au plus petit Exemples int → double double → int 4. En résumé Conversion implicite = sûre, automatique, du type petit vers grand. Conversion explicite = risquée, forcée, du type grand vers petit. Utilise toujours le casting explicite pour éviter les erreurs de compilation. 🧠 À retenir Java convertit tout seul quand c’est sûr. Pour tout ce qui peut perdre des infos, il faut caster manuellement. Sois vigilant avec les conversions explicites, elles peuvent tronquer ou modifier la valeur. Conversion_des_types Le terme le plus utilisé pour la technique de conversion est « Casting ».">
-    <meta property="og:url" content="https://cegepmv.github.io/420-111/6-conversions-de-types/index.html">
+    <meta property="og:url" content="http://localhost:64804/420-111/6-conversions-de-types/index.html">
     <meta property="og:site_name" content="Introduction à la programmation">
     <meta property="og:title" content="Conversions De Types :: Introduction à la programmation">
     <meta property="og:description" content="🔄 Conversion implicite vs explicite en Java La conversion permet de changer le type d’une donnée pour l’adapter à une autre variable ou expression.
@@ -25,35 +25,35 @@
     <meta itemprop="wordCount" content="1148">
     <title>Conversions De Types :: Introduction à la programmation</title>
     <link href="/420-111/6-conversions-de-types/index.xml" rel="alternate" type="application/rss+xml" title="Conversions De Types :: Introduction à la programmation">
-    <link href="/420-111/images/favicon.png?1787542715" rel="icon" type="image/png">
-    <link href="/420-111/css/auto-complete/auto-complete.min.css?1787542715" rel="stylesheet">
-    <script src="/420-111/js/auto-complete/auto-complete.min.js?1787542715" defer></script>
-    <script src="/420-111/js/search-lunr.min.js?1787542715" defer></script>
-    <script src="/420-111/js/search.min.js?1787542715" defer></script>
+    <link href="/420-111/images/favicon.png?1787544274" rel="icon" type="image/png">
+    <link href="/420-111/css/auto-complete/auto-complete.min.css?1787544274" rel="stylesheet">
+    <script src="/420-111/js/auto-complete/auto-complete.min.js?1787544274" defer></script>
+    <script src="/420-111/js/search-lunr.js?1787544274" defer></script>
+    <script src="/420-111/js/search.js?1787544274" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/420-111/searchindex.en.js?1787542715";
+      window.relearn.index_js_url="/420-111/searchindex.en.js?1787544274";
     </script>
-    <script src="/420-111/js/lunr/lunr.min.js?1787542715" defer></script>
-    <script src="/420-111/js/lunr/lunr.stemmer.support.min.js?1787542715" defer></script>
-    <script src="/420-111/js/lunr/lunr.multi.min.js?1787542715" defer></script>
-    <script src="/420-111/js/lunr/lunr.fr.min.js?1787542715" defer></script>
+    <script src="/420-111/js/lunr/lunr.min.js?1787544274" defer></script>
+    <script src="/420-111/js/lunr/lunr.stemmer.support.min.js?1787544274" defer></script>
+    <script src="/420-111/js/lunr/lunr.multi.min.js?1787544274" defer></script>
+    <script src="/420-111/js/lunr/lunr.fr.min.js?1787544274" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['fr'];
     </script>
-    <link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1787542715" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1787542715" rel="stylesheet"></noscript>
-    <link href="/420-111/css/perfect-scrollbar/perfect-scrollbar.min.css?1787542715" rel="stylesheet">
-    <link href="/420-111/css/theme.min.css?1787542715" rel="stylesheet">
-    <link href="/420-111/css/format-html.min.css?1787542715" rel="stylesheet" id="R-format-style">
+    <link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1787544274" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1787544274" rel="stylesheet"></noscript>
+    <link href="/420-111/css/perfect-scrollbar/perfect-scrollbar.min.css?1787544274" rel="stylesheet">
+    <link href="/420-111/css/theme.css?1787544274" rel="stylesheet">
+    <link href="/420-111/css/format-html.css?1787544274" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
-      window.relearn.min = `.min`;
+      window.relearn.min = ``;
       window.relearn.path='\/6-conversions-de-types\/index.html';
       window.relearn.relBasePath='..';
       window.relearn.relBaseUri='..\/..';
-      window.relearn.absBaseUri='https:\/\/cegepmv.github.io\/420-111';
+      window.relearn.absBaseUri='http:\/\/localhost:64804\/420-111';
       window.relearn.disableAnchorCopy=false;
       window.relearn.disableAnchorScrolling=false;
       window.relearn.disableInlineCopyToClipboard=true;
@@ -623,8 +623,8 @@ long l = (long) f;</p>
 <div id="R-footer"></div>
       </div>
     </aside>
-    <script src="/420-111/js/clipboard/clipboard.min.js?1787542715" defer></script>
-    <script src="/420-111/js/perfect-scrollbar/perfect-scrollbar.min.js?1787542715" defer></script>
-    <script src="/420-111/js/theme.min.js?1787542715" defer></script>
+    <script src="/420-111/js/clipboard/clipboard.min.js?1787544274" defer></script>
+    <script src="/420-111/js/perfect-scrollbar/perfect-scrollbar.min.js?1787544274" defer></script>
+    <script src="/420-111/js/theme.js?1787544274" defer></script>
   </body>
 </html>

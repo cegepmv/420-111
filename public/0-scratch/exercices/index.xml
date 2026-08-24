@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Exercices d&#39;algorithmique :: Introduction à la programmation</title>
-    <link>http://localhost:55009/420-111/0-scratch/exercices/index.html</link>
+    <link>http://localhost:64804/420-111/0-scratch/exercices/index.html</link>
     <description>🎮 QUÊTE ALGORITHMIQUE — L’AVENTURE SCRATCH ! 🌟 Bienvenue, jeune programmeur ou programmeuse ! 🌟 Ces défis sont inspirés d’un recueil d’algorithmique. Chaque niveau te fera pratiquer une nouvelle compétence apprise avec Scratch, dans le même ordre que la matière vue en classe : mouvement, boucles, conditions, hasard, texte, variables et listes. Progresse de niveau en niveau pour devenir un·e Maître du Code !&#xA;Une fois que tu as essayé de résoudre les exercices par toi-même, tu peux consulter le solutionnaire 🗝️.</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
-    <atom:link href="http://localhost:55009/420-111/0-scratch/exercices/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:64804/420-111/0-scratch/exercices/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Solutionnaire</title>
-      <link>http://localhost:55009/420-111/0-scratch/exercices/solutions/index.html</link>
+      <link>http://localhost:64804/420-111/0-scratch/exercices/solutions/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55009/420-111/0-scratch/exercices/solutions/index.html</guid>
+      <guid>http://localhost:64804/420-111/0-scratch/exercices/solutions/index.html</guid>
       <description>Solutionnaire des exercices Voici une proposition de solution pour chaque exercice. Il existe souvent plusieurs bonnes façons d’écrire un même script : compare ta solution avec celle-ci, mais ne t’inquiète pas si ton script est différent tant qu’il fonctionne correctement!&#xA;Exo 1 — Dessiner un triangle quand [drapeau vert] cliqué&#xD;lever le stylo&#xD;aller à x:(0) y:(0)&#xD;s&#39;orienter à (90)&#xD;mettre le stylo en position d&#39;écriture&#xD;avancer de (200) pas&#xD;tourner ↻ de (90) degrés&#xD;avancer de (150) pas&#xD;s&#39;orienter à (135)&#xD;avancer de (250) pas&#xD;lever le stylo&#xD;(La longueur du dernier côté, l’hypoténuse, se calcule avec le théorème de Pythagore : √(200² + 150²) = 250.)</description>
     </item>
   </channel>

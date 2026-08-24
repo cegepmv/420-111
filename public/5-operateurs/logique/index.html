@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr-ca" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
-  <head>
+  <head><script src="/420-111/livereload.js?mindelay=10&amp;v=2&amp;port=64804&amp;path=420-111/livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.165.0">
@@ -14,7 +14,7 @@ Ils s’appliquent sur des booléens (true ou false) et renvoient eux-mêmes un 
     <meta name="twitter:description" content="Les opérateurs logiques permettent de combiner des conditions. Ils sont essentiels pour construire des expressions complexes dans les structures comme if, while, etc.
 Ils s’appliquent sur des booléens (true ou false) et renvoient eux-mêmes un booléen.
 🧪 Les 3 opérateurs logiques principaux Opérateur Nom Fonction principale Exemple Résultat &amp;&amp; ET logique Vrai seulement si les deux conditions sont vraies true &amp;&amp; true true || OU logique Vrai si au moins une condition est vraie true || false true ! NON logique Inverse la valeur (vrai devient faux, et vice-versa) !true false 🧠 Tableau de vérité 1. &amp;&amp; (ET logique) A B A &amp;&amp; B true true true true false false false true false false false false 2. || (OU logique) A B A || B true true true true false true false true true false false false 3. ! (NON logique) A !A true false false true 💬 Exemples simples int age = 20; boolean citoyen = true; // Vrai seulement si les deux conditions sont vraies if (age &gt;= 18 &amp;&amp; citoyen) { System.out.println(&#34;Tu peux voter !&#34;); }boolean ilPleut = true; boolean aParapluie = false; if (ilPleut &amp;&amp; !aParapluie) { System.out.println(&#34;Tu vas être mouillé !&#34;); }⚠️ Attention à la priorité des opérateurs Priorité (ordre d’évaluation) Opérateur Haute ! Moyenne &amp;&amp; Basse || Tu peux utiliser des parenthèses pour forcer l’ordre :">
-    <meta property="og:url" content="https://cegepmv.github.io/420-111/5-operateurs/logique/index.html">
+    <meta property="og:url" content="http://localhost:64804/420-111/5-operateurs/logique/index.html">
     <meta property="og:site_name" content="Introduction à la programmation">
     <meta property="og:title" content="⚙️ Les opérateurs logiques en Java :: Introduction à la programmation">
     <meta property="og:description" content="Les opérateurs logiques permettent de combiner des conditions. Ils sont essentiels pour construire des expressions complexes dans les structures comme if, while, etc.
@@ -31,35 +31,35 @@ Ils s’appliquent sur des booléens (true ou false) et renvoient eux-mêmes un 
     <meta itemprop="wordCount" content="525">
     <title>⚙️ Les opérateurs logiques en Java :: Introduction à la programmation</title>
     <link href="/420-111/5-operateurs/logique/index.xml" rel="alternate" type="application/rss+xml" title="⚙️ Les opérateurs logiques en Java :: Introduction à la programmation">
-    <link href="/420-111/images/favicon.png?1787542715" rel="icon" type="image/png">
-    <link href="/420-111/css/auto-complete/auto-complete.min.css?1787542715" rel="stylesheet">
-    <script src="/420-111/js/auto-complete/auto-complete.min.js?1787542715" defer></script>
-    <script src="/420-111/js/search-lunr.min.js?1787542715" defer></script>
-    <script src="/420-111/js/search.min.js?1787542715" defer></script>
+    <link href="/420-111/images/favicon.png?1787544274" rel="icon" type="image/png">
+    <link href="/420-111/css/auto-complete/auto-complete.min.css?1787544274" rel="stylesheet">
+    <script src="/420-111/js/auto-complete/auto-complete.min.js?1787544274" defer></script>
+    <script src="/420-111/js/search-lunr.js?1787544274" defer></script>
+    <script src="/420-111/js/search.js?1787544274" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/420-111/searchindex.en.js?1787542715";
+      window.relearn.index_js_url="/420-111/searchindex.en.js?1787544274";
     </script>
-    <script src="/420-111/js/lunr/lunr.min.js?1787542715" defer></script>
-    <script src="/420-111/js/lunr/lunr.stemmer.support.min.js?1787542715" defer></script>
-    <script src="/420-111/js/lunr/lunr.multi.min.js?1787542715" defer></script>
-    <script src="/420-111/js/lunr/lunr.fr.min.js?1787542715" defer></script>
+    <script src="/420-111/js/lunr/lunr.min.js?1787544274" defer></script>
+    <script src="/420-111/js/lunr/lunr.stemmer.support.min.js?1787544274" defer></script>
+    <script src="/420-111/js/lunr/lunr.multi.min.js?1787544274" defer></script>
+    <script src="/420-111/js/lunr/lunr.fr.min.js?1787544274" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['fr'];
     </script>
-    <link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1787542715" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1787542715" rel="stylesheet"></noscript>
-    <link href="/420-111/css/perfect-scrollbar/perfect-scrollbar.min.css?1787542715" rel="stylesheet">
-    <link href="/420-111/css/theme.min.css?1787542715" rel="stylesheet">
-    <link href="/420-111/css/format-html.min.css?1787542715" rel="stylesheet" id="R-format-style">
+    <link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1787544274" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1787544274" rel="stylesheet"></noscript>
+    <link href="/420-111/css/perfect-scrollbar/perfect-scrollbar.min.css?1787544274" rel="stylesheet">
+    <link href="/420-111/css/theme.css?1787544274" rel="stylesheet">
+    <link href="/420-111/css/format-html.css?1787544274" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
-      window.relearn.min = `.min`;
+      window.relearn.min = ``;
       window.relearn.path='\/5-operateurs\/logique\/index.html';
       window.relearn.relBasePath='..\/..';
       window.relearn.relBaseUri='..\/..\/..';
-      window.relearn.absBaseUri='https:\/\/cegepmv.github.io\/420-111';
+      window.relearn.absBaseUri='http:\/\/localhost:64804\/420-111';
       window.relearn.disableAnchorCopy=false;
       window.relearn.disableAnchorScrolling=false;
       window.relearn.disableInlineCopyToClipboard=true;
@@ -578,8 +578,8 @@ false</code></pre></div>
 <div id="R-footer"></div>
       </div>
     </aside>
-    <script src="/420-111/js/clipboard/clipboard.min.js?1787542715" defer></script>
-    <script src="/420-111/js/perfect-scrollbar/perfect-scrollbar.min.js?1787542715" defer></script>
-    <script src="/420-111/js/theme.min.js?1787542715" defer></script>
+    <script src="/420-111/js/clipboard/clipboard.min.js?1787544274" defer></script>
+    <script src="/420-111/js/perfect-scrollbar/perfect-scrollbar.min.js?1787544274" defer></script>
+    <script src="/420-111/js/theme.js?1787544274" defer></script>
   </body>
 </html>

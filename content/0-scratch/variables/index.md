@@ -125,3 +125,17 @@ répéter (longueur de [notes]) fois
 ```
 
 Ce script affiche, une à une, toutes les valeurs contenues dans la liste `notes`. Cette technique s'appelle **parcourir une liste** et est très utile pour traiter plusieurs valeurs à la suite.
+
+## Exercice — Quiz rapide 🧠
+
+**Contexte** : programme un jeu-questionnaire qui pose 5 questions à l'utilisateur et calcule son pointage.
+
+**Objectifs** :
+
+* Crée deux listes, `questions` et `réponses`, et remplis-les chacune avec 5 éléments correspondants (par exemple `questions = ["Capitale du Canada ?", ...]` et `réponses = ["Ottawa", ...]`).
+* Crée une variable `score`, initialisée à 0 au départ.
+* À l'aide d'une boucle qui parcourt les 5 questions, demande chaque question à l'utilisateur et compare sa réponse à la bonne réponse dans la liste.
+* Si la réponse est correcte, augmente `score` de 1.
+* À la fin, affiche "Tu as obtenu [score] sur 5 !".
+
+*Indice : combine une boucle `répéter (5) fois`, `élément (i) de []`, `demander () et attendre`, `si (réponse) = () alors`, et la variable `score`.*

@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Opérateurs :: Introduction à la programmation</title>
-    <link>https://cegepmv.github.io/420-111/5-operateurs/arithmetique/index.html</link>
-    <description></description>
+    <title> 🧮 Les opérateurs arithmétiques en Java :: Introduction à la programmation</title>
+    <link>http://localhost:64804/420-111/5-operateurs/arithmetique/index.html</link>
+    <description>Les opérateurs arithmétiques permettent d’effectuer des calculs mathématiques de base sur des valeurs numériques (int, double, etc.).&#xA;Ils sont très souvent utilisés pour manipuler les nombres entiers ou à virgule, que ce soit pour additionner des scores, calculer des moyennes, ajuster des quantités, etc.&#xA;✋ Les opérateurs de base Voici les 5 opérateurs arithmétiques principaux :&#xA;Opérateur Nom Exemple Résultat (si a = 10, b = 3) + Addition a + b 13 - Soustraction a - b 7 * Multiplication a * b 30 / Division a / b 3 (entier !) % Modulo a % b 1 (reste de la division) 💡 En Java :</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
-    <lastBuildDate>Wed, 03 Sep 2025 15:03:33 -0400</lastBuildDate>
-    <atom:link href="https://cegepmv.github.io/420-111/5-operateurs/arithmetique/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Sep 2025 15:01:45 -0400</lastBuildDate>
+    <atom:link href="http://localhost:64804/420-111/5-operateurs/arithmetique/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title> 🧮 Les opérateurs arithmétiques en Java</title>
-      <link>https://cegepmv.github.io/420-111/5-operateurs/arithmetique/index.html</link>
-      <pubDate>Wed, 03 Sep 2025 14:50:02 -0400</pubDate>
-      <guid>https://cegepmv.github.io/420-111/5-operateurs/arithmetique/index.html</guid>
-      <description>Les opérateurs arithmétiques permettent d’effectuer des calculs mathématiques de base sur des valeurs numériques (int, double, etc.).&#xA;Ils sont très souvent utilisés pour manipuler les nombres entiers ou à virgule, que ce soit pour additionner des scores, calculer des moyennes, ajuster des quantités, etc.&#xA;✋ Les opérateurs de base Voici les 5 opérateurs arithmétiques principaux :&#xA;Opérateur Nom Exemple Résultat (si a = 10, b = 3) + Addition a + b 13 - Soustraction a - b 7 * Multiplication a * b 30 / Division a / b 3 (entier !) % Modulo a % b 1 (reste de la division) 💡 En Java :</description>
+      <title>⛏️ Le modulo `%` : Le reste utile</title>
+      <link>http://localhost:64804/420-111/5-operateurs/arithmetique/modulo/index.html</link>
+      <pubDate>Wed, 03 Sep 2025 15:01:45 -0400</pubDate>
+      <guid>http://localhost:64804/420-111/5-operateurs/arithmetique/modulo/index.html</guid>
+      <description>L’opérateur modulo (%) calcule le reste d’une division entière.&#xA;int reste = 10 % 3; // Résultat : 1&#xD;Pourquoi ? 👉 Parce que 10 ÷ 3 = 3, reste 1. Le modulo, c’est donc ce qui reste après la division entière.&#xA;📘 Comment il faut le lire int var = a % b;&#xD;Cela renvoie le reste de la division de a par b.&#xA;🔍 Le modulo côté mathématique 📐 1. Définition formelle En mathématiques, pour deux entiers a (le dividende) et b ≠ 0 (le diviseur), on peut écrire la division euclidienne ainsi :</description>
     </item>
-    <item>
-      <title>🍯 Les opérateurs de comparaison en Java</title>
-      <link>https://cegepmv.github.io/420-111/5-operateurs/comparaison/index.html</link>
-      <pubDate>Wed, 03 Sep 2025 14:55:47 -0400</pubDate>
-      <guid>https://cegepmv.github.io/420-111/5-operateurs/comparaison/index.html</guid>
-      <description>Les opérateurs de comparaison permettent de comparer deux valeurs pour savoir si elles sont égales, différentes, plus grandes, etc.&#xA;🎯 Ils sont essentiels dans les conditions (if, while, etc.) car ils renvoient toujours un résultat de type boolean (true ou false).&#xA;🧪 Les 6 opérateurs de comparaison de base Opérateur Signification Exemple (a = 5, b = 8) Résultat == Égal à a == b false != Différent de a != b true &lt; Inférieur à a &lt; b true &gt; Supérieur à a &gt; b false &lt;= Inférieur ou égal à a &lt;= b true &gt;= Supérieur ou égal à a &gt;= b false 🧠 Important à retenir == ne signifie pas “affecter une valeur”, mais “comparer l’égalité”. Ne confonds pas = (affectation) et == (comparaison). int x = 10; // OK : on donne la valeur 10 à x if (x == 10) { // OK : on teste si x est égal à 10 System.out.println(&#34;x vaut 10 !&#34;); }&#xD;🧠 Comparaison entre différents types Tu peux comparer :</description>
+  </channel>
+</rss>true ou false).&#xA;🧪 Les 6 opérateurs de comparaison de base Opérateur Signification Exemple (a = 5, b = 8) Résultat == Égal à a == b false != Différent de a != b true &lt; Inférieur à a &lt; b true &gt; Supérieur à a &gt; b false &lt;= Inférieur ou égal à a &lt;= b true &gt;= Supérieur ou égal à a &gt;= b false 🧠 Important à retenir == ne signifie pas “affecter une valeur”, mais “comparer l’égalité”. Ne confonds pas = (affectation) et == (comparaison). int x = 10; // OK : on donne la valeur 10 à x if (x == 10) { // OK : on teste si x est égal à 10 System.out.println(&#34;x vaut 10 !&#34;); }&#xD;🧠 Comparaison entre différents types Tu peux comparer :</description>
     </item>
     <item>
       <title>⚙️ Les opérateurs logiques en Java</title>
-      <link>https://cegepmv.github.io/420-111/5-operateurs/logique/index.html</link>
+      <link>http://localhost:64804/420-111/5-operateurs/logique/index.html</link>
       <pubDate>Wed, 03 Sep 2025 14:55:41 -0400</pubDate>
-      <guid>https://cegepmv.github.io/420-111/5-operateurs/logique/index.html</guid>
+      <guid>http://localhost:64804/420-111/5-operateurs/logique/index.html</guid>
       <description>Les opérateurs logiques permettent de combiner des conditions. Ils sont essentiels pour construire des expressions complexes dans les structures comme if, while, etc.&#xA;Ils s’appliquent sur des booléens (true ou false) et renvoient eux-mêmes un booléen.&#xA;🧪 Les 3 opérateurs logiques principaux Opérateur Nom Fonction principale Exemple Résultat &amp;&amp; ET logique Vrai seulement si les deux conditions sont vraies true &amp;&amp; true true || OU logique Vrai si au moins une condition est vraie true || false true ! NON logique Inverse la valeur (vrai devient faux, et vice-versa) !true false 🧠 Tableau de vérité 1. &amp;&amp; (ET logique) A B A &amp;&amp; B true true true true false false false true false false false false 2. || (OU logique) A B A || B true true true true false true false true true false false false 3. ! (NON logique) A !A true false false true 💬 Exemples simples int age = 20; boolean citoyen = true; // Vrai seulement si les deux conditions sont vraies if (age &gt;= 18 &amp;&amp; citoyen) { System.out.println(&#34;Tu peux voter !&#34;); }&#xD;boolean ilPleut = true; boolean aParapluie = false; if (ilPleut &amp;&amp; !aParapluie) { System.out.println(&#34;Tu vas être mouillé !&#34;); }&#xD;⚠️ Attention à la priorité des opérateurs Priorité (ordre d’évaluation) Opérateur Haute ! Moyenne &amp;&amp; Basse || Tu peux utiliser des parenthèses pour forcer l’ordre :</description>
     </item>
     <item>
       <title>🧭 Ordre de priorité des opérations en Java</title>
-      <link>https://cegepmv.github.io/420-111/5-operateurs/ordre-priorite/index.html</link>
+      <link>http://localhost:64804/420-111/5-operateurs/ordre-priorite/index.html</link>
       <pubDate>Wed, 03 Sep 2025 15:03:33 -0400</pubDate>
-      <guid>https://cegepmv.github.io/420-111/5-operateurs/ordre-priorite/index.html</guid>
+      <guid>http://localhost:64804/420-111/5-operateurs/ordre-priorite/index.html</guid>
       <description>En Java, comme en mathématiques, certaines opérations sont effectuées avant d’autres. C’est ce qu’on appelle la priorité des opérateurs.&#xA;🪜 Diagramme de priorité (du plus fort au plus faible) ╔════════════════════════════════════╗ ║ () ║ ➤ Parenthèses : forcent la priorité ╠════════════════════════════════════╣ ║ ++ -- ! ║ ➤ Incrément, décrément, NON logique ╠════════════════════════════════════╣ ║ * / % ║ ➤ Multiplication, division, modulo ╠════════════════════════════════════╣ ║ + - ║ ➤ Addition, soustraction ╠════════════════════════════════════╣ ║ &lt; &lt;= &gt; &gt;= ║ ➤ Comparaisons ╠════════════════════════════════════╣ ║ == != ║ ➤ Égalité / inégalité ╠════════════════════════════════════╣ ║ &amp;&amp; ║ ➤ ET logique (et court-circuité) ╠════════════════════════════════════╣ ║ || ║ ➤ OU logique (et court-circuité) ╠════════════════════════════════════╣ ║ = += -= *= /= %= ║ ➤ Affectations simples et composées ╚════════════════════════════════════╝&#xD;🎓 Exemple d’analyse : sans parenthèses boolean resultat = 4 + 2 * 3 &gt; 10 || !false;&#xD;🔍 Étapes d’évaluation :</description>
     </item>
   </channel>

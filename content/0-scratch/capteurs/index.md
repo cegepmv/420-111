@@ -53,3 +53,15 @@ Blocs à utiliser :
 * Sur le lutin **chat**, utilise une boucle `répéter indéfiniment` contenant `si <je touche [fantôme]> alors envoyer à tous [attraper]`.
 
 *Indice : tu dois utiliser un bloc de type* Contrôle *(`si...alors`), un bloc de type* Capteurs *(`toucher`) et le bloc* Mouvement *`aller à (position aléatoire)` vu précédemment.*
+
+## Exercice 3 — Le labyrinthe 🧩
+
+**Contexte** : dessine (ou importe) un arrière-plan représentant un labyrinthe avec des murs d'une couleur bien précise (par exemple noir), un point de départ et une sortie.
+
+**Objectifs** :
+
+* Le joueur déplace son lutin dans le labyrinthe avec les touches flèches.
+* Si le lutin touche la couleur des murs, il retourne instantanément à son point de départ.
+* S'il atteint la sortie, il affiche "Bravo, tu as réussi !".
+
+*Indice : utilise une boucle `répéter indéfiniment` contenant deux blocs `si...alors` : un avec `<touche la couleur []>` pour remettre le lutin au départ (`aller à x:() y:()`), l'autre avec `<touche [sortie]>` pour afficher le message de victoire.*

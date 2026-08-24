@@ -101,3 +101,20 @@ Programme un lutin qui glisse doucement d'un bout à l'autre de la scène :
 * glisse en 1 seconde vers le coin gauche de la scène (`x:-200 y:0`).
 
 *Indice : utilise uniquement le bloc `glisser en () secondes à x:() y:()` vu dans cette page — pas besoin de boucle pour cet exercice.*
+
+## Exercice 4 — Chasse au trésor 🗺️
+
+**Contexte** : ton lutin est un explorateur ou une exploratrice qui part à la recherche d'un trésor caché sur une carte!
+
+**Objectifs** :
+
+* Choisis (ou dessine) un arrière-plan représentant une carte au trésor, et place un lutin "trésor" à un endroit précis, par exemple `x:150 y:-100`.
+* Programme ton lutin explorateur pour qu'il parte du centre de la carte (`x:0 y:0`) et se rende jusqu'au trésor **en plusieurs étapes**, comme s'il suivait un chemin :
+  * `glisser en (1) secondes à x:(-100) y:(80)` (première halte);
+  * `glisser en (1) secondes à x:(50) y:(-50)` (deuxième halte);
+  * `glisser en (1) secondes à x:(150) y:(-100)` (arrivée sur le trésor!).
+* Une fois arrivé, utilise `dire "J'ai trouvé le trésor !"` pendant 2 secondes.
+
+*Défi bonus : ajoute une rotation (`s'orienter à`) avant chaque déplacement, pour que le lutin soit toujours orienté dans la direction où il s'en va.*
+
+*Indice : combine les blocs de déplacement absolu (`glisser à x:() y:()`) avec ceux de rotation vus dans cette page — pas besoin de boucle ni d'événement pour cet exercice.*

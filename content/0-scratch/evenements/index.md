@@ -48,3 +48,14 @@ Les messages servent à déclencher des actions, qu'elles soient communes ou pro
 * Le lutin **feu vert** est caché au départ. Quand il reçoit le message `"passer au vert"` (`quand je reçois [passer au vert]`), il s'affiche.
 
 *Indice : utilise `quand [drapeau vert] cliqué`, `quand la touche [espace] est pressée`, `envoyer à tous []`, `quand je reçois []`, ainsi que les blocs d'apparence `se cacher` et `se montrer`.*
+
+## Exercice 3 — Le clavier musical 🎹
+
+**Objectif** : transformer ton lutin en petit instrument de musique interactif.
+
+* Quand la touche **A** est pressée, joue le son "Do" (ou change de costume).
+* Quand la touche **Z** est pressée, joue le son "Ré".
+* Quand la touche **E** est pressée, joue le son "Mi".
+* Ajoute autant de touches que tu veux pour créer ta propre mélodie!
+
+*Indice : utilise plusieurs blocs `quand la touche [] est pressée`, combinés avec des blocs `jouer le son []` (catégorie Son) ou `basculer au costume []` (catégorie Apparence).*

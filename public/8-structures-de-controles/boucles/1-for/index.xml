@@ -2,42 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>For :: Introduction à la programmation</title>
-    <link>https://cegepmv.github.io/420-111/8-structures-de-controles/boucles/1-for/index.html</link>
+    <link>http://localhost:64804/420-111/8-structures-de-controles/boucles/1-for/index.html</link>
     <description>🔁 Les boucles for en Java La boucle for est utilisée pour répéter une série d’instructions un certain nombre de fois. C’est un outil fondamental pour parcourir des suites de valeurs, des tableaux, ou exécuter du code un nombre précis de fois.&#xA;🧱 Structure d’une boucle for for (initialisation; condition; incrémentation) { // instructions à répéter }&#xD;Partie Rôle initialisation Déclare et initialise une variable de boucle condition Détermine si la boucle continue ou s’arrête incrémentation Modifie la variable de boucle à chaque itération 🔂 Exemple de base for (int i = 0; i &lt; 5; i++) { System.out.println(&#34;i vaut : &#34; + i); }&#xD;🔎 Ce code va afficher :</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://cegepmv.github.io/420-111/8-structures-de-controles/boucles/1-for/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>ter }&#xD;Partie Rôle initialisation Déclare et initialise une variable de boucle condition Détermine si la boucle continue ou s’arrête incrémentation Modifie la variable de boucle à chaque itération 🔂 Exemple de base for (int i = 0; i &lt; 5; i++) { System.out.println(&#34;i vaut : &#34; + i); }&#xD;🔎 Ce code va afficher :</description>
-    </item>
-    <item>
-      <title>While</title>
-      <link>https://cegepmv.github.io/420-111/8-structures-de-controles/boucles/2-while/index.html</link>
-      <pubDate>Fri, 19 Sep 2025 12:02:57 -0400</pubDate>
-      <guid>https://cegepmv.github.io/420-111/8-structures-de-controles/boucles/2-while/index.html</guid>
-      <description>🔁 La boucle while en Java La boucle while permet de répéter des instructions tant qu’une condition est vraie. C’est une structure de contrôle très utile quand on ne connaît pas à l’avance le nombre d’itérations.&#xA;🧱 Structure d’une boucle while while (condition) { // instructions à exécuter }&#xD;Élément Rôle condition Tant qu’elle est vraie, la boucle continue bloc de code Ce qui est exécuté à chaque tour 🔂 Exemple simple int i = 0; while (i &lt; 5) { System.out.println(&#34;i vaut : &#34; + i); i++; }&#xD;🔎 Ce code va afficher :</description>
-    </item>
-    <item>
-      <title>Do While</title>
-      <link>https://cegepmv.github.io/420-111/8-structures-de-controles/boucles/3-do-while/index.html</link>
-      <pubDate>Fri, 19 Sep 2025 12:03:05 -0400</pubDate>
-      <guid>https://cegepmv.github.io/420-111/8-structures-de-controles/boucles/3-do-while/index.html</guid>
-      <description>🔁 La boucle do-while en Java La boucle do-while permet de répéter une série d’instructions au moins une fois, puis tant qu’une condition est vraie.&#xA;C’est la seule boucle en Java où la condition est testée après l’exécution du bloc.&#xA;🧱 Structure d’une boucle do-while do { // instructions à exécuter } while (condition);&#xD;Élément Rôle bloc de code S’exécute au moins une fois, puis à chaque tour condition Est testée après chaque itération 🔂 Exemple simple int i = 0; do { System.out.println(&#34;i vaut : &#34; + i); i++; } while (i &lt; 5);&#xD;🔎 Ce code va afficher :</description>
-    </item>
-    <item>
-      <title>For Each</title>
-      <link>https://cegepmv.github.io/420-111/8-structures-de-controles/boucles/4-for-each/index.html</link>
-      <pubDate>Fri, 19 Sep 2025 12:03:12 -0400</pubDate>
-      <guid>https://cegepmv.github.io/420-111/8-structures-de-controles/boucles/4-for-each/index.html</guid>
-      <description>🔁 La boucle for-each en Java La boucle for-each (ou boucle améliorée for) permet de parcourir facilement les éléments d’un tableau ou d’une collection, sans se soucier des indices.&#xA;Elle est plus lisible et plus sûre que la boucle for classique quand tu n’as pas besoin de manipuler les indices manuellement.&#xA;🧱 Structure d’une boucle for-each for (Type element : collection) { // instructions à exécuter pour chaque élément }&#xD;Élément Rôle Type Le type des éléments (ex : int, String) element Une variable temporaire pour chaque valeur collection Un tableau (array) ou une collection (List, etc.) 🔂 Exemple simple avec un tableau int[] notes = {12, 15, 8, 17}; for (int note : notes) { System.out.println(&#34;Note : &#34; + note); }&#xD;🔎 Ce code affiche :</description>
-    </item>
-    <item>
-      <title>Boucles Imbriquees</title>
-      <link>https://cegepmv.github.io/420-111/8-structures-de-controles/boucles/5-boucles-imbriquees/index.html</link>
-      <pubDate>Fri, 19 Sep 2025 12:03:31 -0400</pubDate>
-      <guid>https://cegepmv.github.io/420-111/8-structures-de-controles/boucles/5-boucles-imbriquees/index.html</guid>
-      <description>🔁🔁 Les boucles imbriquées en Java Une boucle imbriquée (ou boucle dans une boucle) permet de répéter un ensemble d’instructions à l’intérieur d’une autre boucle. C’est très utile pour travailler avec des tableaux à plusieurs dimensions, afficher des grilles, ou répéter des structures complexes.&#xA;🧱 Structure d’une boucle imbriquée for (int i = 0; i &lt; 3; i++) { for (int j = 0; j &lt; 4; j++) { // Instructions exécutées à chaque combinaison de i et j } }&#xD;💡 Ici, pour chaque valeur de i, la boucle j s’exécute complètement.</description>
-    </item>
+    <atom:link href="http://localhost:64804/420-111/8-structures-de-controles/boucles/1-for/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

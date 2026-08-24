@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr-ca" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
-  <head>
+  <head><script src="/420-111/livereload.js?mindelay=10&amp;v=2&amp;port=64804&amp;path=420-111/livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.165.0">
@@ -12,7 +12,7 @@
     <meta name="twitter:title" content="Écriture :: Introduction à la programmation">
     <meta name="twitter:description" content="📤 Écrire dans un fichier en Java Pour écrire du texte dans un fichier, Java propose plusieurs classes. Ici, on va utiliser la classe PrintWriter, simple et pratique pour écrire du texte.
 🧱 Importer les classes nécessaires import java.io.File; import java.io.FileNotFoundException; import java.io.PrintWriter;📄 Exemple simple d’écriture dans un fichier public class EcritureFichier { public static void main(String[] args) { try { PrintWriter pw = new PrintWriter(new File(&#34;sortie.txt&#34;)); pw.println(&#34;Bonjour le monde !&#34;); pw.println(&#34;Voici une deuxième ligne.&#34;); pw.close(); // Important : ferme et écrit dans le fichier } catch (FileNotFoundException e) { System.out.println(&#34;Impossible de créer ou ouvrir le fichier.&#34;); } } }🔍 Explications Instruction Rôle new PrintWriter(new File(&#34;sortie.txt&#34;)) Crée (ou écrase) le fichier sortie.txt pw.println(&#34;...&#34;) Écrit une ligne dans le fichier pw.close() Ferme le fichier et termine l’écriture catch (FileNotFoundException e) Gère le cas où le fichier ne peut pas être créé ⚠️ Points importants Le fichier est créé s’il n’existe pas. Si le fichier existe, son contenu est écrasé (attention !). Pour ajouter du texte sans écraser, il faut utiliser d’autres classes (ex : FileWriter en mode append). Toujours fermer le PrintWriter avec close() pour que tout soit bien sauvegardé. 🧠 À retenir PrintWriter est simple pour écrire du texte dans un fichier. Utilise println() pour écrire des lignes. Gère l’exception FileNotFoundException. Ferme toujours le writer avec close(). 🧪 Exercice 1 : Écrire un message personnalisé Objectif : Écrire dans un fichier un message composé de plusieurs lignes.">
-    <meta property="og:url" content="https://cegepmv.github.io/420-111/12-fichier/ecriture/index.html">
+    <meta property="og:url" content="http://localhost:64804/420-111/12-fichier/ecriture/index.html">
     <meta property="og:site_name" content="Introduction à la programmation">
     <meta property="og:title" content="Écriture :: Introduction à la programmation">
     <meta property="og:description" content="📤 Écrire dans un fichier en Java Pour écrire du texte dans un fichier, Java propose plusieurs classes. Ici, on va utiliser la classe PrintWriter, simple et pratique pour écrire du texte.
@@ -27,35 +27,35 @@
     <meta itemprop="wordCount" content="389">
     <title>Écriture :: Introduction à la programmation</title>
     <link href="/420-111/12-fichier/ecriture/index.xml" rel="alternate" type="application/rss+xml" title="Écriture :: Introduction à la programmation">
-    <link href="/420-111/images/favicon.png?1787542715" rel="icon" type="image/png">
-    <link href="/420-111/css/auto-complete/auto-complete.min.css?1787542715" rel="stylesheet">
-    <script src="/420-111/js/auto-complete/auto-complete.min.js?1787542715" defer></script>
-    <script src="/420-111/js/search-lunr.min.js?1787542715" defer></script>
-    <script src="/420-111/js/search.min.js?1787542715" defer></script>
+    <link href="/420-111/images/favicon.png?1787544274" rel="icon" type="image/png">
+    <link href="/420-111/css/auto-complete/auto-complete.min.css?1787544274" rel="stylesheet">
+    <script src="/420-111/js/auto-complete/auto-complete.min.js?1787544274" defer></script>
+    <script src="/420-111/js/search-lunr.js?1787544274" defer></script>
+    <script src="/420-111/js/search.js?1787544274" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/420-111/searchindex.en.js?1787542715";
+      window.relearn.index_js_url="/420-111/searchindex.en.js?1787544274";
     </script>
-    <script src="/420-111/js/lunr/lunr.min.js?1787542715" defer></script>
-    <script src="/420-111/js/lunr/lunr.stemmer.support.min.js?1787542715" defer></script>
-    <script src="/420-111/js/lunr/lunr.multi.min.js?1787542715" defer></script>
-    <script src="/420-111/js/lunr/lunr.fr.min.js?1787542715" defer></script>
+    <script src="/420-111/js/lunr/lunr.min.js?1787544274" defer></script>
+    <script src="/420-111/js/lunr/lunr.stemmer.support.min.js?1787544274" defer></script>
+    <script src="/420-111/js/lunr/lunr.multi.min.js?1787544274" defer></script>
+    <script src="/420-111/js/lunr/lunr.fr.min.js?1787544274" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['fr'];
     </script>
-    <link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1787542715" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1787542715" rel="stylesheet"></noscript>
-    <link href="/420-111/css/perfect-scrollbar/perfect-scrollbar.min.css?1787542715" rel="stylesheet">
-    <link href="/420-111/css/theme.min.css?1787542715" rel="stylesheet">
-    <link href="/420-111/css/format-html.min.css?1787542715" rel="stylesheet" id="R-format-style">
+    <link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1787544274" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/420-111/fonts/fontawesome/css/fontawesome-all.min.css?1787544274" rel="stylesheet"></noscript>
+    <link href="/420-111/css/perfect-scrollbar/perfect-scrollbar.min.css?1787544274" rel="stylesheet">
+    <link href="/420-111/css/theme.css?1787544274" rel="stylesheet">
+    <link href="/420-111/css/format-html.css?1787544274" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
-      window.relearn.min = `.min`;
+      window.relearn.min = ``;
       window.relearn.path='\/12-fichier\/ecriture\/index.html';
       window.relearn.relBasePath='..\/..';
       window.relearn.relBaseUri='..\/..\/..';
-      window.relearn.absBaseUri='https:\/\/cegepmv.github.io\/420-111';
+      window.relearn.absBaseUri='http:\/\/localhost:64804\/420-111';
       window.relearn.disableAnchorCopy=false;
       window.relearn.disableAnchorScrolling=false;
       window.relearn.disableInlineCopyToClipboard=true;
@@ -373,8 +373,8 @@
 <div id="R-footer"></div>
       </div>
     </aside>
-    <script src="/420-111/js/clipboard/clipboard.min.js?1787542715" defer></script>
-    <script src="/420-111/js/perfect-scrollbar/perfect-scrollbar.min.js?1787542715" defer></script>
-    <script src="/420-111/js/theme.min.js?1787542715" defer></script>
+    <script src="/420-111/js/clipboard/clipboard.min.js?1787544274" defer></script>
+    <script src="/420-111/js/perfect-scrollbar/perfect-scrollbar.min.js?1787544274" defer></script>
+    <script src="/420-111/js/theme.js?1787544274" defer></script>
   </body>
 </html>

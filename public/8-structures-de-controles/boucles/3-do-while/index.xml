@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Do While :: Introduction à la programmation</title>
-    <link>https://cegepmv.github.io/420-111/8-structures-de-controles/boucles/3-do-while/index.html</link>
+    <link>http://localhost:64804/420-111/8-structures-de-controles/boucles/3-do-while/index.html</link>
     <description>🔁 La boucle do-while en Java La boucle do-while permet de répéter une série d’instructions au moins une fois, puis tant qu’une condition est vraie.&#xA;C’est la seule boucle en Java où la condition est testée après l’exécution du bloc.&#xA;🧱 Structure d’une boucle do-while do { // instructions à exécuter } while (condition);&#xD;Élément Rôle bloc de code S’exécute au moins une fois, puis à chaque tour condition Est testée après chaque itération 🔂 Exemple simple int i = 0; do { System.out.println(&#34;i vaut : &#34; + i); i++; } while (i &lt; 5);&#xD;🔎 Ce code va afficher :</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://cegepmv.github.io/420-111/8-structures-de-controles/boucles/3-do-while/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:64804/420-111/8-structures-de-controles/boucles/3-do-while/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
