@@ -55,20 +55,19 @@ sudo apt update
 sudo apt install -y openjdk-25-jdk
 ```
 OU
+
 ```
-# 1. Téléchargement du paquet Debian officiel
-wget https://oracle.com
-
-# 2. Installation du paquet
+wget https://oracle.com 
 sudo dpkg -i jdk-25_linux-x64_bin.deb
-
-# 3. Résolution des dépendances et finalisation
 sudo apt install -f -y
+
 ```
 ---
 <div style="color:red">POUR WINDOWS</div>
 
 Aller sur le site officiel de [oracle](https://www.oracle.com/java/technologies/downloads/?er=221886#jdk23-windows)
+ou [openJDK](https://learn.microsoft.com/en-us/java/openjdk/download)
+
 
 
 
