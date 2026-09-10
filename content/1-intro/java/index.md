@@ -15,7 +15,7 @@ weight = 1
 ---
 
 
-* Java est l'un des langages les plus populaires en 2025 selon TIOBE
+* Java est l'un des langages les plus populaires en 2026 selon TIOBE
 
 <img width="862" height="692" alt="image" src="/420-111/images/sondage_tiobe_2026.png" />
 
@@ -51,13 +51,19 @@ weight = 1
 <div style="color:red">POUR LINUX</div>
 
 ```
-wget https://www.oracle.com/java/technologies/downloads/?er=221886
-sudo dpkg -i Downloads/jdk-23_linux-x64_bin.deb 
+sudo apt update
+sudo apt install -y openjdk-25-jdk
 ```
 OU
 ```
-sudo apt update
-sudo apt install openjdk-11-jdk
+# 1. Téléchargement du paquet Debian officiel
+wget https://oracle.com
+
+# 2. Installation du paquet
+sudo dpkg -i jdk-25_linux-x64_bin.deb
+
+# 3. Résolution des dépendances et finalisation
+sudo apt install -f -y
 ```
 ---
 <div style="color:red">POUR WINDOWS</div>
@@ -65,9 +71,4 @@ sudo apt install openjdk-11-jdk
 Aller sur le site officiel de [oracle](https://www.oracle.com/java/technologies/downloads/?er=221886#jdk23-windows)
 
 
-# Notepad++
-
-Jusqu'à nouvel ordre vous ne pourrez coder exclusivement qu'avec Notepad++ dans mon cours.
-
-Vous pouvez changer les couleurs. Je suggère **DansLeRush-Dark**, mais vous pouvez le personnaliser comme vous voulez.
 
