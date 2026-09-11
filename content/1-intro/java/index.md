@@ -46,6 +46,22 @@ weight = 1
 
 **Java** est un langage de programmation **orienté objet** et **indépendant de la plateforme**, ce qui signifie que vous pouvez écrire du code Java sur un système d'exploitation (par exemple Windows) et l'exécuter sur n'importe quel autre système (par exemple Linux, Mac) sans modification. Java suit le principe du **"write once, run anywhere"**. 
 
+## JDK, JRE et JVM
+
+Pour bien comprendre l'environnement Java, il faut connaître trois éléments essentiels : le **JDK**, le **JRE** et la **JVM**.
+
+![JDK, JRE et JVM](/420-111/images/jdk-jre-jvm.svg)
+
+* **JVM (Java Virtual Machine)** : c'est une machine virtuelle qui exécute le **bytecode** Java (les fichiers `.class`). C'est elle qui rend Java **indépendant de la plateforme** : le même bytecode peut être exécuté sur Windows, Mac ou Linux, à condition qu'une JVM y soit installée.
+* **JRE (Java Runtime Environment)** : c'est l'environnement d'exécution. Il contient la **JVM** ainsi que les **bibliothèques Java (API)** nécessaires pour exécuter un programme déjà compilé. Si vous voulez seulement **exécuter** une application Java, le JRE suffit.
+* **JDK (Java Development Kit)** : c'est la trousse de développement complète. Il contient le **JRE**, en plus des **outils de développement** comme le compilateur `javac`, `javadoc` et `jar`. Si vous voulez **écrire et compiler** du code Java (comme dans ce cours), vous avez besoin du **JDK**.
+
+En résumé : **JDK ⊃ JRE ⊃ JVM** (le JDK contient le JRE, qui contient lui-même la JVM).
+
+![De code source à l'exécution](/420-111/images/java-compilation-flow.svg)
+
+Le compilateur `javac` (fourni par le JDK) transforme le code source (`.java`) en bytecode (`.class`). Ce bytecode est ensuite interprété/exécuté par la JVM (fournie par le JRE), peu importe le système d'exploitation.
+
 # Introduction_à_l’environnement_Java
 
 <div style="color:red">POUR LINUX</div>

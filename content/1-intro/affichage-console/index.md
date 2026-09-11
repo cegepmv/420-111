@@ -94,7 +94,19 @@ Traditionnellement, Java fonctionne en deux étapes :
    java Main
    ```
 
-> 💡 *Astuce : Depuis une version relativement récente de Java, il est aussi possible d’exécuter directement un fichier `.java` sans passer explicitement par l’étape de compilation (`javac`).*
+{{% notice style="warning" title="Erreur fréquente : classe introuvable" %}}
+Si tu obtiens une erreur du genre `Error: Could not find or load main class Main`, c'est souvent parce que la commande `java` n'a pas été exécutée **au bon endroit** (pas dans le même dossier que le fichier `Main.class`), ou parce que le `.class` ne se trouve pas dans le **classpath** utilisé par la commande.
+
+Le **classpath** (`-cp`) indique à Java **où chercher** les fichiers `.class` à exécuter. Par exemple, pour dire à Java de chercher dans le **dossier courant** :
+
+```bash
+java -cp . Main
+```
+
+Ici, `-cp .` dit à Java d'aller chercher `Main.class` dans le dossier courant (le `.` représente le dossier où tu te trouves actuellement). Oublier ce `-cp` (ou exécuter la commande depuis le mauvais dossier) est une source d'erreur très fréquente pour les débutants.
+{{% /notice %}}
+
+> 💡 *Astuce : Depuis Java 11, il est aussi possible d’exécuter directement un fichier `.java` sans passer explicitement par l’étape de compilation (`javac`), grâce au "single-file source-code launcher".*
 
 ```bash
 java Main.java
