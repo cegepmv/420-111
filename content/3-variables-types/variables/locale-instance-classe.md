@@ -2,6 +2,7 @@
 date = '2025-08-26T14:39:35-04:00'
 title = 'Locale/Instance/Classe'
 weight = 2
+draft = true
 +++
 
 
