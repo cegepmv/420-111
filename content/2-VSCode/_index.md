@@ -39,7 +39,7 @@ Je n'ai pas testé la version Mac.
 | Commenter rapidement des lignes       | **ctrl + é**            |                                  |
 
 
-1. Surligner un String dont on oublié les `"`, faites le `"`et il s'ajoutera des deux côtés.
+1. Surligner un String dont on a oublié les `"`, faites le `"`et il s'ajoutera des deux côtés.
 
 
 ---

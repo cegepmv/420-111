@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="440" viewBox="0 0 640 440" font-family="Segoe UI, Arial, sans-serif">
+  <!-- JDK -->
+  <rect x="20" y="20" width="600" height="400" rx="16" fill="#fdf3e7" stroke="#e0821f" stroke-width="3"/>
+  <text x="40" y="50" font-size="22" font-weight="bold" fill="#e0821f">JDK — Java Development Kit</text>
+  <text x="40" y="72" font-size="14" fill="#6b4a24">Nécessaire pour DÉVELOPPER des programmes Java</text>
+
+  <!-- Outils de dev -->
+  <rect x="40" y="90" width="220" height="300" rx="12" fill="#fff8ee" stroke="#e0821f" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="55" y="115" font-size="15" font-weight="bold" fill="#8a5a1e">Outils de développement</text>
+  <text x="55" y="145" font-size="13" fill="#333">• javac (compilateur)</text>
+  <text x="55" y="170" font-size="13" fill="#333">• javadoc</text>
+  <text x="55" y="195" font-size="13" fill="#333">• jar</text>
+  <text x="55" y="220" font-size="13" fill="#333">• débogueur (jdb)</text>
+
+  <!-- JRE -->
+  <rect x="280" y="90" width="320" height="300" rx="14" fill="#eaf3fb" stroke="#2f7fc1" stroke-width="3"/>
+  <text x="300" y="118" font-size="18" font-weight="bold" fill="#2f7fc1">JRE — Java Runtime Environment</text>
+  <text x="300" y="140" font-size="13" fill="#1f4e73">Nécessaire pour EXÉCUTER des programmes Java</text>
+
+  <!-- Bibliotheques -->
+  <rect x="300" y="155" width="280" height="70" rx="10" fill="#dcecfb" stroke="#2f7fc1" stroke-width="2"/>
+  <text x="315" y="180" font-size="14" font-weight="bold" fill="#1f4e73">Bibliothèques Java (API)</text>
+  <text x="315" y="200" font-size="12" fill="#333">java.lang, java.util, java.io, ...</text>
+
+  <!-- JVM -->
+  <rect x="300" y="240" width="280" height="130" rx="12" fill="#e4f7e9" stroke="#2f9e52" stroke-width="3"/>
+  <text x="330" y="270" font-size="16" font-weight="bold" fill="#2f9e52">JVM</text>
+  <text x="320" y="292" font-size="13" fill="#1c5c33" font-weight="bold">Java Virtual Machine</text>
+  <text x="315" y="315" font-size="12" fill="#333">Exécute le bytecode (.class)</text>
+  <text x="315" y="335" font-size="12" fill="#333">Rend Java indépendant</text>
+  <text x="315" y="352" font-size="12" fill="#333">de la plateforme (OS)</text>
+</svg>
